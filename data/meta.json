@@ -1,0 +1,10 @@
+{
+  "title": "IELTS Roots 5000",
+  "version": "v0.5",
+  "count": 5000,
+  "core": 3000,
+  "reading": 2000,
+  "exampleZh": 4745,
+  "quality": "QA in progress — app framework uses the latest current mother lexicon snapshot",
+  "source": "IELTS_Roots_5000_Master_CURRENT.md"
+}

@@ -1,0 +1,3326 @@
+{
+ "R0002": {
+  "en": "Researchers may abandon a hypothesis when repeated evidence fails to support it.",
+  "zh": "当反复获得的证据无法支持某一假设时，研究人员可能会放弃该假设。"
+ },
+ "R0003": {
+  "en": "The effects of the disturbance gradually abated once environmental conditions returned to normal.",
+  "zh": "环境条件恢复正常后，干扰造成的影响逐渐减弱。"
+ },
+ "R0010": {
+  "en": "The ability to adapt to environmental change is essential for the survival of many species.",
+  "zh": "适应环境变化的能力对许多物种的生存至关重要。"
+ },
+ "R0011": {
+  "en": "Participants were able to identify the pattern after brief training.",
+  "zh": "经过短暂训练后，参与者能够识别出这一模式。"
+ },
+ "R0012": {
+  "en": "Scientists observed an abnormal pattern of migration after average temperatures in the region began to rise.",
+  "zh": "该地区平均气温开始上升后，科学家观察到了一种异常的迁徙模式。"
+ },
+ "R0013": {
+  "en": "Several countries abolished the policy after evidence suggested that it had little effect on public health.",
+  "zh": "在有证据表明该政策对公共健康几乎不起作用之后，多个国家废除了这项政策。"
+ },
+ "R0014": {
+  "en": "The abolition of slavery transformed social and economic institutions in many regions.",
+  "zh": "废除奴隶制使许多地区的社会和经济制度发生了深刻变革。"
+ },
+ "R0016": {
+  "en": "About one third of the participants reported a change in behaviour.",
+  "zh": "约三分之一的参与者报告了行为上的变化。"
+ },
+ "R0017": {
+  "en": "The above findings support the view that early intervention can be effective.",
+  "zh": "上述研究结果支持早期干预能够奏效这一观点。"
+ },
+ "R0020": {
+  "en": "Students who study abroad are often exposed to different academic cultures.",
+  "zh": "出国留学的学生常常会接触到不同的学术文化。"
+ },
+ "R0021": {
+  "en": "An abrupt change in rainfall can have serious effects on agriculture.",
+  "zh": "降雨量的骤变可能对农业造成严重影响。"
+ },
+ "R0024": {
+  "en": "In the absence of reliable data, researchers should avoid firm conclusions.",
+  "zh": "在缺乏可靠数据的情况下，研究人员应避免得出确凿的结论。"
+ },
+ "R0025": {
+  "en": "This feature is absent from most species living in colder climates.",
+  "zh": "生活在较寒冷气候中的大多数物种都不具有这一特征。"
+ },
+ "R0027": {
+  "en": "The absolute value is less important than the overall trend in the data.",
+  "zh": "与数据中的整体趋势相比，绝对数值并不那么重要。"
+ },
+ "R0029": {
+  "en": "Plants absorb nutrients from the soil through their root systems.",
+  "zh": "植物通过根系从土壤中吸收养分。"
+ },
+ "R0030": {
+  "en": "The rate of absorption depends on temperature and the chemical properties of the material.",
+  "zh": "吸收速率取决于温度以及材料的化学性质。"
+ },
+ "R0031": {
+  "en": "Children often find abstract concepts more difficult than concrete examples.",
+  "zh": "儿童往往觉得抽象概念比具体实例更难理解。"
+ },
+ "R0034": {
+  "en": "An abundance of evidence suggests that sleep affects memory formation.",
+  "zh": "大量证据表明，睡眠会影响记忆的形成。"
+ },
+ "R0035": {
+  "en": "The species thrives in areas where food and water are abundant.",
+  "zh": "该物种在食物和水源充足的地区繁衍兴旺。"
+ },
+ "R0036": {
+  "en": "The article examines how weak institutions can encourage the abuse of power.",
+  "zh": "这篇文章探讨了薄弱的制度如何助长权力的滥用。"
+ },
+ "R0037": {
+  "en": "Regular reading is strongly associated with improved academic performance.",
+  "zh": "经常阅读与学业成绩的提高密切相关。"
+ },
+ "R0038": {
+  "en": "Higher temperatures may accelerate the growth of certain microorganisms.",
+  "zh": "较高的温度可能会加速某些微生物的生长。"
+ },
+ "R0044": {
+  "en": "Scientists are unlikely to accept a conclusion without sufficient supporting evidence.",
+  "zh": "在没有充分证据支持的情况下，科学家不太可能接受某一结论。"
+ },
+ "R0045": {
+  "en": "The concentration remained within an acceptable level throughout the experiment.",
+  "zh": "整个实验过程中，浓度始终保持在可接受的水平之内。"
+ },
+ "R0046": {
+  "en": "Public acceptance of the technology increased after safety standards were introduced.",
+  "zh": "引入安全标准之后，公众对该技术的接受度有所提高。"
+ },
+ "R0047": {
+  "en": "Unequal access to education can reinforce long-term social inequality.",
+  "zh": "受教育机会的不平等会加剧长期的社会不平等。"
+ },
+ "R0049": {
+  "en": "Digital archives have made historical information more accessible to researchers.",
+  "zh": "数字档案馆使研究人员能够更方便地获取历史资料。"
+ },
+ "R0050": {
+  "en": "The investigation found that the industrial accident resulted from several small failures.",
+  "zh": "调查发现，这起工业事故是由若干小故障共同造成的。"
+ },
+ "R0054": {
+  "en": "The city expanded its transport network to accommodate growing demand.",
+  "zh": "该市扩大了交通网络，以满足日益增长的需求。"
+ },
+ "R0056": {
+  "en": "The rising cost of student accommodation can affect access to higher education.",
+  "zh": "学生住宿费用的上涨可能影响人们接受高等教育的机会。"
+ },
+ "R0057": {
+  "en": "Rapid economic growth is often accompanied by increased energy consumption.",
+  "zh": "经济的快速增长往往伴随着能源消耗的增加。"
+ },
+ "R0058": {
+  "en": "Teams with clear goals tend to accomplish complex tasks more efficiently.",
+  "zh": "目标明确的团队往往能更高效地完成复杂任务。"
+ },
+ "R0062": {
+  "en": "According to the survey, most respondents preferred flexible working arrangements.",
+  "zh": "调查显示，大多数受访者倾向于弹性工作安排。"
+ },
+ "R0063": {
+  "en": "Transport accounts for a substantial proportion of urban carbon emissions.",
+  "zh": "交通运输占城市碳排放的很大一部分。"
+ },
+ "R0069": {
+  "en": "Independent agencies accredit universities that meet established standards of teaching and assessment.",
+  "zh": "独立机构对达到既定教学与评估标准的大学进行认证。"
+ },
+ "R0072": {
+  "en": "Researchers must accumulate sufficient evidence before drawing a strong conclusion.",
+  "zh": "研究人员必须积累足够的证据，才能得出有力的结论。"
+ },
+ "R0073": {
+  "en": "The accumulation of plastic waste has become a major environmental concern.",
+  "zh": "塑料废弃物的堆积已成为一个重大的环境问题。"
+ },
+ "R0074": {
+  "en": "Larger sample sizes can improve the accuracy of statistical estimates.",
+  "zh": "较大的样本量可以提高统计估计的准确性。"
+ },
+ "R0076": {
+  "en": "Accurate measurement is essential when small differences may affect the result.",
+  "zh": "当微小的差异可能影响结果时，精确的测量必不可少。"
+ },
+ "R0077": {
+  "en": "The device can accurately measure changes in air pressure over time.",
+  "zh": "该装置能够精确测量气压随时间的变化。"
+ },
+ "R0079": {
+  "en": "Countries may need long-term investment to achieve sustainable growth.",
+  "zh": "各国可能需要长期投入才能实现可持续增长。"
+ },
+ "R0080": {
+  "en": "Parental involvement is often linked to higher educational achievement.",
+  "zh": "家长的参与往往与子女更好的学业成绩相关联。"
+ },
+ "R0085": {
+  "en": "Ocean acidification can reduce the ability of some marine organisms to build calcium-based shells.",
+  "zh": "海洋酸化会削弱某些海洋生物构建钙质外壳的能力。"
+ },
+ "R0087": {
+  "en": "The researchers acknowledge that the study has several important limitations.",
+  "zh": "研究人员承认，这项研究存在若干重要局限。"
+ },
+ "R0091": {
+  "en": "Learners acquire vocabulary more effectively when new words appear in meaningful contexts.",
+  "zh": "当生词出现在有意义的语境中时，学习者能更有效地习得词汇。"
+ },
+ "R0092": {
+  "en": "Early exposure can play an important role in language acquisition.",
+  "zh": "早期接触对语言习得起着重要作用。"
+ },
+ "R0094": {
+  "en": "The pattern was observed across different regions and age groups.",
+  "zh": "这一模式在不同地区和年龄群体中均有出现。"
+ },
+ "R0095": {
+  "en": "Forests act as important carbon stores and help regulate local climates.",
+  "zh": "森林发挥着重要碳库的作用，并有助于调节当地气候。"
+ },
+ "R0097": {
+  "en": "Governments may need to take action before environmental damage becomes irreversible.",
+  "zh": "各国政府可能需要在环境破坏变得不可逆转之前采取行动。"
+ },
+ "R0098": {
+  "en": "Exposure to the signal can activate a defensive response in the organism.",
+  "zh": "接触该信号可激活生物体的防御反应。"
+ },
+ "R0101": {
+  "en": "Active participation in class can improve long-term learning outcomes.",
+  "zh": "积极参与课堂活动有助于提高长期的学习效果。"
+ },
+ "R0102": {
+  "en": "Successful learners actively seek feedback and adjust their strategies.",
+  "zh": "成功的学习者会主动寻求反馈并调整自己的学习策略。"
+ },
+ "R0103": {
+  "en": "Economic activity declined sharply during the period of uncertainty.",
+  "zh": "在充满不确定性的时期，经济活动急剧萎缩。"
+ },
+ "R0105": {
+  "en": "The actual cost of the project was considerably higher than the initial estimate.",
+  "zh": "该项目的实际成本远高于最初的估算。"
+ },
+ "R0106": {
+  "en": "In some cases, the intervention may actually increase rather than reduce inequality.",
+  "zh": "在某些情况下，干预措施实际上可能会加剧而不是缩小不平等。"
+ },
+ "R0109": {
+  "en": "Species that cannot adapt to rapid environmental change may face extinction.",
+  "zh": "无法适应环境快速变化的物种可能面临灭绝。"
+ },
+ "R0111": {
+  "en": "Highly adaptable species are often able to survive in disturbed habitats.",
+  "zh": "适应性强的物种往往能够在受到干扰的生境中存活下来。"
+ },
+ "R0112": {
+  "en": "Adaptation to climate change is becoming a central issue in coastal planning.",
+  "zh": "适应气候变化正成为沿海规划中的一个核心议题。"
+ },
+ "R0115": {
+  "en": "New evidence may add value to an existing explanation without replacing it entirely.",
+  "zh": "新证据可能为现有解释增添价值，而无需将其完全取代。"
+ },
+ "R0116": {
+  "en": "In addition to economic factors, social expectations can influence consumer behaviour.",
+  "zh": "除经济因素外，社会期望也会影响消费者行为。"
+ },
+ "R0117": {
+  "en": "Additional evidence is required before the relationship can be considered causal.",
+  "zh": "需要有更多证据，才能认定这种关系具有因果性。"
+ },
+ "R0119": {
+  "en": "Effective policy must address both the causes and consequences of the problem.",
+  "zh": "有效的政策必须同时着手解决问题的成因与后果。"
+ },
+ "R0120": {
+  "en": "There is not yet adequate evidence to support such a broad conclusion.",
+  "zh": "目前尚无充分证据支持如此宽泛的结论。"
+ },
+ "R0122": {
+  "en": "Participants were required to adhere to the same dietary guidelines throughout the study.",
+  "zh": "在整个研究过程中，参与者须遵守相同的饮食准则。"
+ },
+ "R0126": {
+  "en": "Pollution levels were also measured in the adjacent area for comparison.",
+  "zh": "为便于比较，研究人员还测量了邻近地区的污染水平。"
+ },
+ "R0127": {
+  "en": "Researchers adjusted the model to account for differences in age and income.",
+  "zh": "研究人员对模型加以调整，以纳入年龄和收入的差异。"
+ },
+ "R0128": {
+  "en": "A small adjustment to the method produced more consistent results.",
+  "zh": "对方法稍作调整后，得到的结果更为一致。"
+ },
+ "R0130": {
+  "en": "Digital technology has transformed many areas of public administration.",
+  "zh": "数字技术使公共行政的许多领域发生了变革。"
+ },
+ "R0134": {
+  "en": "The authors admit that their sample may not represent the wider population.",
+  "zh": "作者承认，他们的样本可能无法代表范围更广的总体。"
+ },
+ "R0135": {
+  "en": "Admittedly, the sample was small, but the pattern was consistent across all age groups.",
+  "zh": "诚然，样本规模较小，但该模式在所有年龄组中均保持一致。"
+ },
+ "R0137": {
+  "en": "Sleep plays an important role in adolescent development and learning.",
+  "zh": "睡眠对青少年的发育和学习起着重要作用。"
+ },
+ "R0138": {
+  "en": "Many firms adopted a more flexible strategy during periods of economic uncertainty.",
+  "zh": "在经济不确定时期，许多企业采取了更为灵活的策略。"
+ },
+ "R0139": {
+  "en": "The adoption of digital technology has changed how information is distributed.",
+  "zh": "数字技术的采用改变了信息的传播方式。"
+ },
+ "R0143": {
+  "en": "The survey focused on the adult population living in urban areas.",
+  "zh": "该调查以居住在城市地区的成年人口为对象。"
+ },
+ "R0145": {
+  "en": "Technological advances have made large-scale data analysis much faster.",
+  "zh": "技术进步使大规模数据分析的速度大大提高。"
+ },
+ "R0146": {
+  "en": "Advanced technology can improve efficiency but may also increase inequality.",
+  "zh": "先进技术可以提高效率，但也可能加剧不平等。"
+ },
+ "R0147": {
+  "en": "Access to reliable information can provide firms with a competitive advantage.",
+  "zh": "能够获取可靠信息可以为企业带来竞争优势。"
+ },
+ "R0150": {
+  "en": "Air pollution has adverse effects on both human health and ecosystems.",
+  "zh": "空气污染对人类健康和生态系统都有不利影响。"
+ },
+ "R0151": {
+  "en": "Companies increasingly use social media to advertise products to younger consumers.",
+  "zh": "企业越来越多地利用社交媒体向年轻消费者宣传产品。"
+ },
+ "R0152": {
+  "en": "Online advertisements can influence purchasing decisions even when users ignore them consciously.",
+  "zh": "即便消费者有意识地忽略在线广告，这些广告仍可能影响其购买决策。"
+ },
+ "R0153": {
+  "en": "Participants were encouraged to seek professional advice before changing medication.",
+  "zh": "研究人员鼓励参与者在更换药物之前征求专业意见。"
+ },
+ "R0154": {
+  "en": "Health authorities may advise against unnecessary antibiotic use.",
+  "zh": "卫生部门可能会建议避免不必要的抗生素使用。"
+ },
+ "R0157": {
+  "en": "Some researchers advocate reform of the current assessment system.",
+  "zh": "一些研究人员主张改革现行评估体系。"
+ },
+ "R0170": {
+  "en": "Long-term exposure to air pollution can affect respiratory health and cognitive performance.",
+  "zh": "长期暴露于空气污染会影响呼吸系统健康，并损害认知表现。"
+ },
+ "R0175": {
+  "en": "Many low-income households cannot afford housing close to major employment centres.",
+  "zh": "许多低收入家庭负担不起靠近主要就业中心的住房。"
+ },
+ "R0182": {
+  "en": "The experiment was repeated six months later to determine whether the same effect appeared again.",
+  "zh": "六个月后，该实验被重复进行，以确定同样的效应是否会再次出现。"
+ },
+ "R0183": {
+  "en": "The new estimates were compared against data from the previous national survey.",
+  "zh": "新的估算值与上一次全国调查的数据进行了比较。"
+ },
+ "R0190": {
+  "en": "Periods of extreme heat can aggravate existing health problems among older adults.",
+  "zh": "极端高温天气会加重老年人原有的健康问题。"
+ },
+ "R0192": {
+  "en": "Researchers can aggregate data from several regions to identify broader population trends.",
+  "zh": "研究人员可以汇总来自多个地区的数据，以识别更广泛的总体趋势。"
+ },
+ "R0204": {
+  "en": "The report looks ahead to the challenges likely to emerge over the next decade.",
+  "zh": "这份报告前瞻性地审视了未来十年可能出现的挑战。"
+ },
+ "R0219": {
+  "en": "Effective policies are more likely to succeed when local incentives align with national environmental goals.",
+  "zh": "当地方激励措施与国家环境目标相一致时，政策更有可能取得成功。"
+ },
+ "R0229": {
+  "en": "Investment in affordable public transport may alleviate pressure on low-income households.",
+  "zh": "投资于价格可负担的公共交通，可减轻低收入家庭的压力。"
+ },
+ "R0232": {
+  "en": "Governments often allocate additional resources to regions with higher levels of social deprivation.",
+  "zh": "政府常常向社会贫困程度较高的地区调配更多资源。"
+ },
+ "R0236": {
+  "en": "The new imaging technique allows researchers to observe changes in tissue without invasive surgery.",
+  "zh": "这种新型成像技术使研究人员无需进行侵入性手术即可观察组织变化。"
+ },
+ "R0239": {
+  "en": "Almost half of the participants reported using public transport at least once a week.",
+  "zh": "近半数的参与者表示每周至少乘坐一次公共交通。"
+ },
+ "R0241": {
+  "en": "Species richness increased along the river as water quality improved.",
+  "zh": "随着水质改善，河流沿线的物种丰富度有所提高。"
+ },
+ "R0244": {
+  "en": "By the start of the second phase, several regions had already adopted the new policy.",
+  "zh": "到第二阶段开始时，若干地区已经采用了新政策。"
+ },
+ "R0245": {
+  "en": "The intervention reduced waiting times and also improved patient satisfaction.",
+  "zh": "该干预措施缩短了候诊时间，还提高了患者的满意度。"
+ },
+ "R0246": {
+  "en": "Changes in rainfall can alter the migration patterns of species that depend on seasonal wetlands.",
+  "zh": "降雨变化会改变依赖季节性湿地的物种的迁徙模式。"
+ },
+ "R0252": {
+  "en": "Although the sample was relatively small, the overall pattern was consistent.",
+  "zh": "尽管样本相对较小，但整体模式具有一致性。"
+ },
+ "R0258": {
+  "en": "The relationship is not always linear, particularly at very high temperatures.",
+  "zh": "这种关系并非总是线性的，尤其是在温度极高的情况下。"
+ },
+ "R0269": {
+  "en": "The largest variation was observed among participants under the age of 25.",
+  "zh": "25岁以下的参与者中出现的差异最大。"
+ },
+ "R0276": {
+  "en": "Urban surfaces can amplify the effects of heat waves by retaining solar energy after sunset.",
+  "zh": "城市地表在日落后仍留存太阳能，从而会放大热浪的影响。"
+ },
+ "R0289": {
+  "en": "Researchers analyze long-term climate records to identify changes that may not be visible in short studies.",
+  "zh": "研究人员分析长期气候记录，以识别短期研究可能无法发现的变化。"
+ },
+ "R0302": {
+  "en": "Linguists annotate spoken-language corpora so that patterns of grammar and pronunciation can be studied systematically.",
+  "zh": "语言学家对口语语料库进行标注，以便系统研究语法和发音的规律。"
+ },
+ "R0304": {
+  "en": "Governments may announce new regulations before the full effects of earlier measures have been evaluated.",
+  "zh": "政府可能在先前各项措施的成效尚未得到全面评估时就宣布新的法规。"
+ },
+ "R0307": {
+  "en": "The survey is conducted annually to track changes in household income and employment.",
+  "zh": "该调查每年进行一次，以跟踪家庭收入和就业状况的变化。"
+ },
+ "R0313": {
+  "en": "Another explanation is that the observed change reflects differences in income.",
+  "zh": "另一种解释是，观察到的变化反映了收入上的差异。"
+ },
+ "R0329": {
+  "en": "Population models help planners anticipate future demand for housing, transport and public services.",
+  "zh": "人口模型有助于规划人员预测未来对住房、交通和公共服务的需求。"
+ },
+ "R0340": {
+  "en": "The researchers found no evidence that any single factor could explain the decline.",
+  "zh": "研究人员没有发现任何证据表明有某个单一因素可以解释这种下降。"
+ },
+ "R0342": {
+  "en": "The study did not identify anything that could fully account for the unexpected result.",
+  "zh": "该研究没有找到任何能够完全解释这一意外结果的因素。"
+ },
+ "R0345": {
+  "en": "The two populations remained geographically apart for thousands of years.",
+  "zh": "这两个种群在地理上隔绝了数千年。"
+ },
+ "R0350": {
+  "en": "The effect was apparently stronger among younger participants, although the difference was not statistically significant.",
+  "zh": "该效应在较年轻的参与者中似乎更强，尽管差异在统计学上并不显著。"
+ },
+ "R0352": {
+  "en": "The treatment appears to reduce symptoms, although the long-term effect remains uncertain.",
+  "zh": "该疗法似乎能减轻症状，尽管其长期效果仍不确定。"
+ },
+ "R0363": {
+  "en": "The findings may not apply to populations living in very different social or environmental conditions.",
+  "zh": "这些发现可能不适用于生活在截然不同的社会或环境条件下的人群。"
+ },
+ "R0364": {
+  "en": "The government appointed an independent committee to review the environmental impact of the project.",
+  "zh": "政府任命了一个独立委员会，以审查该项目的环境影响。"
+ },
+ "R0368": {
+  "en": "To appreciate the scale of the change, researchers compared modern measurements with records from the previous century.",
+  "zh": "为充分认识这一变化的规模，研究人员将现代测量数据与上个世纪的记录进行了比较。"
+ },
+ "R0376": {
+  "en": "Regulators must approve a new treatment before it can be introduced into routine clinical practice.",
+  "zh": "新疗法必须经过监管部门批准，才能引入常规临床实践。"
+ },
+ "R0378": {
+  "en": "Approximately 40 per cent of the sample lived in urban areas.",
+  "zh": "约40%的样本居住在城市地区。"
+ },
+ "R0401": {
+  "en": "Some researchers argue that early childhood conditions have lasting effects on educational attainment.",
+  "zh": "一些研究人员认为，童年早期的生活状况会对学业成就产生持久影响。"
+ },
+ "R0406": {
+  "en": "Difficulties can arise when evidence from one population is applied directly to another.",
+  "zh": "当来自某一人群的证据被直接套用于另一人群时，就可能出现问题。"
+ },
+ "R0408": {
+  "en": "Temperatures around the lake were consistently lower than those recorded in the city.",
+  "zh": "湖区周边的气温始终低于市区记录到的气温。"
+ },
+ "R0409": {
+  "en": "Researchers arranged the samples by age so that changes across the life span could be compared more easily.",
+  "zh": "研究人员按年龄排列样本，以便更便捷地比较整个生命周期内的变化。"
+ },
+ "R0414": {
+  "en": "Scientists rarely arrive at a firm conclusion on the basis of a single experiment.",
+  "zh": "科学家很少仅凭一次实验就得出确凿的结论。"
+ },
+ "R0427": {
+  "en": "The temperature was artificially increased to simulate future warming conditions.",
+  "zh": "温度被人为调高，以模拟未来的变暖条件。"
+ },
+ "R0429": {
+  "en": "Researchers asked participants to record their daily travel habits for two weeks.",
+  "zh": "研究人员要求参与者连续两周记录日常出行习惯。"
+ },
+ "R0432": {
+  "en": "Many developing cities aspire to improve living standards without increasing carbon emissions.",
+  "zh": "许多发展中国家的城市渴望在不增加碳排放的同时提高生活水平。"
+ },
+ "R0433": {
+  "en": "Researchers assembled evidence from historical records, field surveys and satellite observations.",
+  "zh": "研究人员汇集了来自历史记录、实地调查和卫星观测的证据。"
+ },
+ "R0435": {
+  "en": "The authors assert that the observed decline cannot be explained by climate alone.",
+  "zh": "作者断言，观察到的下降无法仅用气候来解释。"
+ },
+ "R0437": {
+  "en": "The study was designed to assess the long-term impact of air pollution on respiratory health.",
+  "zh": "该研究旨在评估空气污染对呼吸系统健康的长期影响。"
+ },
+ "R0441": {
+  "en": "Researchers randomly assign participants to treatment and control groups to reduce selection bias.",
+  "zh": "研究人员将参与者随机分配到实验组和对照组，以减少选择偏倚。"
+ },
+ "R0443": {
+  "en": "Learners assimilate new information more effectively when it is connected to knowledge they already possess.",
+  "zh": "当新信息与学习者已有的知识相关联时，他们吸收新信息的效果会更好。"
+ },
+ "R0445": {
+  "en": "Digital tools can assist researchers in processing large quantities of satellite data.",
+  "zh": "数字工具可以协助研究人员处理大量卫星数据。"
+ },
+ "R0448": {
+  "en": "Researchers often associate regular physical activity with lower rates of cardiovascular disease.",
+  "zh": "研究人员常常将规律的体育锻炼与较低的心血管疾病发病率联系在一起。"
+ },
+ "R0452": {
+  "en": "Many economic models assume that individuals respond predictably to changes in price.",
+  "zh": "许多经济模型假设个人对价格变化的反应是可预测的。"
+ },
+ "R0466": {
+  "en": "Researchers attached small sensors to the animals to record movement over several months.",
+  "zh": "研究人员在动物身上安装了小型传感器，以记录它们数月的活动情况。"
+ },
+ "R0468": {
+  "en": "Countries are more likely to attain long-term development goals when investment in education is sustained.",
+  "zh": "当教育投入得以持续时，各国更有可能实现长期发展目标。"
+ },
+ "R0472": {
+  "en": "Children who attend school regularly tend to achieve higher levels of literacy.",
+  "zh": "坚持正常上学的儿童往往能达到更高的识字水平。"
+ },
+ "R0481": {
+  "en": "Improved transport links can attract new businesses to previously isolated regions.",
+  "zh": "改善交通联系可以为先前偏僻的地区吸引新的企业。"
+ },
+ "R0494": {
+  "en": "New software can automate routine measurements and reduce the risk of human error.",
+  "zh": "新软件可使常规测量自动化，并降低人为失误的风险。"
+ },
+ "R0497": {
+  "en": "The device automatically records changes in air pressure every five minutes.",
+  "zh": "该设备每五分钟自动记录一次气压变化。"
+ },
+ "R0511": {
+  "en": "Researchers should avoid drawing causal conclusions from evidence that is purely correlational.",
+  "zh": "研究人员应避免仅凭纯粹相关性的证据得出因果结论。"
+ },
+ "R0515": {
+  "en": "As farms moved away from city centres, average travel distances increased.",
+  "zh": "随着农场迁离市中心，平均出行距离随之增加。"
+ },
+ "R0546": {
+  "en": "The difference was barely detectable at the lowest concentration.",
+  "zh": "在最低浓度下，该差异几乎无法检测到。"
+ },
+ "R0556": {
+  "en": "The two models are basically similar, although they rely on different assumptions.",
+  "zh": "这两个模型基本相似，尽管它们所依据的假设不同。"
+ },
+ "R0565": {
+  "en": "Low-income households often bear a disproportionate share of the costs associated with rising energy prices.",
+  "zh": "低收入家庭往往承担着与能源价格上涨相关成本中不成比例的部分。"
+ },
+ "R0567": {
+  "en": "The new design failed to beat the previous system in either cost or energy efficiency.",
+  "zh": "新设计在成本和能效两方面均未能超越原有系统。"
+ },
+ "R0568": {
+  "en": "Because rainfall was unusually low, crop yields declined across the region.",
+  "zh": "由于降雨量异常偏低，该地区的农作物产量普遍下降。"
+ },
+ "R0569": {
+  "en": "Extreme heat events have become increasingly common in many densely populated regions.",
+  "zh": "在许多人口稠密的地区，极端高温事件已愈发常见。"
+ },
+ "R0570": {
+  "en": "The samples were weighed before being placed in the drying chamber.",
+  "zh": "样本在放入干燥箱之前先经过称重。"
+ },
+ "R0571": {
+  "en": "Average temperatures begin to rise rapidly once the seasonal cloud cover disappears.",
+  "zh": "季节性云层一旦消散，平均气温便开始迅速上升。"
+ },
+ "R0580": {
+  "en": "The mechanism behind the observed decline remains poorly understood.",
+  "zh": "造成所观察到的下降的机制至今仍鲜为人知。"
+ },
+ "R0583": {
+  "en": "Many researchers believe that sleep plays an important role in memory consolidation.",
+  "zh": "许多研究人员认为，睡眠在记忆巩固中起着重要作用。"
+ },
+ "R0584": {
+  "en": "The newly identified species belongs to a group that is normally found in warmer climates.",
+  "zh": "这一新鉴定的物种属于一个通常见于较温暖气候的类群。"
+ },
+ "R0585": {
+  "en": "Values below the threshold were treated as statistically insignificant.",
+  "zh": "低于阈值的数值被视为在统计上不显著。"
+ },
+ "R0588": {
+  "en": "A dense layer of clay lies beneath the upper soil horizon.",
+  "zh": "上层土壤之下是致密的黏土层。"
+ },
+ "R0596": {
+  "en": "Besides reducing energy use, the new design also lowered maintenance costs.",
+  "zh": "除了降低能耗，新设计还降低了维护成本。"
+ },
+ "R0599": {
+  "en": "A clear difference was found between the treatment and control groups.",
+  "zh": "实验组与对照组之间发现了明显差异。"
+ },
+ "R0601": {
+  "en": "The effects of the intervention persisted beyond the end of the study period.",
+  "zh": "该干预措施的效果在研究期结束后依然持续。"
+ },
+ "R0671": {
+  "en": "Improved access to credit can boost investment among small and medium-sized firms.",
+  "zh": "信贷获取渠道的改善可以促进中小企业的投资。"
+ },
+ "R0676": {
+  "en": "Both groups showed similar levels of improvement after the intervention.",
+  "zh": "干预后，两组的改善程度相近。"
+ },
+ "R0689": {
+  "en": "The unusually dry year broke a long-standing pattern of stable seasonal rainfall.",
+  "zh": "这个异常干旱的年份打破了长期以来季节性降雨稳定的格局。"
+ },
+ "R0698": {
+  "en": "The report briefly discusses the limitations of the sampling method.",
+  "zh": "报告简要讨论了抽样方法的局限性。"
+ },
+ "R0701": {
+  "en": "Urban development can bring economic benefits while also increasing pressure on local ecosystems.",
+  "zh": "城市发展能带来经济效益，同时也会加大对当地生态系统的压力。"
+ },
+ "R0705": {
+  "en": "Online learning can broaden access to higher education for students living far from major cities.",
+  "zh": "在线学习可以拓宽远离大城市的学生接受高等教育的机会。"
+ },
+ "R0706": {
+  "en": "The results are broadly consistent with findings from earlier studies.",
+  "zh": "这些结果与早前研究的发现大体一致。"
+ },
+ "R0718": {
+  "en": "Long-term training programmes can build local capacity to manage environmental resources more effectively.",
+  "zh": "长期培训项目可以培养当地更有效管理环境资源的能力。"
+ },
+ "R0728": {
+  "en": "Power stations that burn fossil fuels release large quantities of carbon dioxide into the atmosphere.",
+  "zh": "燃烧化石燃料的发电站会向大气排放大量二氧化碳。"
+ },
+ "R0734": {
+  "en": "The rate was calculated by dividing the total output by the number of hours worked.",
+  "zh": "该比率是用总产出除以工作时数计算得出的。"
+ },
+ "R0735": {
+  "en": "The new road allows freight traffic to bypass the city centre, reducing congestion in residential areas.",
+  "zh": "新公路使货运车辆能够绕开市中心，从而减轻了居民区的交通拥堵。"
+ },
+ "R0740": {
+  "en": "Researchers calculate annual growth rates by comparing population estimates from consecutive years.",
+  "zh": "研究人员通过比较连续年份的人口估计值来计算年增长率。"
+ },
+ "R0744": {
+  "en": "Before data collection began, the instruments were calibrated against a standard reference.",
+  "zh": "数据收集开始前，仪器均对照标准参照物进行了校准。"
+ },
+ "R0746": {
+  "en": "The findings call for further research into the long-term effects of the intervention.",
+  "zh": "这些研究结果表明，有必要对该干预措施的长期效果展开进一步研究。"
+ },
+ "R0752": {
+  "en": "Several planned field surveys were cancelled because extreme weather made the region inaccessible.",
+  "zh": "由于极端天气导致该地区无法进入，若干原计划的实地调查被取消。"
+ },
+ "R0770": {
+  "en": "Satellite sensors capture detailed images that allow researchers to monitor changes in land cover.",
+  "zh": "卫星传感器捕获精细影像，使研究人员得以监测土地覆盖的变化。"
+ },
+ "R0786": {
+  "en": "Rivers carry sediment and nutrients from inland areas toward the coast.",
+  "zh": "河流将泥沙和营养物质从内陆输送到海岸。"
+ },
+ "R0800": {
+  "en": "Public investment can catalyze technological change by reducing the cost of early experimentation.",
+  "zh": "公共投资可以降低早期试验成本，从而推动技术变革。"
+ },
+ "R0805": {
+  "en": "Researchers categorize survey responses according to age, income and educational background.",
+  "zh": "研究人员根据年龄、收入和教育背景对调查回答进行分类。"
+ },
+ "R0816": {
+  "en": "Some small glaciers may cease to exist if current warming trends continue.",
+  "zh": "若当前的变暖趋势持续下去，一些小冰川可能会彻底消失。"
+ },
+ "R0835": {
+  "en": "The findings certainly suggest a relationship, although they do not establish causation.",
+  "zh": "这些发现固然表明存在某种关联，但并未证明因果关系。"
+ },
+ "R0851": {
+  "en": "The authors characterize the region as highly vulnerable to seasonal water shortages.",
+  "zh": "作者将这一地区描述为极易遭受季节性缺水的影响。"
+ },
+ "R0863": {
+  "en": "Researchers must choose a sampling method that is appropriate for the population being studied.",
+  "zh": "研究人员必须选择适合所研究总体的抽样方法。"
+ },
+ "R0879": {
+  "en": "Warm water circulates through the upper layers of the ocean before cooling and sinking.",
+  "zh": "温暖的海水在海洋上层循环流动，随后冷却下沉。"
+ },
+ "R0886": {
+  "en": "The report cites several longitudinal studies to support its main conclusion.",
+  "zh": "该报告援引了若干项纵向研究来支持其主要结论。"
+ },
+ "R0895": {
+  "en": "Further experiments are needed to clarify the relationship between sleep and memory formation.",
+  "zh": "需要开展进一步的实验来阐明睡眠与记忆形成之间的关系。"
+ },
+ "R0899": {
+  "en": "Biologists classify the samples according to genetic and morphological characteristics.",
+  "zh": "生物学家根据遗传特征和形态特征对样本进行分类。"
+ },
+ "R0908": {
+  "en": "The data clearly show a decline in average rainfall over the study period.",
+  "zh": "数据清楚地显示，研究期间平均降雨量有所下降。"
+ },
+ "R0940": {
+  "en": "National standards can codify safety procedures that were previously followed only informally.",
+  "zh": "国家标准可将此前仅凭非正式惯例执行的安全规程加以制度化。"
+ },
+ "R0943": {
+  "en": "Traditional farming practices can coexist with modern conservation methods under certain conditions.",
+  "zh": "在一定条件下，传统耕作方式可以与现代保护方法并存。"
+ },
+ "R0956": {
+  "en": "Universities increasingly collaborate with local communities when designing long-term environmental studies.",
+  "zh": "大学在设计长期环境研究项目时，越来越多地与当地社区合作。"
+ },
+ "R0960": {
+  "en": "The population may collapse if breeding success remains low for several consecutive years.",
+  "zh": "若繁殖成功率连续数年保持低位，该种群可能会急剧衰退。"
+ },
+ "R0962": {
+  "en": "Researchers collect water samples at regular intervals throughout the year.",
+  "zh": "研究人员全年定期采集水样。"
+ },
+ "R0978": {
+  "en": "The study combines satellite data with field observations to estimate forest loss.",
+  "zh": "该研究将卫星数据与实地观测相结合，以估算森林减少情况。"
+ },
+ "R0981": {
+  "en": "Most of the observed increase in emissions came from transport and electricity generation.",
+  "zh": "所观察到的排放增加大部分来自交通运输和发电部门。"
+ },
+ "R0992": {
+  "en": "Governments that commit resources to preventive health care may reduce long-term treatment costs.",
+  "zh": "将资源投入预防性医疗保健的政府，或许能降低长期治疗费用。"
+ },
+ "R0998": {
+  "en": "This pattern is commonly observed in rapidly urbanising regions.",
+  "zh": "这种模式常见于快速城市化的地区。"
+ },
+ "R0999": {
+  "en": "Scientists must communicate their findings clearly when the evidence is uncertain or incomplete.",
+  "zh": "当证据不确定或不完整时，科学家必须清晰地传达其研究结果。"
+ },
+ "R1007": {
+  "en": "The rural sample was comparatively small, so the estimate should be interpreted cautiously.",
+  "zh": "农村样本相对较小，因此应谨慎解读这一估计值。"
+ },
+ "R1008": {
+  "en": "The researchers compare present-day temperatures with records collected a century earlier.",
+  "zh": "研究人员将当前的气温与一个世纪前收集的记录进行比较。"
+ },
+ "R1016": {
+  "en": "Greater efficiency can partly compensate for the higher cost of the new technology.",
+  "zh": "更高的效率可以部分弥补这项新技术较高的成本。"
+ },
+ "R1018": {
+  "en": "Plant species compete for light, water and nutrients in densely populated ecosystems.",
+  "zh": "在物种密集的生态系统中，植物会争夺光照、水分和养分。"
+ },
+ "R1025": {
+  "en": "The team compiled data from more than 40 studies conducted across different countries.",
+  "zh": "该团队汇编了在多个国家开展的40多项研究的数据。"
+ },
+ "R1036": {
+  "en": "Differences in sampling methods can complicate comparisons between otherwise similar studies.",
+  "zh": "抽样方法上的差异会使原本相似的研究之间难以比较。"
+ },
+ "R1039": {
+  "en": "Manufacturers must comply with national safety standards before a product can enter the market.",
+  "zh": "产品进入市场前，制造商必须遵守国家安全标准。"
+ },
+ "R1041": {
+  "en": "The sample was composed of participants from a wide range of social and economic backgrounds.",
+  "zh": "该样本由来自各种社会经济背景的参与者构成。"
+ },
+ "R1047": {
+  "en": "Digital systems compress large datasets so that they can be stored and transmitted more efficiently.",
+  "zh": "数字系统对大型数据集进行压缩，以便更高效地存储和传输。"
+ },
+ "R1050": {
+  "en": "The final dataset comprises three age groups drawn from five different regions.",
+  "zh": "最终数据集包含来自五个不同地区的三个年龄组。"
+ },
+ "R1061": {
+  "en": "The programme concentrates resources on communities with the highest levels of deprivation.",
+  "zh": "该项目将资源集中于贫困程度最深的社区。"
+ },
+ "R1070": {
+  "en": "The authors conclude that the observed association is unlikely to be explained by chance alone.",
+  "zh": "作者得出结论：观察到的关联不太可能纯属偶然。"
+ },
+ "R1084": {
+  "en": "Researchers conducted a five-year study of air quality in major urban centres.",
+  "zh": "研究人员对主要城市的空气质量进行了一项为期五年的研究。"
+ },
+ "R1089": {
+  "en": "Higher levels of education can confer substantial economic and health benefits over the life course.",
+  "zh": "高等教育水平能够在人的一生中带来可观的经济与健康收益。"
+ },
+ "R1097": {
+  "en": "A second experiment confirmed the pattern observed in the original study.",
+  "zh": "第二次实验证实了最初研究中所观察到的模式。"
+ },
+ "R1107": {
+  "en": "Coastal communities increasingly confront the combined effects of erosion, flooding and sea-level rise.",
+  "zh": "沿海社区日益面临侵蚀、洪水和海平面上升所带来的综合影响。"
+ },
+ "R1109": {
+  "en": "Participants sometimes confuse correlation with causation when interpreting simple graphs.",
+  "zh": "参与者在解读简单图表时有时会混淆相关性与因果关系。"
+ },
+ "R1116": {
+  "en": "The analysis connects changes in land use to long-term declines in biodiversity.",
+  "zh": "该分析将土地利用的变化与生物多样性的长期下降联系起来。"
+ },
+ "R1126": {
+  "en": "Rainfall declined for several years; consequently, crop yields fell across the region.",
+  "zh": "降雨量连续数年下降，因此整个地区的作物产量也随之减少。"
+ },
+ "R1129": {
+  "en": "Improved building insulation can conserve energy by reducing the need for heating and cooling.",
+  "zh": "改进建筑保温可以通过减少供暖和制冷需求来节约能源。"
+ },
+ "R1130": {
+  "en": "Policy makers must consider both economic costs and environmental benefits before adopting a new measure.",
+  "zh": "政策制定者在采纳新措施之前，必须同时考虑经济成本与环境效益。"
+ },
+ "R1132": {
+  "en": "The treatment group performed considerably better than the control group.",
+  "zh": "实验组的表现明显优于对照组。"
+ },
+ "R1134": {
+  "en": "The experimental sample consisted of 120 adults from three different age groups.",
+  "zh": "实验样本由来自三个不同年龄组的120名成年人组成。"
+ },
+ "R1137": {
+  "en": "The same pattern was consistently observed across all three trials.",
+  "zh": "在全部三次试验中均一致观察到相同的模式。"
+ },
+ "R1142": {
+  "en": "Coastal landscapes are constantly reshaped by wind, waves and tidal movement.",
+  "zh": "海岸地貌不断被风、海浪和潮汐运动重塑。"
+ },
+ "R1143": {
+  "en": "Older adults constitute a growing share of the population in many industrialised countries.",
+  "zh": "在许多工业化国家，老年人占人口的比例不断上升。"
+ },
+ "R1146": {
+  "en": "Limited access to credit can constrain the growth of small businesses.",
+  "zh": "获得信贷的渠道有限会制约小企业的发展。"
+ },
+ "R1149": {
+  "en": "Researchers constructed a statistical model to estimate future changes in demand.",
+  "zh": "研究人员构建了一个统计模型，以估计未来的需求变化。"
+ },
+ "R1153": {
+  "en": "The research team consulted historical records to reconstruct earlier patterns of land use.",
+  "zh": "研究团队查阅了历史记录，以重建更早期的土地利用模式。"
+ },
+ "R1156": {
+  "en": "Data centres consume large amounts of electricity, particularly when cooling demand is high.",
+  "zh": "数据中心消耗大量电力，尤其是在制冷需求较高时。"
+ },
+ "R1162": {
+  "en": "The archive contains detailed records of rainfall dating back more than a century.",
+  "zh": "该档案库包含了一个多世纪以来详细的降雨记录。"
+ },
+ "R1165": {
+  "en": "Agricultural runoff can contaminate groundwater with high concentrations of nitrates.",
+  "zh": "农业径流会以高浓度的硝酸盐污染地下水。"
+ },
+ "R1167": {
+  "en": "Policy makers may contemplate stricter regulations when voluntary measures fail to reduce emissions.",
+  "zh": "当自愿性措施未能减少排放时，政策制定者可能会考虑实行更严格的监管。"
+ },
+ "R1179": {
+  "en": "Global demand for electricity is expected to continue rising as incomes increase.",
+  "zh": "随着收入的增加，全球电力需求预计将继续上升。"
+ },
+ "R1185": {
+  "en": "The new results contradict earlier findings from a much smaller sample.",
+  "zh": "新结果与先前基于一个小得多的样本所得出的结论相矛盾。"
+ },
+ "R1191": {
+  "en": "Poor air quality can contribute to respiratory illness and premature mortality.",
+  "zh": "空气质量差可导致呼吸系统疾病和过早死亡。"
+ },
+ "R1209": {
+  "en": "Photovoltaic cells convert sunlight directly into electrical energy.",
+  "zh": "光伏电池将太阳光直接转化为电能。"
+ },
+ "R1210": {
+  "en": "Graphs can convey complex patterns more clearly than long tables of numerical data.",
+  "zh": "与冗长的数据表格相比，图表能够更清晰地呈现复杂的模式。"
+ },
+ "R1211": {
+  "en": "The evidence was not strong enough to convince the authors that the relationship was causal.",
+  "zh": "证据不够有力，无法使作者相信这种关系是因果性的。"
+ },
+ "R1216": {
+  "en": "Regional authorities must coordinate transport and housing policies to reduce urban congestion.",
+  "zh": "地区当局必须协调交通与住房政策，以缓解城市拥堵。"
+ },
+ "R1230": {
+  "en": "Most participants correctly identified the more efficient method.",
+  "zh": "大多数参与者都正确地识别出了效率更高的方法。"
+ },
+ "R1231": {
+  "en": "Household income tends to correlate positively with access to higher education.",
+  "zh": "家庭收入往往与获得高等教育的机会呈正相关。"
+ },
+ "R1234": {
+  "en": "Changes in flowering time closely correspond to changes in average spring temperature.",
+  "zh": "开花时间的变化与春季平均气温的变化密切相关。"
+ },
+ "R1237": {
+  "en": "Independent measurements corroborated the findings reported by the original research team.",
+  "zh": "独立的测量结果证实了最初研究团队所报告的发现。"
+ },
+ "R1245": {
+  "en": "The decline could reflect a combination of environmental and economic factors.",
+  "zh": "这一下降可能反映了环境与经济因素的综合作用。"
+ },
+ "R1247": {
+  "en": "Improved irrigation can partly counteract the effects of reduced seasonal rainfall.",
+  "zh": "改善灌溉可以在一定程度上抵消季节性降雨减少的影响。"
+ },
+ "R1258": {
+  "en": "Rapid urban growth can create new employment opportunities while placing pressure on public services.",
+  "zh": "快速的城市发展可以创造新的就业机会，同时也给公共服务带来压力。"
+ },
+ "R1272": {
+  "en": "The review critically evaluates the evidence for each proposed explanation.",
+  "zh": "该综述批判性地评估了每种拟议解释所依据的证据。"
+ },
+ "R1274": {
+  "en": "Several scholars criticized the study for relying too heavily on self-reported data.",
+  "zh": "一些学者批评该研究过于依赖自我报告的数据。"
+ },
+ "R1292": {
+  "en": "Farmers cultivate drought-resistant crops in regions where rainfall is increasingly unpredictable.",
+  "zh": "在降雨日益难以预测的地区，农民种植耐旱作物。"
+ },
+ "R1304": {
+  "en": "The technology is currently used in only a limited number of hospitals.",
+  "zh": "这项技术目前仅在少数医院得到应用。"
+ },
+ "R1354": {
+  "en": "Policy makers must decide whether the expected benefits justify the economic and social costs.",
+  "zh": "政策制定者必须判断预期收益是否足以证明经济和社会成本的合理性。"
+ },
+ "R1361": {
+  "en": "The government declared the wetland a protected area after several endangered species were recorded there.",
+  "zh": "在该湿地记录到多个濒危物种后，政府将其宣布为保护区。"
+ },
+ "R1364": {
+  "en": "Microorganisms decompose organic matter and return nutrients to the soil.",
+  "zh": "微生物分解有机质，并将养分归还土壤。"
+ },
+ "R1368": {
+  "en": "Several research centres dedicate substantial resources to monitoring long-term climate change.",
+  "zh": "多个研究中心将大量资源投入到长期气候变化的监测中。"
+ },
+ "R1371": {
+  "en": "Researchers can deduce past environmental conditions from chemical traces preserved in ice cores.",
+  "zh": "研究人员可以从冰芯中保存的化学痕迹推断出过去的环境状况。"
+ },
+ "R1375": {
+  "en": "The treatment was deemed safe enough to proceed to a larger clinical trial.",
+  "zh": "该疗法被认为足够安全，可以进入更大规模的临床试验。"
+ },
+ "R1382": {
+  "en": "The authors defend their interpretation by comparing the results with evidence from three independent datasets.",
+  "zh": "作者将结果与来自三个独立数据集的证据进行对比，从而为其解释进行辩护。"
+ },
+ "R1387": {
+  "en": "The study defines poverty using both household income and access to essential services.",
+  "zh": "该研究同时采用家庭收入和获取基本服务的机会来界定贫困。"
+ },
+ "R1389": {
+  "en": "The available evidence does not definitely establish a causal relationship between the two variables.",
+  "zh": "现有证据并不能明确证明这两个变量之间存在因果关系。"
+ },
+ "R1401": {
+  "en": "Intensive farming can degrade soil quality when nutrients are removed faster than they are replaced.",
+  "zh": "当养分流失速度快于补充速度时，集约化耕作会使土壤质量下降。"
+ },
+ "R1406": {
+  "en": "The researchers deliberately varied the amount of light to test its effect on plant growth.",
+  "zh": "研究人员有意改变光照量，以检验其对植物生长的影响。"
+ },
+ "R1408": {
+  "en": "Satellite images help researchers delineate the boundaries of rapidly changing coastal habitats.",
+  "zh": "卫星图像帮助研究人员勾画出迅速变化的沿海栖息地的边界。"
+ },
+ "R1410": {
+  "en": "Well-designed public transport systems can deliver significant economic and environmental benefits.",
+  "zh": "设计良好的公共交通系统能够带来可观的经济与环境效益。"
+ },
+ "R1427": {
+  "en": "The experiment demonstrates that even small changes in temperature can alter the rate of development.",
+  "zh": "该实验表明，即使是微小的温度变化也会改变发育速度。"
+ },
+ "R1432": {
+  "en": "In the figure, darker colours denote regions with higher population density.",
+  "zh": "在图中，颜色越深表示人口密度越高的地区。"
+ },
+ "R1437": {
+  "en": "Restricting transport can deny rural communities access to essential health and education services.",
+  "zh": "限制交通会使农村社区无法获得基本的医疗和教育服务。"
+ },
+ "R1441": {
+  "en": "The rate of plant growth depends on temperature, water availability and nutrient supply.",
+  "zh": "植物生长的速度取决于温度、水分供应和养分供应。"
+ },
+ "R1447": {
+  "en": "The map depicts changes in land use over a period of more than 50 years.",
+  "zh": "该地图描绘了50多年间土地利用的变化。"
+ },
+ "R1449": {
+  "en": "Excessive pumping can deplete groundwater reserves faster than rainfall can replenish them.",
+  "zh": "过度抽取地下水会使地下水储量枯竭的速度快于降雨补给的速度。"
+ },
+ "R1451": {
+  "en": "Researchers deployed sensors across the valley to measure temperature and humidity at different elevations.",
+  "zh": "研究人员在山谷各处布设了传感器，以测量不同海拔高度的温度和湿度。"
+ },
+ "R1458": {
+  "en": "Long periods of drought can deprive rural communities of reliable access to clean water.",
+  "zh": "长期干旱可能使农村社区无法获得可靠的清洁水源。"
+ },
+ "R1462": {
+  "en": "Most of the estimates are derived from national census data collected at ten-year intervals.",
+  "zh": "大多数估计值来自每十年收集一次的国家人口普查数据。"
+ },
+ "R1466": {
+  "en": "The authors describe a gradual shift from agricultural to service-based employment.",
+  "zh": "作者描述了就业从农业向服务业的逐步转变。"
+ },
+ "R1478": {
+  "en": "Severe flooding can destroy critical infrastructure and displace large numbers of residents.",
+  "zh": "严重的洪灾会摧毁关键基础设施，并使大量居民流离失所。"
+ },
+ "R1483": {
+  "en": "The instrument can detect very small changes in the concentration of carbon dioxide.",
+  "zh": "该仪器能够检测到二氧化碳浓度的极细微变化。"
+ },
+ "R1487": {
+  "en": "Water quality tends to deteriorate when untreated waste enters rivers and lakes.",
+  "zh": "当未经处理的废水进入河流和湖泊时，水质往往会恶化。"
+ },
+ "R1491": {
+  "en": "Researchers used genetic evidence to determine whether the two populations shared a recent common ancestor.",
+  "zh": "研究人员利用遗传证据来确定这两个种群是否拥有近代共同祖先。"
+ },
+ "R1499": {
+  "en": "The team developed a new method for estimating crop yields from satellite images.",
+  "zh": "该团队开发了一种利用卫星图像估算作物产量的新方法。"
+ },
+ "R1502": {
+  "en": "Measurements that deviate substantially from the expected range are checked for possible error.",
+  "zh": "与预期范围存在明显偏差的测量结果会被核查是否存在可能的误差。"
+ },
+ "R1505": {
+  "en": "Many universities devote increasing resources to research on renewable energy.",
+  "zh": "许多大学将越来越多的资源投入到可再生能源研究中。"
+ },
+ "R1506": {
+  "en": "Early screening can help clinicians diagnose the disease before severe symptoms appear.",
+  "zh": "早期筛查可以帮助临床医生在严重症状出现之前诊断出该疾病。"
+ },
+ "R1514": {
+  "en": "Local climate conditions often dictate which crops can be grown successfully in a region.",
+  "zh": "当地的气候条件往往决定了一个地区能够成功种植哪些作物。"
+ },
+ "R1518": {
+  "en": "The two populations differ markedly in age structure and average household income.",
+  "zh": "这两个种群在年龄结构和家庭平均收入方面存在显著差异。"
+ },
+ "R1519": {
+  "en": "The study examines the role of difference in explaining differences observed across populations.",
+  "zh": "该研究考察了差异在解释不同人群之间所观察到的差异方面所起的作用。"
+ },
+ "R1522": {
+  "en": "The test is designed to differentiate between temporary stress and long-term physiological damage.",
+  "zh": "该测试旨在区分暂时性应激与长期的生理损伤。"
+ },
+ "R1532": {
+  "en": "The historical records were digitally archived for later analysis.",
+  "zh": "这些历史记录被数字化存档，以供日后分析。"
+ },
+ "R1542": {
+  "en": "The effect gradually diminished after participants stopped receiving the intervention.",
+  "zh": "在参与者停止接受干预之后，该效应逐渐减弱。"
+ },
+ "R1549": {
+  "en": "Air pollution directly affects respiratory health in vulnerable populations.",
+  "zh": "空气污染直接影响易感人群的呼吸系统健康。"
+ },
+ "R1556": {
+  "en": "Some researchers disagree with the claim that the observed change is primarily caused by climate.",
+  "zh": "一些研究者不同意这一说法，即所观察到的变化主要是由气候引起的。"
+ },
+ "R1557": {
+  "en": "Several species may disappear from low-lying islands as sea levels continue to rise.",
+  "zh": "随着海平面持续上升，一些物种可能会从低洼岛屿上消失。"
+ },
+ "R1559": {
+  "en": "Industrial facilities can discharge treated water into rivers only if it meets environmental standards.",
+  "zh": "工业设施只有在经过处理的水符合环境标准时，才能将其排入河流。"
+ },
+ "R1564": {
+  "en": "The experiment disconnects the effect of temperature from the effect of light by controlling each variable separately.",
+  "zh": "该实验通过分别控制各个变量，将温度的影响与光照的影响区分开来。"
+ },
+ "R1570": {
+  "en": "Researchers discovered a consistent pattern across datasets collected in different countries.",
+  "zh": "研究人员在从不同国家收集的数据集中发现了一致的模式。"
+ },
+ "R1575": {
+  "en": "The method can discriminate between closely related species using small differences in DNA.",
+  "zh": "该方法可以利用DNA上的微小差异来区分亲缘关系很近的物种。"
+ },
+ "R1577": {
+  "en": "The final section discusses the implications of the findings for future urban planning.",
+  "zh": "最后一节讨论了这些发现对未来城市规划的意义。"
+ },
+ "R1580": {
+  "en": "Water can be disinfected using chlorine, ultraviolet light or other treatment methods.",
+  "zh": "水可以通过氯、紫外线或其他处理方法进行消毒。"
+ },
+ "R1588": {
+  "en": "Strong winds can disperse pollutants over large distances from their original source.",
+  "zh": "强风可以将污染物从最初来源处吹散到很远的地方。"
+ },
+ "R1589": {
+  "en": "Large infrastructure projects can displace local communities when land is cleared for construction.",
+  "zh": "大型基础设施项目在为建设清理土地时，可能使当地社区被迫迁离。"
+ },
+ "R1592": {
+  "en": "The data display a clear seasonal pattern, with the highest values occurring in summer.",
+  "zh": "数据呈现出明显的季节性规律，最高值出现在夏季。"
+ },
+ "R1600": {
+  "en": "Extreme weather can disrupt transport networks and reduce access to essential services.",
+  "zh": "极端天气会扰乱交通网络，并减少人们获得基本服务的机会。"
+ },
+ "R1604": {
+  "en": "Digital platforms allow researchers to disseminate findings rapidly to a global audience.",
+  "zh": "数字平台使研究人员能够迅速将研究成果传播给全球受众。"
+ },
+ "R1609": {
+  "en": "Some minerals dissolve readily in water and are transported through the soil.",
+  "zh": "一些矿物易溶于水，并随水分在土壤中迁移。"
+ },
+ "R1612": {
+  "en": "The review distills findings from dozens of studies into a small number of key conclusions.",
+  "zh": "该综述将数十项研究的发现提炼为少量关键结论。"
+ },
+ "R1617": {
+  "en": "The analysis distinguishes between short-term fluctuations and long-term structural change.",
+  "zh": "该分析区分了短期波动与长期结构性变化。"
+ },
+ "R1618": {
+  "en": "Small and unrepresentative samples can distort estimates of population behaviour.",
+  "zh": "规模小且不具有代表性的样本会使对群体行为的估计失真。"
+ },
+ "R1620": {
+  "en": "Governments distribute funding according to population size and levels of social need.",
+  "zh": "政府根据人口规模和社会需求水平分配资金。"
+ },
+ "R1626": {
+  "en": "Frequent human activity can disturb breeding birds and reduce reproductive success.",
+  "zh": "频繁的人类活动会惊扰繁殖期的鸟类，并降低其繁殖成功率。"
+ },
+ "R1632": {
+  "en": "Rural households often diversify their sources of income to reduce the risk of crop failure.",
+  "zh": "农村家庭往往使收入来源多样化，以降低作物歉收的风险。"
+ },
+ "R1635": {
+  "en": "Researchers divided the sample into three age groups for comparison.",
+  "zh": "研究人员将样本分成三个年龄组进行比较。"
+ },
+ "R1638": {
+  "en": "Researchers do not always reach the same conclusion when they analyse complex social data.",
+  "zh": "在分析复杂的社会数据时，研究者得出的结论并不总是一致。"
+ },
+ "R1645": {
+  "en": "A small number of species dominate the ecosystem when environmental conditions become highly uniform.",
+  "zh": "当环境条件变得高度均一时，少数物种会在生态系统中占据主导地位。"
+ },
+ "R1653": {
+  "en": "Energy use went down after manufacturers introduced more efficient heating systems.",
+  "zh": "在制造商引入更高效的供暖系统之后，能源使用量下降了。"
+ },
+ "R1660": {
+  "en": "Energy consumption fell dramatically after the new standards were introduced.",
+  "zh": "新标准出台后，能源消耗量大幅下降。"
+ },
+ "R1662": {
+  "en": "Rising demand for electricity is driving rapid investment in renewable energy technologies.",
+  "zh": "不断增长的电力需求正推动着对可再生能源技术的快速投资。"
+ },
+ "R1674": {
+  "en": "Each participant completed the same questionnaire at the start of the study.",
+  "zh": "每位参与者在研究开始时都填写了相同的问卷。"
+ },
+ "R1689": {
+  "en": "The system may be economically viable only when it is used on a larger scale.",
+  "zh": "该系统可能只有在较大规模使用时才具有经济可行性。"
+ },
+ "R1699": {
+  "en": "Editors may edit technical reports to improve clarity without changing the underlying findings.",
+  "zh": "编辑可以对技术报告进行编辑以提高清晰度，而不改变其中的基本发现。"
+ },
+ "R1703": {
+  "en": "Public campaigns can educate communities about the health risks associated with poor air quality.",
+  "zh": "公共宣传活动可以让社区了解空气质量差所带来的健康风险。"
+ },
+ "R1710": {
+  "en": "The intervention effectively reduced waiting times in the participating clinics.",
+  "zh": "该干预措施有效地缩短了参与诊所的等候时间。"
+ },
+ "R1716": {
+  "en": "The new design uses energy more efficiently than the previous model.",
+  "zh": "新设计比旧型号更高效地利用能源。"
+ },
+ "R1721": {
+  "en": "Either method can produce reliable results when the sample size is sufficiently large.",
+  "zh": "当样本量足够大时，两种方法都能产生可靠的结果。"
+ },
+ "R1725": {
+  "en": "Citizens elect local representatives who are responsible for many decisions about public services.",
+  "zh": "公民选举出地方代表，他们负责许多有关公共服务的决策。"
+ },
+ "R1750": {
+  "en": "Careful experimental design can eliminate several alternative explanations for an observed effect.",
+  "zh": "周密的实验设计可以排除对所观察效应的多种其他解释。"
+ },
+ "R1753": {
+  "en": "No significant differences were found anywhere else in the dataset.",
+  "zh": "在数据集的其他任何地方均未发现显著差异。"
+ },
+ "R1755": {
+  "en": "Researchers embedded small sensors in the material to monitor temperature over time.",
+  "zh": "研究人员将微型传感器嵌入该材料中，以持续监测温度。"
+ },
+ "R1757": {
+  "en": "The new policy embodies the principle that environmental costs should be reflected in market prices.",
+  "zh": "这项新政策体现了环境成本应反映在市场价格中的原则。"
+ },
+ "R1758": {
+  "en": "Clear regional differences began to emerge after the data were divided by age and income.",
+  "zh": "数据按年龄和收入划分后，开始显现出明显的地区差异。"
+ },
+ "R1764": {
+  "en": "Vehicles that burn fossil fuels emit carbon dioxide and other pollutants into the atmosphere.",
+  "zh": "燃烧化石燃料的车辆会向大气中排放二氧化碳和其他污染物。"
+ },
+ "R1769": {
+  "en": "The authors emphasize the importance of long-term monitoring when environmental change is gradual.",
+  "zh": "作者强调，当环境变化较为缓慢时，长期监测尤为重要。"
+ },
+ "R1772": {
+  "en": "The hypothesis has been empirically tested in several independent studies.",
+  "zh": "该假设已在多项独立研究中得到实证检验。"
+ },
+ "R1774": {
+  "en": "The study employs a mixed-method approach that combines interviews with quantitative survey data.",
+  "zh": "该研究采用了一种混合方法，将访谈与定量调查数据相结合。"
+ },
+ "R1778": {
+  "en": "High-resolution satellite images enable researchers to monitor land-use change across large areas.",
+  "zh": "高分辨率卫星图像使研究人员能够监测大范围的土地利用变化。"
+ },
+ "R1784": {
+  "en": "Migratory species may encounter different climatic conditions at each stage of their journey.",
+  "zh": "迁徙物种在旅程的每个阶段都可能遇到不同的气候条件。"
+ },
+ "R1785": {
+  "en": "Financial incentives can encourage households to adopt more energy-efficient technologies.",
+  "zh": "经济激励措施可以鼓励家庭采用更节能的技术。"
+ },
+ "R1786": {
+  "en": "Researchers encrypt personal data before transferring it between collaborating institutions.",
+  "zh": "研究人员在机构之间传输个人数据之前会对其进行加密。"
+ },
+ "R1788": {
+  "en": "Rapid habitat loss can endanger species with small and geographically restricted populations.",
+  "zh": "栖息地的迅速丧失会危及种群规模小且分布范围受限的物种。"
+ },
+ "R1803": {
+  "en": "Environmental regulations are effective only when authorities can enforce them consistently.",
+  "zh": "环境法规只有在当局能够持续执行时才有效。"
+ },
+ "R1805": {
+  "en": "Communities are more likely to support conservation measures when they engage directly in decision-making.",
+  "zh": "当社区直接参与决策时，更有可能支持保护措施。"
+ },
+ "R1810": {
+  "en": "Adding organic matter to soil can enhance its ability to retain water.",
+  "zh": "向土壤中添加有机质可以增强其保水能力。"
+ },
+ "R1814": {
+  "en": "There was not enough evidence to support a strong causal conclusion.",
+  "zh": "没有足够的证据来支持强有力的因果结论。"
+ },
+ "R1815": {
+  "en": "Nitrogen-fixing plants can enrich poor soils and improve conditions for other species.",
+  "zh": "固氮植物可以改善贫瘠的土壤，并为其他物种创造更好的条件。"
+ },
+ "R1818": {
+  "en": "Random assignment helps ensure that differences between groups are not caused by selection bias.",
+  "zh": "随机分配有助于确保组间差异不是由选择偏误造成的。"
+ },
+ "R1820": {
+  "en": "In many countries, legal residency may entitle individuals to access publicly funded health care.",
+  "zh": "在许多国家，合法居留身份可以使个人有权获得公共资助的医疗保健。"
+ },
+ "R1822": {
+  "en": "Unequal access to education can entrench social and economic inequalities across generations.",
+  "zh": "教育机会的不平等会使社会经济不平等代代相传、根深蒂固。"
+ },
+ "R1830": {
+  "en": "The results suggest that environmental factors may influence long-term social and environmental outcomes.",
+  "zh": "结果表明，环境因素可能对长期的社会与环境结果产生影响。"
+ },
+ "R1843": {
+  "en": "Both factors were equally important in predicting the outcome.",
+  "zh": "这两个因素在预测结果方面同等重要。"
+ },
+ "R1844": {
+  "en": "It is misleading to equate economic growth with improvements in well-being.",
+  "zh": "将经济增长等同于福祉的改善是具有误导性的。"
+ },
+ "R1856": {
+  "en": "Heavy rainfall can erode exposed soil and reduce agricultural productivity.",
+  "zh": "强降雨会侵蚀裸露的土壤，并降低农业生产力。"
+ },
+ "R1861": {
+  "en": "The two models are essentially based on the same assumptions.",
+  "zh": "这两个模型本质上基于相同的假设。"
+ },
+ "R1862": {
+  "en": "Longitudinal studies are often needed to establish whether an association persists over time.",
+  "zh": "通常需要进行纵向研究，以确定某种关联是否会随时间的推移而持续存在。"
+ },
+ "R1879": {
+  "en": "The researchers evaluated the programme by comparing outcomes before and after implementation.",
+  "zh": "研究人员通过比较实施前后的结果来评估该项目。"
+ },
+ "R1881": {
+  "en": "Water evaporates more rapidly from exposed soil when temperature and wind speed increase.",
+  "zh": "当温度和风速升高时，裸露土壤中的水分蒸发得更快。"
+ },
+ "R1884": {
+  "en": "The effect remained significant even after age and income were taken into account.",
+  "zh": "即使在考虑了年龄和收入因素之后，该效应仍然显著。"
+ },
+ "R1887": {
+  "en": "After several failed attempts, the researchers eventually identified the source of the error.",
+  "zh": "在多次尝试失败后，研究人员最终找到了错误的来源。"
+ },
+ "R1888": {
+  "en": "The study asks whether the species has ever occupied colder regions.",
+  "zh": "该研究探讨该物种是否曾栖居于更寒冷的地区。"
+ },
+ "R1889": {
+  "en": "Measurements were taken every two hours throughout the experiment.",
+  "zh": "在整个实验过程中，每两小时进行一次测量。"
+ },
+ "R1891": {
+  "en": "Not everything observed in the laboratory can be reproduced under natural conditions.",
+  "zh": "并非所有在实验室中观察到的现象都能在自然条件下重现。"
+ },
+ "R1898": {
+  "en": "Languages evolve over time as speakers adopt new words and grammatical patterns.",
+  "zh": "随着说话者不断采用新词和新的语法模式，语言会随着时间推移而演变。"
+ },
+ "R1899": {
+  "en": "Rising housing costs can exacerbate existing inequalities in access to urban employment.",
+  "zh": "住房成本的上升会加剧城市就业机会获取方面已有的不平等。"
+ },
+ "R1902": {
+  "en": "Exactly 200 participants completed both stages of the experiment.",
+  "zh": "正好有200名参与者完成了实验的两个阶段。"
+ },
+ "R1906": {
+  "en": "The study examines the relationship between neighbourhood design and levels of physical activity.",
+  "zh": "该研究考察了社区设计与身体活动水平之间的关系。"
+ },
+ "R1911": {
+  "en": "Air pollution levels exceeded the recommended threshold on more than 30 days during the study period.",
+  "zh": "在研究期间，有30多天空气污染水平超过了建议阈值。"
+ },
+ "R1919": {
+  "en": "The analysis excluded participants who had not completed the baseline questionnaire.",
+  "zh": "该分析排除了未完成基线问卷的参与者。"
+ },
+ "R1923": {
+  "en": "The earlier study focused exclusively on adults living in urban areas.",
+  "zh": "早前的研究仅聚焦于居住在城市地区的成年人。"
+ },
+ "R1924": {
+  "en": "The system can execute routine calculations automatically once the required data have been entered.",
+  "zh": "该系统可以在输入所需数据后自动执行常规计算。"
+ },
+ "R1928": {
+  "en": "This region exemplifies the broader shift from manufacturing toward service-based employment.",
+  "zh": "该地区体现了从制造业向服务业就业的更广泛转变。"
+ },
+ "R1929": {
+  "en": "Large predators can exert strong effects on the structure of an ecosystem.",
+  "zh": "大型捕食者可以对生态系统的结构产生强烈影响。"
+ },
+ "R1932": {
+  "en": "Participants with greater experience exhibited more stable performance across repeated trials.",
+  "zh": "经验更丰富的参与者在多次重复试验中表现更为稳定。"
+ },
+ "R1934": {
+  "en": "Large differences in income can exist even within relatively wealthy regions.",
+  "zh": "即使在相对富裕的地区，收入也可能存在巨大差异。"
+ },
+ "R1939": {
+  "en": "Investment in rail infrastructure can expand access to employment for people living outside city centres.",
+  "zh": "对铁路基础设施的投资可以扩大居住在城市中心以外的人们的就业机会。"
+ },
+ "R1943": {
+  "en": "Researchers expect average temperatures to continue rising under high-emission scenarios.",
+  "zh": "研究人员预计，在高排放情景下，平均气温将继续上升。"
+ },
+ "R1956": {
+  "en": "Differences in income explain part, but not all, of the variation in health outcomes.",
+  "zh": "收入差异可以解释健康结果差异的一部分，但并非全部。"
+ },
+ "R1959": {
+  "en": "The authors explicitly acknowledge the limitations of the dataset.",
+  "zh": "作者明确承认了该数据集的局限性。"
+ },
+ "R1960": {
+  "en": "Unsustainable fishing can exploit marine resources faster than populations are able to recover.",
+  "zh": "不可持续的捕捞对海洋资源的开发利用速度可能快于种群恢复的速度。"
+ },
+ "R1963": {
+  "en": "The study explores how changing work patterns influence travel behaviour in large cities.",
+  "zh": "该研究探讨了工作模式的变化如何影响大城市的出行行为。"
+ },
+ "R1967": {
+  "en": "People living near major roads are often exposed to higher concentrations of air pollution.",
+  "zh": "居住在主干道附近的人往往暴露于更高浓度的空气污染之中。"
+ },
+ "R1969": {
+  "en": "Survey respondents were asked to express their level of agreement with a series of statements.",
+  "zh": "调查受访者被要求就一系列陈述表达其同意程度。"
+ },
+ "R1971": {
+  "en": "The effects of early childhood disadvantage can extend well into adult life.",
+  "zh": "幼儿期不利处境的影响可能会一直延续到成年之后。"
+ },
+ "R1978": {
+  "en": "Researchers extracted DNA from the samples before conducting genetic analysis.",
+  "zh": "研究人员在开展基因分析之前从样本中提取了DNA。"
+ },
+ "R1985": {
+  "en": "The species is extremely sensitive to changes in water temperature.",
+  "zh": "该物种对水温变化极其敏感。"
+ },
+ "R1992": {
+  "en": "Reliable internet access can facilitate participation in education and remote work.",
+  "zh": "可靠的互联网接入可以促进人们参与教育和远程工作。"
+ },
+ "R2001": {
+  "en": "Policies may fail to reduce emissions if they do not change the incentives faced by households and firms.",
+  "zh": "如果政策不改变家庭和企业所面临的激励，就可能无法减少排放。"
+ },
+ "R2035": {
+  "en": "Only a few participants withdrew before the final assessment.",
+  "zh": "只有少数参与者在最终评估前退出。"
+ },
+ "R2050": {
+  "en": "The study found that regular physical activity was associated with lower levels of stress.",
+  "zh": "研究发现，经常进行体育锻炼与较低的压力水平相关。"
+ },
+ "R2062": {
+  "en": "The researchers fitted a statistical model to estimate the relationship between age and income.",
+  "zh": "研究人员拟合了一个统计模型，以估计年龄与收入之间的关系。"
+ },
+ "R2070": {
+  "en": "Some plant species flourish in disturbed environments where competition is relatively low.",
+  "zh": "一些植物物种在竞争相对较弱的受干扰环境中生长茂盛。"
+ },
+ "R2081": {
+  "en": "The same households were followed for ten years to observe changes in income and health.",
+  "zh": "研究人员对同样的家庭进行了为期十年的跟踪，以观察其收入和健康状况的变化。"
+ },
+ "R2088": {
+  "en": "The samples were stored for three days before chemical analysis.",
+  "zh": "样本在进行化学分析前存放了三天。"
+ },
+ "R2093": {
+  "en": "Early climate models did not foresee the full speed of ice loss observed in some regions.",
+  "zh": "早期的气候模型未能预见到某些地区所观测到的冰川消融的全部速度。"
+ },
+ "R2106": {
+  "en": "Researchers formulate hypotheses before collecting data so that predictions can be tested objectively.",
+  "zh": "研究人员在收集数据之前提出假设，以便对预测进行客观检验。"
+ },
+ "R2119": {
+  "en": "Fresh water freezes at a higher temperature than seawater because it contains less dissolved salt.",
+  "zh": "淡水在比海水更高的温度下结冰，因为其所含溶解盐较少。"
+ },
+ "R2123": {
+  "en": "This form of social interaction is frequently observed in large urban populations.",
+  "zh": "这种形式的社会互动在大型城市人群中经常被观察到。"
+ },
+ "R2127": {
+  "en": "Data were collected from households in both urban and rural areas.",
+  "zh": "数据收集自城市和农村地区的家庭。"
+ },
+ "R2131": {
+  "en": "Protected areas can fulfill an important role in preserving habitats that are under pressure elsewhere.",
+  "zh": "保护区能够在保护其他地方正面临压力的栖息地方面发挥重要作用。"
+ },
+ "R2139": {
+  "en": "The two approaches are fundamentally different in how they define risk.",
+  "zh": "这两种方法在界定风险的方式上存在根本差异。"
+ },
+ "R2142": {
+  "en": "The intervention reduced costs; furthermore, it improved access to basic services.",
+  "zh": "该干预措施降低了成本；此外，还改善了基本服务的可及性。"
+ },
+ "R2153": {
+  "en": "Researchers gathered information from household surveys, interviews and administrative records.",
+  "zh": "研究人员从住户调查、访谈和行政记录中收集信息。"
+ },
+ "R2165": {
+  "en": "Results from a small urban sample should not be generalized to the entire national population.",
+  "zh": "来自小型城市样本的结果不应推广到整个全国人口。"
+ },
+ "R2166": {
+  "en": "The effect is generally stronger among younger participants.",
+  "zh": "该效应在较年轻的参与者中通常更为明显。"
+ },
+ "R2167": {
+  "en": "Wind turbines generate electricity without directly emitting carbon dioxide during operation.",
+  "zh": "风力涡轮机在运行过程中发电而不直接排放二氧化碳。"
+ },
+ "R2200": {
+  "en": "Households in remote areas often find it harder to get access to specialist health services.",
+  "zh": "偏远地区的家庭往往更难获得专科医疗服务。"
+ },
+ "R2202": {
+  "en": "Repeated exposure to high temperatures can give rise to long-term physiological stress.",
+  "zh": "反复暴露于高温环境会引起长期的生理应激。"
+ },
+ "R2208": {
+  "en": "Sea levels have risen globally over the past century.",
+  "zh": "在过去一个世纪里，全球海平面已经上升。"
+ },
+ "R2209": {
+  "en": "The analysis goes beyond simple averages by examining differences across income groups.",
+  "zh": "该分析不局限于简单平均值，而是考察了不同收入群体之间的差异。"
+ },
+ "R2212": {
+  "en": "National laws govern how personal data may be collected, stored and shared.",
+  "zh": "国家法律对个人数据的收集、存储和共享方式作出规定。"
+ },
+ "R2221": {
+  "en": "The population gradually recovered after the habitat was restored.",
+  "zh": "栖息地恢复后，种群数量逐渐回升。"
+ },
+ "R2233": {
+  "en": "Students often grasp abstract concepts more easily when they are linked to concrete examples.",
+  "zh": "当抽象概念与具体例子联系起来时，学生往往更容易理解。"
+ },
+ "R2243": {
+  "en": "Urban populations are expected to grow rapidly in many parts of Asia and Africa.",
+  "zh": "预计亚洲和非洲许多地区的城市人口将迅速增长。"
+ },
+ "R2260": {
+  "en": "Temporary fishing bans may help halt population decline while stocks begin to recover.",
+  "zh": "临时禁渔可能有助于在鱼类资源开始恢复的同时遏制种群数量的下降。"
+ },
+ "R2272": {
+  "en": "Access to safe housing can have a substantial effect on long-term health outcomes.",
+  "zh": "获得安全住房的机会可以对长期健康状况产生重大影响。"
+ },
+ "R2286": {
+  "en": "The local economy remains heavily dependent on tourism.",
+  "zh": "当地经济仍然严重依赖旅游业。"
+ },
+ "R2291": {
+  "en": "The two variables were strongly correlated, hence the need for further analysis.",
+  "zh": "这两个变量高度相关，因此需要进一步分析。"
+ },
+ "R2295": {
+  "en": "The pattern observed here is consistent with results from earlier studies.",
+  "zh": "这里所观察到的模式与早期研究的结果一致。"
+ },
+ "R2307": {
+  "en": "The report highlights large regional differences in access to higher education.",
+  "zh": "该报告强调了高等教育机会方面巨大的地区差异。"
+ },
+ "R2308": {
+  "en": "The two measures were highly correlated across the full sample.",
+  "zh": "在整个样本中，这两项指标高度相关。"
+ },
+ "R2314": {
+  "en": "Historically, the region relied heavily on agricultural exports.",
+  "zh": "历史上，该地区严重依赖农产品出口。"
+ },
+ "R2316": {
+  "en": "The analysis holds age constant in order to isolate the effect of household income.",
+  "zh": "该分析将年龄保持不变，以分离出家庭收入的影响。"
+ },
+ "R2333": {
+  "en": "The study examines how access to green space influences mental well-being.",
+  "zh": "该研究考察了接触绿地对心理健康的影响。"
+ },
+ "R2334": {
+  "en": "The first trial produced a clear effect; however, the second found no significant difference.",
+  "zh": "第一次试验产生了明显的效应；然而，第二次试验未发现显著差异。"
+ },
+ "R2356": {
+  "en": "The researchers hypothesized that greater exposure to natural environments would reduce reported stress.",
+  "zh": "研究人员假设，更多地接触自然环境会减轻参与者报告的应激水平。"
+ },
+ "R2362": {
+  "en": "Ideally, longitudinal studies should follow participants for several years.",
+  "zh": "理想情况下，纵向研究应对参与者进行数年的跟踪。"
+ },
+ "R2367": {
+  "en": "Researchers identified three factors that were strongly associated with the observed decline.",
+  "zh": "研究人员确定了三个与所观察到的下降密切相关的因素。"
+ },
+ "R2375": {
+  "en": "If temperatures continue to rise, the species may shift its range northward.",
+  "zh": "如果气温继续上升，该物种的活动范围可能会向北移动。"
+ },
+ "R2377": {
+  "en": "The graph illustrates how household energy use changes as income rises.",
+  "zh": "该图表说明了随着收入的增加，家庭能源使用如何发生变化。"
+ },
+ "R2385": {
+  "en": "It is difficult to imagine a modern city functioning without reliable digital infrastructure.",
+  "zh": "很难想象一座现代城市在没有可靠的数字基础设施的情况下仍能正常运转。"
+ },
+ "R2387": {
+  "en": "Young animals often imitate the behaviour of older members of the group when learning to forage.",
+  "zh": "幼年动物在学习觅食时，往往会模仿群体中较年长成员的行为。"
+ },
+ "R2390": {
+  "en": "The samples were immediately stored at a constant temperature after collection.",
+  "zh": "样本采集后立即被置于恒定温度下保存。"
+ },
+ "R2393": {
+  "en": "The samples were immersed in salt water to test how rapidly the material corroded.",
+  "zh": "将样本浸入盐水中，以测试这种材料的腐蚀速度。"
+ },
+ "R2405": {
+  "en": "Long-term sleep deprivation can impair attention, memory and decision-making.",
+  "zh": "长期睡眠不足会损害注意力、记忆力和决策能力。"
+ },
+ "R2415": {
+  "en": "Several cities implemented congestion charges to reduce traffic and improve air quality.",
+  "zh": "一些城市实施了拥堵收费，以减少交通流量并改善空气质量。"
+ },
+ "R2421": {
+  "en": "The results imply that environmental exposure may influence health even at relatively low levels.",
+  "zh": "研究结果表明，即使在相对较低的水平下，环境暴露也可能影响健康。"
+ },
+ "R2425": {
+  "en": "Governments may impose stricter emission limits when voluntary measures prove ineffective.",
+  "zh": "当自愿性措施被证明无效时，政府可能会实施更严格的排放限制。"
+ },
+ "R2429": {
+  "en": "The scale of the decline impressed upon researchers the need for more frequent monitoring.",
+  "zh": "下降的规模使研究人员认识到有必要进行更频繁的监测。"
+ },
+ "R2432": {
+  "en": "Better insulation can improve energy efficiency and reduce household heating costs.",
+  "zh": "更好的隔热保温可以提高能源效率，并降低家庭取暖成本。"
+ },
+ "R2451": {
+  "en": "The final analysis included age, income and educational attainment as control variables.",
+  "zh": "最终分析将年龄、收入和教育程度作为控制变量纳入其中。"
+ },
+ "R2462": {
+  "en": "The model incorporates both climatic and socioeconomic variables.",
+  "zh": "该模型同时纳入了气候变量和社会经济变量。"
+ },
+ "R2465": {
+  "en": "Urban residents are increasingly exposed to high levels of air pollution.",
+  "zh": "城市居民日益暴露于高水平的空气污染之中。"
+ },
+ "R2475": {
+  "en": "The results were independently verified by a second research team.",
+  "zh": "研究结果由另一支研究团队独立进行了验证。"
+ },
+ "R2479": {
+  "en": "The data indicate that average temperatures have risen steadily over the past five decades.",
+  "zh": "数据表明，过去五十年间平均气温持续上升。"
+ },
+ "R2486": {
+  "en": "Income may indirectly influence health through access to housing and nutrition.",
+  "zh": "收入可能通过影响住房和营养的获取而间接影响健康。"
+ },
+ "R2490": {
+  "en": "Participants were interviewed individually rather than in groups.",
+  "zh": "参与者是个别接受访谈的，而不是以小组形式进行。"
+ },
+ "R2492": {
+  "en": "High concentrations of the compound can induce a measurable stress response in plants.",
+  "zh": "高浓度的该化合物可在植物中引起可测量的应激反应。"
+ },
+ "R2508": {
+  "en": "Rapid population growth does not inevitably lead to environmental decline.",
+  "zh": "人口的快速增长并不必然导致环境退化。"
+ },
+ "R2511": {
+  "en": "The pathogen can infect several closely related species under laboratory conditions.",
+  "zh": "在实验室条件下，该病原体可以感染若干亲缘关系密切的物种。"
+ },
+ "R2514": {
+  "en": "Researchers inferred past rainfall patterns from chemical markers preserved in lake sediments.",
+  "zh": "研究人员根据保存在湖泊沉积物中的化学标记物推断出过去的降雨模式。"
+ },
+ "R2531": {
+  "en": "Long-term monitoring can inform policy decisions about water use and habitat protection.",
+  "zh": "长期监测可以为有关水资源利用和栖息地保护的政策决策提供依据。"
+ },
+ "R2540": {
+  "en": "Self-reported data are inherently vulnerable to recall bias.",
+  "zh": "自我报告的数据本质上容易受到回忆偏差的影响。"
+ },
+ "R2541": {
+  "en": "Some individuals inherit genetic variants that influence their response to particular medicines.",
+  "zh": "有些人会遗传获得影响其对特定药物反应的基因变异。"
+ },
+ "R2543": {
+  "en": "Low temperatures can inhibit plant growth even when water and nutrients are abundant.",
+  "zh": "即使水分和养分充足，低温也可能抑制植物生长。"
+ },
+ "R2546": {
+  "en": "The population initially declined but began to recover after conservation measures were introduced.",
+  "zh": "该种群最初数量下降，但在实施保护措施后开始恢复。"
+ },
+ "R2547": {
+  "en": "The agency initiated a nationwide survey to measure changes in household energy use.",
+  "zh": "该机构发起了一项全国性调查，以衡量家庭能源使用的变化。"
+ },
+ "R2550": {
+  "en": "Researchers injected a small amount of tracer into the system to observe how quickly it circulated.",
+  "zh": "研究人员向该系统中注入少量示踪剂，以观察其循环的速度。"
+ },
+ "R2554": {
+  "en": "Firms are more likely to innovate when they have access to skilled workers and research networks.",
+  "zh": "当企业能够获得熟练工人和研究网络时，它们更有可能进行创新。"
+ },
+ "R2562": {
+  "en": "A small sensor was inserted into the soil to record moisture at different depths.",
+  "zh": "在土壤中插入了一个小型传感器，以记录不同深度的湿度。"
+ },
+ "R2565": {
+  "en": "The authors insist that the association should not be interpreted as proof of causation.",
+  "zh": "作者坚持认为，这种关联不应被解读为因果关系的证据。"
+ },
+ "R2567": {
+  "en": "Engineers inspected the structures for signs of corrosion after prolonged exposure to salt water.",
+  "zh": "在长期接触盐水之后，工程师对结构物进行了检查，以寻找腐蚀迹象。"
+ },
+ "R2570": {
+  "en": "Households that install efficient heating systems can reduce energy consumption substantially.",
+  "zh": "安装高效供暖系统的家庭可以大幅降低能源消耗。"
+ },
+ "R2592": {
+  "en": "The project integrates satellite observations with local field measurements.",
+  "zh": "该项目将卫星观测数据与当地实地测量数据相结合。"
+ },
+ "R2597": {
+  "en": "The researchers intend to repeat the survey in five years to assess long-term change.",
+  "zh": "研究人员打算在五年后重复这项调查，以评估长期变化。"
+ },
+ "R2606": {
+  "en": "Genes can interact with environmental conditions in ways that influence disease risk.",
+  "zh": "基因可以与环境条件相互作用，从而影响患病风险。"
+ },
+ "R2609": {
+  "en": "Vegetation can intercept rainfall before it reaches the soil surface.",
+  "zh": "植被可以在降雨到达土壤表面之前将其截留。"
+ },
+ "R2620": {
+  "en": "Background noise can interfere with participants’ ability to remember spoken information.",
+  "zh": "背景噪音会干扰参与者记忆口头信息的能力。"
+ },
+ "R2637": {
+  "en": "Researchers should interpret small differences cautiously when sample sizes are limited.",
+  "zh": "当样本量有限时，研究人员应谨慎解读微小的差异。"
+ },
+ "R2641": {
+  "en": "Severe storms can interrupt electricity supplies and transport services across wide areas.",
+  "zh": "强风暴可能在大范围内中断电力供应和交通运输服务。"
+ },
+ "R2645": {
+  "en": "Governments may intervene in markets when essential services become unaffordable.",
+  "zh": "当基本服务变得难以负担时，政府可能会对市场进行干预。"
+ },
+ "R2649": {
+  "en": "The participants were divided into three groups according to age.",
+  "zh": "参与者按年龄被分为三组。"
+ },
+ "R2661": {
+  "en": "New measuring instruments were invented to record changes that older technologies could not detect.",
+  "zh": "人们发明了新的测量仪器，以记录旧技术无法检测到的变化。"
+ },
+ "R2668": {
+  "en": "Countries that invest in early education often achieve better long-term social outcomes.",
+  "zh": "投资早期教育的国家往往能取得更好的长期社会成果。"
+ },
+ "R2669": {
+  "en": "The study investigates whether air pollution is associated with reduced cognitive performance.",
+  "zh": "该研究调查了空气污染是否与认知能力下降有关。"
+ },
+ "R2676": {
+  "en": "The experiment involved 240 participants from four different regions.",
+  "zh": "该实验涉及来自四个不同地区的240名参与者。"
+ },
+ "R2686": {
+  "en": "The design allows researchers to isolate the effect of temperature from other environmental factors.",
+  "zh": "该设计使研究人员能够将温度的影响与其他环境因素分离开来。"
+ },
+ "R2696": {
+  "en": "Researchers iterated the model several times as new data became available.",
+  "zh": "随着新数据的获得，研究人员对该模型进行了多次迭代。"
+ },
+ "R2699": {
+  "en": "The species changes its feeding behaviour when food becomes scarce.",
+  "zh": "当食物变得稀缺时，该物种会改变其觅食行为。"
+ },
+ "R2702": {
+  "en": "The two institutions jointly funded the long-term survey.",
+  "zh": "这两家机构共同资助了这项长期调查。"
+ },
+ "R2714": {
+  "en": "Just over half of the participants completed the final survey.",
+  "zh": "略过半数的参与者完成了最终调查。"
+ },
+ "R2718": {
+  "en": "The evidence is not strong enough to justify a firm conclusion about long-term causation.",
+  "zh": "现有证据不足以支持对长期因果关系作出确切结论。"
+ },
+ "R2720": {
+  "en": "The article juxtaposes two cities to show how different planning policies shape urban growth.",
+  "zh": "这篇文章将两座城市并列比较，以展示不同的规划政策如何塑造城市发展。"
+ },
+ "R2723": {
+  "en": "Researchers kept temperature constant while varying the amount of available light.",
+  "zh": "研究人员保持温度不变，同时改变可用光照量。"
+ },
+ "R2759": {
+  "en": "The difference was largely explained by income and educational attainment.",
+  "zh": "这一差异在很大程度上可以用收入和教育程度来解释。"
+ },
+ "R2763": {
+  "en": "The same participants were tested again two years later.",
+  "zh": "两年后，同一批参与者再次接受了测试。"
+ },
+ "R2767": {
+  "en": "The government launched a national programme to improve access to preventive health care.",
+  "zh": "政府启动了一项全国性计划，以改善预防性医疗保健的可及性。"
+ },
+ "R2771": {
+  "en": "Long-term exposure to high noise levels can lead to sleep disturbance and increased stress.",
+  "zh": "长期暴露于高噪音环境可能导致睡眠障碍和压力增加。"
+ },
+ "R2777": {
+  "en": "Researchers can learn more about long-term change by combining historical records with modern observations.",
+  "zh": "通过将历史记录与现代观测相结合，研究人员可以更深入地了解长期变化。"
+ },
+ "R2782": {
+  "en": "At least one third of the respondents reported using public transport regularly.",
+  "zh": "至少有三分之一的受访者表示经常使用公共交通。"
+ },
+ "R2801": {
+  "en": "Participants with less experience made more errors during the first trial.",
+  "zh": "经验较少的参与者在第一次试验中犯的错误更多。"
+ },
+ "R2802": {
+  "en": "Improved drainage can lessen the impact of heavy rainfall on urban flooding.",
+  "zh": "改善排水系统可以减轻强降雨对城市内涝的影响。"
+ },
+ "R2803": {
+  "en": "The experiment lets researchers observe how the system behaves without external intervention.",
+  "zh": "该实验使研究人员能够观察系统在无外部干预情况下的行为。"
+ },
+ "R2824": {
+  "en": "Materials like glass and aluminium can often be recycled several times.",
+  "zh": "玻璃和铝等材料通常可以多次回收利用。"
+ },
+ "R2827": {
+  "en": "Urban temperatures rose during the study period, and rural temperatures likewise increased, though more slowly.",
+  "zh": "在研究期间，城市气温上升，农村气温同样上升，但速度较慢。"
+ },
+ "R2856": {
+  "en": "High-resolution imaging can localize small areas of tissue affected by disease.",
+  "zh": "高分辨率成像可以定位受疾病影响的小面积组织。"
+ },
+ "R2857": {
+  "en": "The species is locally abundant but rare at the national level.",
+  "zh": "该物种在当地数量众多，但在全国范围内却很稀少。"
+ },
+ "R2858": {
+  "en": "Satellite data helped researchers locate previously unmapped wetlands in remote regions.",
+  "zh": "卫星数据帮助研究人员在偏远地区找到了此前未被测绘的湿地。"
+ },
+ "R2865": {
+  "en": "The results suggest that long factors may influence long-term social and environmental outcomes.",
+  "zh": "研究结果表明，长期因素可能影响长期的社会与环境结果。"
+ },
+ "R2872": {
+  "en": "The study looks at how employment patterns change when transport links improve.",
+  "zh": "该研究考察了当交通联系改善时就业模式如何变化。"
+ },
+ "R2895": {
+  "en": "The decline was mainly caused by habitat loss and reduced rainfall.",
+  "zh": "这一下降主要由栖息地丧失和降雨减少所致。"
+ },
+ "R2897": {
+  "en": "Adequate investment is required to maintain reliable public transport services over the long term.",
+  "zh": "要保持公共交通服务的长期可靠，需要充足的投入。"
+ },
+ "R2901": {
+  "en": "Small improvements in energy efficiency can make a substantial difference when applied across millions of households.",
+  "zh": "当应用于数百万家庭时，能源效率的微小改进也能产生显著的效果。"
+ },
+ "R2907": {
+  "en": "Local authorities must manage water resources carefully during prolonged periods of drought.",
+  "zh": "在长期干旱期间，地方政府必须谨慎管理水资源。"
+ },
+ "R2914": {
+  "en": "The effects of chronic stress may manifest as changes in sleep, attention and immune function.",
+  "zh": "慢性压力的影响可能表现为睡眠、注意力和免疫功能的变化。"
+ },
+ "R2917": {
+  "en": "Researchers manipulated the amount of light while keeping temperature and water supply constant.",
+  "zh": "研究人员在保持温度和供水不变的条件下调控光照量。"
+ },
+ "R2920": {
+  "en": "The material can be manufactured using less energy than conventional alternatives.",
+  "zh": "这种材料的生产能耗低于传统替代材料。"
+ },
+ "R2924": {
+  "en": "Many species depend on seasonal rainfall for successful reproduction.",
+  "zh": "许多物种依赖季节性降雨才能成功繁殖。"
+ },
+ "R2929": {
+  "en": "Poor access to transport can marginalize communities that are already economically disadvantaged.",
+  "zh": "交通不便可能使本已处于经济弱势的社区进一步边缘化。"
+ },
+ "R2951": {
+  "en": "The system adjusts operating conditions automatically to maximize energy efficiency.",
+  "zh": "该系统会自动调整运行条件，以最大限度地提高能源效率。"
+ },
+ "R2953": {
+  "en": "The observed association may be partly explained by differences in household income.",
+  "zh": "所观察到的关联可能部分由家庭收入的差异所致。"
+ },
+ "R2955": {
+  "en": "The lower response rate means that the results may not fully represent the wider population.",
+  "zh": "较低的回复率意味着研究结果可能无法充分代表更广泛的人群。"
+ },
+ "R2960": {
+  "en": "Researchers measured air quality at 20 locations over a period of three years.",
+  "zh": "研究人员在三年时间里对20个地点的空气质量进行了测量。"
+ },
+ "R2969": {
+  "en": "Social support may mediate the relationship between economic stress and mental health.",
+  "zh": "社会支持可能在经济压力与心理健康之间的关系中起中介作用。"
+ },
+ "R2983": {
+  "en": "The results suggest that mental factors may influence long-term social and environmental outcomes.",
+  "zh": "研究结果表明，心理因素可能影响长期的社会与环境结果。"
+ },
+ "R2984": {
+  "en": "The authors mention several limitations that should be considered when interpreting the results.",
+  "zh": "作者提到了在解读研究结果时应加以考虑的几个局限性。"
+ },
+ "R2988": {
+  "en": "Researchers merged census data with transport records to create a more complete picture of travel behaviour.",
+  "zh": "研究人员将人口普查数据与交通记录合并，以更全面地了解出行行为。"
+ },
+ "R3026": {
+  "en": "The difference might become larger if the study were repeated over a longer period.",
+  "zh": "如果研究在更长的时间跨度内重复进行，这一差异可能会更大。"
+ },
+ "R3027": {
+  "en": "Many bird species migrate northward in spring as food becomes more abundant.",
+  "zh": "许多鸟类在春季食物变得更加丰富时向北迁徙。"
+ },
+ "R3041": {
+  "en": "Random sampling helps minimize the risk that the study includes an unrepresentative group.",
+  "zh": "随机抽样有助于最大限度降低研究纳入不具代表性群体的风险。"
+ },
+ "R3047": {
+  "en": "Green infrastructure can mitigate the effects of urban heat by providing shade and increasing evaporation.",
+  "zh": "绿色基础设施可以通过提供遮荫和增加蒸发来缓解城市热效应。"
+ },
+ "R3052": {
+  "en": "Governments may need to mobilize additional resources when extreme weather disrupts essential services.",
+  "zh": "当极端天气扰乱基本服务时，政府可能需要调动额外的资源。"
+ },
+ "R3064": {
+  "en": "Researchers modified the questionnaire after the pilot study revealed several ambiguous items.",
+  "zh": "在试点研究暴露出若干含糊不清的条目后，研究人员对问卷进行了修改。"
+ },
+ "R3071": {
+  "en": "Satellites can monitor forest cover repeatedly without the cost of large-scale field surveys.",
+  "zh": "卫星可以反复监测森林覆盖情况，而无需承担大规模实地调查的费用。"
+ },
+ "R3080": {
+  "en": "More than half of the participants completed the second stage of the survey.",
+  "zh": "超过半数的参与者完成了调查的第二阶段。"
+ },
+ "R3086": {
+  "en": "Most participants preferred the simpler of the two methods.",
+  "zh": "大多数参与者更倾向于两种方法中较简单的一种。"
+ },
+ "R3089": {
+  "en": "Financial incentives can motivate households to invest in energy-saving technologies.",
+  "zh": "经济激励可以促使家庭投资节能技术。"
+ },
+ "R3093": {
+  "en": "As the climate warms, some species are beginning to move toward higher elevations.",
+  "zh": "随着气候变暖，一些物种开始向更高海拔地区迁移。"
+ },
+ "R3095": {
+  "en": "Much of the variation can be explained by differences in age and education.",
+  "zh": "大部分差异可以用年龄和受教育程度的差异来解释。"
+ },
+ "R3109": {
+  "en": "Bacteria can multiply rapidly when temperature and nutrient conditions are favourable.",
+  "zh": "当温度和营养条件适宜时，细菌会迅速繁殖。"
+ },
+ "R3114": {
+  "en": "Any explanation must account for the pattern observed across all three regions.",
+  "zh": "任何解释都必须能说明在所有三个地区观察到的这一模式。"
+ },
+ "R3121": {
+  "en": "The survey focused on two factors, namely income and educational attainment.",
+  "zh": "该调查聚焦于两个因素，即收入和教育程度。"
+ },
+ "R3135": {
+  "en": "The compound occurs naturally in several plant species.",
+  "zh": "该化合物天然存在于几种植物中。"
+ },
+ "R3141": {
+  "en": "Nearly one third of the respondents reported difficulty accessing public transport.",
+  "zh": "近三分之一的受访者表示难以使用公共交通。"
+ },
+ "R3143": {
+  "en": "Rapid population growth may necessitate substantial investment in housing and public transport.",
+  "zh": "人口的快速增长可能使住房和公共交通方面的大规模投资成为必要。"
+ },
+ "R3146": {
+  "en": "Studies that neglect socioeconomic differences may underestimate the causes of health inequality.",
+  "zh": "忽视社会经济差异的研究可能会低估健康不平等的成因。"
+ },
+ "R3149": {
+  "en": "Countries must negotiate shared rules when rivers and other resources cross national borders.",
+  "zh": "当河流及其他资源跨越国界时，各国必须通过协商制定共同规则。"
+ },
+ "R3169": {
+  "en": "The effect was never observed in the control group.",
+  "zh": "在对照组中从未观察到该效应。"
+ },
+ "R3170": {
+  "en": "The sample was limited; nevertheless, the findings were consistent with earlier research.",
+  "zh": "样本量有限；尽管如此，这些发现仍与早期研究一致。"
+ },
+ "R3173": {
+  "en": "The newly established protected area covers more than 2,000 square kilometres.",
+  "zh": "新设立的保护地面积超过2000平方公里。"
+ },
+ "R3180": {
+  "en": "No significant difference was found between the two groups at baseline.",
+  "zh": "在基线期，两组之间未发现显著差异。"
+ },
+ "R3188": {
+  "en": "None of the tested materials performed well under extremely high temperatures.",
+  "zh": "在极高温度下，受测材料中没有任何一种表现良好。"
+ },
+ "R3189": {
+  "en": "The evidence is incomplete; nonetheless, the overall trend is clear.",
+  "zh": "证据尚不完整；尽管如此，总体趋势是明确的。"
+ },
+ "R3193": {
+  "en": "The intervention neither reduced costs nor improved access to services.",
+  "zh": "该项干预既没有降低成本，也没有改善服务的可及性。"
+ },
+ "R3198": {
+  "en": "Researchers normalized the data so that results from different measurement scales could be compared.",
+  "zh": "研究人员对数据进行了标准化处理，以便比较来自不同测量量表的结果。"
+ },
+ "R3199": {
+  "en": "The species normally breeds during the wet season.",
+  "zh": "该物种通常在湿季繁殖。"
+ },
+ "R3201": {
+  "en": "The results do not support the claim that the intervention caused the observed change.",
+  "zh": "研究结果不支持干预措施导致了所观察到的变化这一说法。"
+ },
+ "R3203": {
+  "en": "Notably, the largest increase occurred among participants aged 18 to 25.",
+  "zh": "值得注意的是，增幅最大的是18至25岁的参与者。"
+ },
+ "R3207": {
+  "en": "Nothing in the available data suggests that the change occurred suddenly.",
+  "zh": "现有数据中没有任何内容表明这一变化是突然发生的。"
+ },
+ "R3208": {
+  "en": "Participants began to notice differences in air quality after traffic levels were reduced.",
+  "zh": "交通流量减少后，参与者开始注意到空气质量的变化。"
+ },
+ "R3214": {
+  "en": "Many processes that were once manual are now automated.",
+  "zh": "许多曾经靠人工完成的工作流程如今已经实现自动化。"
+ },
+ "R3215": {
+  "en": "Nowadays, digital records allow researchers to analyse much larger datasets.",
+  "zh": "如今，数字记录使研究人员能够分析规模大得多的数据集。"
+ },
+ "R3237": {
+  "en": "The procedure was designed to measure performance as objectively as possible.",
+  "zh": "该程序的设计旨在尽可能客观地衡量表现。"
+ },
+ "R3246": {
+  "en": "Researchers observed a gradual decline in average household size over the study period.",
+  "zh": "研究人员观察到，在研究期间平均家庭规模逐渐缩小。"
+ },
+ "R3251": {
+  "en": "The team obtained detailed demographic data from national census records.",
+  "zh": "该团队从全国人口普查记录中获得了详细的人口数据。"
+ },
+ "R3253": {
+  "en": "The difference was obviously larger in the high-exposure group than in the control group.",
+  "zh": "高暴露组中的差异明显大于对照组。"
+ },
+ "R3255": {
+  "en": "The species is occasionally recorded outside its usual breeding range.",
+  "zh": "该物种偶尔会在其常规繁殖范围之外被发现。"
+ },
+ "R3260": {
+  "en": "The species occupies a narrow range of high-altitude habitats.",
+  "zh": "该物种仅占据范围狭窄的高海拔栖息地。"
+ },
+ "R3261": {
+  "en": "The most severe flooding tends to occur when heavy rainfall coincides with high tides.",
+  "zh": "最严重的洪涝往往发生在强降雨与高潮位同时出现之时。"
+ },
+ "R3266": {
+  "en": "The proportion of households with internet access increased steadily over time.",
+  "zh": "接入互联网的家庭比例随着时间推移稳步上升。"
+ },
+ "R3267": {
+  "en": "Small particles can break off from the surface during repeated heating and cooling.",
+  "zh": "在反复加热和冷却的过程中，小颗粒可能会从表面剥落。"
+ },
+ "R3268": {
+  "en": "The site was officially designated a protected area in 2012.",
+  "zh": "该地点于2012年被正式划定为保护地。"
+ },
+ "R3269": {
+  "en": "Efficiency gains can partly offset the increase in energy demand caused by population growth.",
+  "zh": "效率的提升可以部分抵消人口增长带来的能源需求增加。"
+ },
+ "R3272": {
+  "en": "Species with narrow habitats are often more vulnerable to climate change.",
+  "zh": "栖息地范围狭窄的物种往往更易受到气候变化的影响。"
+ },
+ "R3273": {
+  "en": "The first model omitted household income, which led to an overestimate of the effect.",
+  "zh": "第一个模型遗漏了家庭收入，从而导致对该效应的估计偏高。"
+ },
+ "R3274": {
+  "en": "The analysis focused on changes in employment and household income.",
+  "zh": "该分析聚焦于就业和家庭收入的变化。"
+ },
+ "R3284": {
+  "en": "The treatment system operates continuously during periods of high demand.",
+  "zh": "该处理系统在高需求期间持续运行。"
+ },
+ "R3296": {
+  "en": "Local residents may oppose development projects when they expect substantial environmental costs.",
+  "zh": "当当地居民预期开发项目会带来巨大的环境代价时，他们可能会表示反对。"
+ },
+ "R3299": {
+  "en": "Households often opt for cheaper technologies when the long-term benefits of alternatives are uncertain.",
+  "zh": "当替代技术的长期效益不确定时，家庭往往会选择更便宜的技术。"
+ },
+ "R3304": {
+  "en": "The algorithm adjusts several parameters to optimize predictive accuracy.",
+  "zh": "该算法通过调整若干参数来优化预测精度。"
+ },
+ "R3317": {
+  "en": "Researchers organized the survey responses into categories before statistical analysis.",
+  "zh": "在进行统计分析之前，研究人员将调查回答整理归类。"
+ },
+ "R3323": {
+  "en": "The method was originally developed for medical research but is now used in ecology.",
+  "zh": "该方法最初是为医学研究开发的，如今也用于生态学领域。"
+ },
+ "R3324": {
+  "en": "Many air pollutants originate from transport, industry and household energy use.",
+  "zh": "许多空气污染物来源于交通、工业和家庭能源使用。"
+ },
+ "R3333": {
+  "en": "Without additional funding, the project would otherwise be difficult to sustain.",
+  "zh": "若无额外资金，该项目将难以维持下去。"
+ },
+ "R3336": {
+  "en": "Several participants dropped out before the final assessment.",
+  "zh": "有几名参与者在最终评估之前退出了研究。"
+ },
+ "R3343": {
+  "en": "In the oldest age group, women outnumbered men by almost two to one.",
+  "zh": "在最高年龄组中，女性人数几乎是男性的两倍。"
+ },
+ "R3344": {
+  "en": "The new model outperformed the conventional approach on an independent test dataset.",
+  "zh": "在独立测试数据集上，新模型的表现优于传统方法。"
+ },
+ "R3346": {
+  "en": "Some firms outsource routine data processing to reduce operating costs.",
+  "zh": "一些公司把常规数据处理工作外包出去，以降低运营成本。"
+ },
+ "R3348": {
+  "en": "In some regions, the long-term benefits of flood protection may outweigh the initial construction costs.",
+  "zh": "在一些地区，防洪带来的长期效益可能超过最初的建设成本。"
+ },
+ "R3349": {
+  "en": "Over the study period, average temperatures increased by nearly two degrees.",
+  "zh": "在研究期间，平均气温上升了近两度。"
+ },
+ "R3354": {
+  "en": "Small samples can overestimate the size of an effect when results vary substantially between participants.",
+  "zh": "当参与者之间的结果差异很大时，小样本可能会高估效应的大小。"
+ },
+ "R3358": {
+  "en": "The breeding ranges of the two species overlap in the northern part of the study area.",
+  "zh": "这两个物种的繁殖范围在研究区的北部重叠。"
+ },
+ "R3360": {
+  "en": "Studies that focus only on income may overlook important differences in housing and health.",
+  "zh": "只关注收入的研究可能会忽视住房和健康方面的重要差异。"
+ },
+ "R3362": {
+  "en": "An independent committee oversees the collection and use of participants’ personal data.",
+  "zh": "一个独立委员会负责监督参与者个人数据的收集与使用。"
+ },
+ "R3364": {
+  "en": "A sudden increase in patients can overwhelm local health services during a severe outbreak.",
+  "zh": "在严重疫情暴发期间，患者数量骤增可能使当地卫生服务不堪重负。"
+ },
+ "R3396": {
+  "en": "The decline was partially offset by improvements in energy efficiency.",
+  "zh": "能源效率的提高部分抵消了这一下降。"
+ },
+ "R3398": {
+  "en": "More than 1,000 households participated in the national survey of travel behaviour.",
+  "zh": "超过1000户家庭参与了这项关于出行行为的全国性调查。"
+ },
+ "R3428": {
+  "en": "Fine roots can penetrate compact soil more easily when moisture levels are high.",
+  "zh": "当土壤湿度较高时，细根更容易穿透紧实的土壤。"
+ },
+ "R3433": {
+  "en": "People often perceive unfamiliar technologies as more risky than familiar ones.",
+  "zh": "人们往往认为不熟悉的技术比熟悉的技术风险更高。"
+ },
+ "R3439": {
+  "en": "Perhaps the most important finding is the strong association between sleep and memory.",
+  "zh": "也许最重要的发现是睡眠与记忆之间存在密切关联。"
+ },
+ "R3449": {
+  "en": "The regulations permit limited development in areas where environmental damage can be minimized.",
+  "zh": "该法规允许在环境损害可以降至最低的地区进行有限度的开发。"
+ },
+ "R3451": {
+  "en": "Unequal access to high-quality education can perpetuate income differences across generations.",
+  "zh": "优质教育机会的不平等会使收入差距代代延续。"
+ },
+ "R3453": {
+  "en": "The observed difference persisted even after age and income were taken into account.",
+  "zh": "即使在考虑了年龄和收入之后，所观察到的差异仍然存在。"
+ },
+ "R3460": {
+  "en": "Information campaigns may persuade some households to reduce energy use, although the effect is often modest.",
+  "zh": "宣传教育活动可能说服一些家庭减少能源使用，尽管效果往往有限。"
+ },
+ "R3462": {
+  "en": "The final section considers issues that pertain specifically to rural communities.",
+  "zh": "最后一节探讨了专门涉及农村社区的问题。"
+ },
+ "R3496": {
+  "en": "The two populations are physically separated by a mountain range.",
+  "zh": "这两个种群被一条山脉在地理上隔开。"
+ },
+ "R3520": {
+  "en": "Highly contested policy debates can polarize public opinion and reduce willingness to compromise.",
+  "zh": "争议激烈的政策辩论可能使公众舆论两极分化，并降低人们妥协的意愿。"
+ },
+ "R3524": {
+  "en": "Untreated industrial waste can pollute rivers and damage aquatic ecosystems.",
+  "zh": "未经处理的工业废料会污染河流并破坏水生生态系统。"
+ },
+ "R3526": {
+  "en": "The study examines the role of population in explaining differences observed across populations.",
+  "zh": "该研究考察了人口在解释不同人群之间观察到的差异中所起的作用。"
+ },
+ "R3536": {
+  "en": "The report portrays urbanization as both an economic opportunity and an environmental challenge.",
+  "zh": "该报告将城市化描述为既是经济机遇，也是环境挑战。"
+ },
+ "R3540": {
+  "en": "Income was positively associated with educational attainment.",
+  "zh": "收入与教育程度呈正相关。"
+ },
+ "R3541": {
+  "en": "Species that possess greater genetic diversity may be more resilient to environmental change.",
+  "zh": "拥有更大遗传多样性的物种可能对环境变化更具适应能力。"
+ },
+ "R3550": {
+  "en": "Authorities postponed the construction project until a full environmental assessment had been completed.",
+  "zh": "当局推迟了该建设项目，直到完成全面的环境影响评估。"
+ },
+ "R3553": {
+  "en": "The new material could potentially reduce energy use in buildings.",
+  "zh": "这种新材料有望降低建筑物的能耗。"
+ },
+ "R3562": {
+  "en": "A gradual decline in rainfall preceded the sharp reduction in crop yields.",
+  "zh": "降雨量先是逐渐下降，随后作物产量急剧减少。"
+ },
+ "R3568": {
+  "en": "The device was designed to measure temperature more precisely than earlier instruments.",
+  "zh": "该设备的设计使其测量温度比早期仪器更为精确。"
+ },
+ "R3573": {
+  "en": "Climate models predict more frequent heat waves under high-emission scenarios.",
+  "zh": "气候模型预测，在高排放情景下，热浪将更加频繁。"
+ },
+ "R3581": {
+  "en": "The sample consisted predominantly of young adults.",
+  "zh": "样本主要由年轻人构成。"
+ },
+ "R3583": {
+  "en": "Most respondents preferred flexible working arrangements to a fixed office schedule.",
+  "zh": "大多数受访者更喜欢灵活的工作安排，而非固定的办公室作息时间。"
+ },
+ "R3593": {
+  "en": "Clinical guidelines prescribe different treatments according to the severity of the condition.",
+  "zh": "临床指南根据病情的严重程度规定了不同的治疗方法。"
+ },
+ "R3598": {
+  "en": "Protected areas can preserve habitats that would otherwise be lost to development.",
+  "zh": "保护地能够保存那些否则将会因开发而丧失的栖息地。"
+ },
+ "R3599": {
+  "en": "It is unsafe to presume that results from one population will apply equally to another.",
+  "zh": "假定来自一个人群的结果同样适用于另一个人群是不稳妥的。"
+ },
+ "R3603": {
+  "en": "Vaccination can prevent many infectious diseases from spreading rapidly through a population.",
+  "zh": "疫苗接种可以防止许多传染病在人群中迅速传播。"
+ },
+ "R3608": {
+  "en": "The species had previously been recorded only in warmer regions.",
+  "zh": "此前，该物种仅在较温暖的地区有过记录。"
+ },
+ "R3611": {
+  "en": "The decline was primarily driven by changes in land use.",
+  "zh": "这一下降主要由土地利用变化所驱动。"
+ },
+ "R3617": {
+  "en": "Cities may need to prioritize investment in public transport when road congestion becomes severe.",
+  "zh": "当道路拥堵严重时，城市可能需要优先投资公共交通。"
+ },
+ "R3631": {
+  "en": "The trial proceeded only after an independent review confirmed that the risks were acceptable.",
+  "zh": "只有在一项独立审查确认风险可以接受之后，试验才得以继续进行。"
+ },
+ "R3634": {
+  "en": "The intervention produced a modest but statistically significant improvement in test scores.",
+  "zh": "该干预使测试成绩得到了幅度不大但具有统计学意义的提高。"
+ },
+ "R3657": {
+  "en": "Some protected areas prohibit commercial fishing during the breeding season.",
+  "zh": "一些保护地在繁殖季节禁止商业捕捞。"
+ },
+ "R3661": {
+  "en": "Online information sources can proliferate rapidly when barriers to publication are low.",
+  "zh": "当发布门槛较低时，在线信息源会迅速激增。"
+ },
+ "R3665": {
+  "en": "Regular physical activity can promote cardiovascular health and psychological well-being.",
+  "zh": "规律的体育活动可以促进心血管健康和心理健康。"
+ },
+ "R3667": {
+  "en": "A sudden rise in prices can prompt households to reduce non-essential consumption.",
+  "zh": "物价突然上涨会促使家庭减少非必需消费。"
+ },
+ "R3668": {
+  "en": "Learners often pronounce unfamiliar scientific terms more accurately after repeated exposure to spoken examples.",
+  "zh": "在反复接触口语示例之后，学习者往往能更准确地读出陌生的科学术语。"
+ },
+ "R3671": {
+  "en": "Falling technology costs have helped propel the rapid expansion of solar power.",
+  "zh": "技术成本的下降推动了太阳能的快速扩张。"
+ },
+ "R3677": {
+  "en": "The authors propose a model in which social and environmental factors interact over time.",
+  "zh": "作者提出了一个模型，其中社会因素与环境因素随着时间的推移相互作用。"
+ },
+ "R3684": {
+  "en": "Restoring coastal wetlands can protect communities from storm surges while supporting biodiversity.",
+  "zh": "恢复沿海湿地可以保护社区免受风暴潮侵袭，同时有助于维护生物多样性。"
+ },
+ "R3691": {
+  "en": "Longitudinal studies provide stronger evidence about change over time than single cross-sectional surveys.",
+  "zh": "与单次横断面调查相比，纵向研究能就随时间发生的变化提供更有力的证据。"
+ },
+ "R3706": {
+  "en": "Researchers are expected to publish methods clearly enough for other teams to evaluate the work.",
+  "zh": "研究人员应当把方法公布得足够清楚，以便其他团队能够评价其工作。"
+ },
+ "R3708": {
+  "en": "Regulatory systems may punish repeated non-compliance with fines or restrictions on operation.",
+  "zh": "监管体系可以对屡次违规行为处以罚款或限制其运营。"
+ },
+ "R3712": {
+  "en": "The observed change cannot be explained purely by economic factors.",
+  "zh": "所观察到的变化无法纯粹用经济因素来解释。"
+ },
+ "R3714": {
+  "en": "Natural wetlands can help purify water by trapping sediment and absorbing nutrients.",
+  "zh": "天然湿地可以通过截留沉积物和吸收养分来帮助净化水质。"
+ },
+ "R3715": {
+  "en": "Governments may pursue economic growth while also attempting to reduce carbon emissions.",
+  "zh": "政府可能在追求经济增长的同时努力减少碳排放。"
+ },
+ "R3716": {
+  "en": "Rapid urban growth can put considerable pressure on housing, transport and public services.",
+  "zh": "城市的快速增长会给住房、交通和公共服务带来相当大的压力。"
+ },
+ "R3721": {
+  "en": "Participants had to meet several criteria to qualify for inclusion in the clinical trial.",
+  "zh": "参与者必须满足若干标准，才有资格被纳入该临床试验。"
+ },
+ "R3726": {
+  "en": "The researchers used statistical models to quantify the effect of income on educational attainment.",
+  "zh": "研究人员使用统计模型来量化收入对教育程度的影响。"
+ },
+ "R3729": {
+  "en": "The relationship was assessed quantitatively using regression analysis.",
+  "zh": "该关系通过回归分析进行了定量评估。"
+ },
+ "R3741": {
+  "en": "The report quotes national census figures to illustrate the scale of population change.",
+  "zh": "该报告援引全国人口普查数据来说明人口变化的规模。"
+ },
+ "R3742": {
+  "en": "Dark urban surfaces absorb solar energy during the day and radiate heat after sunset.",
+  "zh": "深色的城市表面在白天吸收太阳能，日落后释放热量。"
+ },
+ "R3751": {
+  "en": "Researchers randomized participants into treatment and control groups to reduce selection bias.",
+  "zh": "研究人员将参与者随机分入治疗组和对照组，以减少选择偏倚。"
+ },
+ "R3754": {
+  "en": "Participants were randomly assigned to one of two groups.",
+  "zh": "参与者被随机分配到两个组中的一个。"
+ },
+ "R3760": {
+  "en": "The urban population expanded rapidly during the second half of the century.",
+  "zh": "本世纪下半叶，城市人口迅速增长。"
+ },
+ "R3762": {
+  "en": "Such extreme events rarely occur under stable climatic conditions.",
+  "zh": "在稳定的气候条件下，此类极端事件很少发生。"
+ },
+ "R3764": {
+  "en": "The evidence points to a gradual rather than sudden transition.",
+  "zh": "证据表明这是一种渐进而非突发的转变。"
+ },
+ "R3769": {
+  "en": "Plants react to changes in light by altering the orientation and growth of their leaves.",
+  "zh": "植物通过改变叶片的朝向和生长来应对光照变化。"
+ },
+ "R3775": {
+  "en": "The material readily absorbs moisture from the surrounding air.",
+  "zh": "这种材料很容易吸收周围空气中的水分。"
+ },
+ "R3783": {
+  "en": "Researchers gradually realized that the original model could not explain the full pattern in the data.",
+  "zh": "研究人员逐渐意识到，原有模型无法解释数据中的全部规律。"
+ },
+ "R3788": {
+  "en": "Authorities may need to reassess flood risk as sea levels continue to rise.",
+  "zh": "随着海平面持续上升，当局可能有必要重新评估洪水风险。"
+ },
+ "R3793": {
+  "en": "Participants were asked to recall what they had eaten during the previous 24 hours.",
+  "zh": "参与者被要求回忆自己在过去24小时内吃了什么。"
+ },
+ "R3794": {
+  "en": "The treatment group received the intervention for twelve weeks before the final assessment.",
+  "zh": "治疗组在最终评估之前接受了为期十二周的干预。"
+ },
+ "R3796": {
+  "en": "Researchers have recently reported similar results in several countries.",
+  "zh": "研究人员最近在多个国家报告了类似的结果。"
+ },
+ "R3806": {
+  "en": "The authors recognize that self-reported behaviour may differ from actual behaviour.",
+  "zh": "作者们承认，自我报告的行为可能与实际行为存在差异。"
+ },
+ "R3807": {
+  "en": "The review recommends further monitoring before the policy is expanded nationwide.",
+  "zh": "该综述建议在该政策全国推广之前进行进一步监测。"
+ },
+ "R3812": {
+  "en": "Scientists reconstructed past temperatures using evidence preserved in tree rings and ice cores.",
+  "zh": "科学家利用保存在树木年轮和冰芯中的证据重建了过去的温度。"
+ },
+ "R3816": {
+  "en": "Some ecosystems recover rapidly after disturbance, while others remain altered for decades.",
+  "zh": "一些生态系统在受到干扰后迅速恢复，另一些则在数十年内持续处于改变状态。"
+ },
+ "R3818": {
+  "en": "The study recruited participants from schools, workplaces and community organisations.",
+  "zh": "该研究从学校、工作场所和社区组织招募了参与者。"
+ },
+ "R3820": {
+  "en": "Seasonal water shortages recur each year when rainfall is below average.",
+  "zh": "当降雨量低于平均水平时，季节性缺水每年都会反复出现。"
+ },
+ "R3824": {
+  "en": "Tax and welfare policies can redistribute income between different social groups.",
+  "zh": "税收与福利政策可以在不同社会群体之间重新分配收入。"
+ },
+ "R3826": {
+  "en": "Improved insulation can reduce household energy use during cold weather.",
+  "zh": "改善保温隔热性能可以降低寒冷天气下的家庭能耗。"
+ },
+ "R3830": {
+  "en": "The term refers to a process in which resources are transferred between generations.",
+  "zh": "该术语指的是资源在不同世代之间转移的过程。"
+ },
+ "R3832": {
+  "en": "Researchers refined the model after comparing its predictions with newly collected data.",
+  "zh": "研究人员将模型预测与新收集的数据进行比较后，对模型作了改进。"
+ },
+ "R3834": {
+  "en": "The higher rate may reflect differences in access to preventive health care.",
+  "zh": "较高的比率可能反映了获得预防性医疗服务机会的差异。"
+ },
+ "R3841": {
+  "en": "Some forests can regenerate naturally once grazing pressure is reduced.",
+  "zh": "一旦放牧压力减轻，一些森林便能自然再生。"
+ },
+ "R3846": {
+  "en": "The sensor registered a sharp increase in temperature shortly after sunrise.",
+  "zh": "日出后不久，传感器便记录到温度的急剧上升。"
+ },
+ "R3850": {
+  "en": "Government agencies regulate water quality by setting and enforcing minimum standards.",
+  "zh": "政府机构通过制定并执行最低标准来监管水质。"
+ },
+ "R3852": {
+  "en": "The project aims to rehabilitate degraded wetlands by restoring natural water flows.",
+  "zh": "该项目旨在通过恢复自然水流来修复退化的湿地。"
+ },
+ "R3855": {
+  "en": "Repeated exposure to the same information can reinforce existing beliefs.",
+  "zh": "反复接触相同的信息会强化已有的信念。"
+ },
+ "R3859": {
+  "en": "Researchers rejected the original hypothesis after the predicted relationship failed to appear.",
+  "zh": "在预期的关联未能出现之后，研究人员否定了最初的假设。"
+ },
+ "R3861": {
+  "en": "The analysis relates changes in household income to differences in educational participation.",
+  "zh": "该分析将家庭收入的变化与教育参与的差异联系起来。"
+ },
+ "R3866": {
+  "en": "The effect remained relatively small despite the larger sample size.",
+  "zh": "尽管样本量更大，效应仍相对较小。"
+ },
+ "R3876": {
+  "en": "Many rural communities rely on groundwater during periods of low rainfall.",
+  "zh": "在降雨偏少的时期，许多农村社区依赖地下水。"
+ },
+ "R3877": {
+  "en": "Average mortality remained stable despite substantial changes in the age structure of the population.",
+  "zh": "尽管人口的年龄结构发生了重大变化，平均死亡率仍保持稳定。"
+ },
+ "R3883": {
+  "en": "Filtering can remove suspended particles before the water undergoes further treatment.",
+  "zh": "在水接受进一步处理之前，过滤可以去除悬浮颗粒。"
+ },
+ "R3887": {
+  "en": "Some governments provide incentives to renew ageing infrastructure with more efficient systems.",
+  "zh": "一些政府提供激励措施，用更高效的系统更新老旧的基础设施。"
+ },
+ "R3892": {
+  "en": "Many countries are gradually replacing coal-fired electricity with lower-carbon sources.",
+  "zh": "许多国家正逐步用低碳能源取代燃煤发电。"
+ },
+ "R3895": {
+  "en": "Independent teams were unable to replicate the unusually large effect reported in the original study.",
+  "zh": "独立团队未能重现原研究中报告的异常大的效应。"
+ },
+ "R3899": {
+  "en": "Participants from rural areas represented about one quarter of the final sample.",
+  "zh": "来自农村地区的参与者约占最终样本的四分之一。"
+ },
+ "R3904": {
+  "en": "The experiment was repeated to determine whether the original result could be reproduced.",
+  "zh": "实验被重复进行，以确定原结果能否重现。"
+ },
+ "R3909": {
+  "en": "Large infrastructure projects require substantial investment before any benefits are realized.",
+  "zh": "大型基础设施项目在产生任何效益之前都需要大量投资。"
+ },
+ "R3913": {
+  "en": "The newly discovered fossil closely resembles species found in neighbouring regions.",
+  "zh": "新发现的化石与邻近地区发现的物种十分相似。"
+ },
+ "R3923": {
+  "en": "Some crop varieties resist drought more effectively than conventional strains.",
+  "zh": "一些作物品种比传统品种更能耐受干旱。"
+ },
+ "R3927": {
+  "en": "Additional data are needed to resolve the disagreement between the two competing explanations.",
+  "zh": "需要更多数据来解决两种相互竞争的解释之间的分歧。"
+ },
+ "R3933": {
+  "en": "Participants responded more quickly when the visual signal was easier to distinguish.",
+  "zh": "当视觉信号更容易辨别时，参与者的反应更快。"
+ },
+ "R3940": {
+  "en": "Replanting native vegetation can restore soil stability and improve water retention.",
+  "zh": "重新种植本地植被可以恢复土壤稳定性并提高保水能力。"
+ },
+ "R3941": {
+  "en": "Water shortages may force authorities to restrict household consumption during dry periods.",
+  "zh": "在干旱时期，水资源短缺可能迫使当局限制家庭用水。"
+ },
+ "R3947": {
+  "en": "Dense urban materials retain heat after sunset and contribute to higher night-time temperatures.",
+  "zh": "致密的城市建筑材料在日落后仍留存热量，致使夜间气温升高。"
+ },
+ "R3951": {
+  "en": "Digital archives allow researchers to retrieve historical records quickly and systematically.",
+  "zh": "数字档案使研究人员能够快速、系统地检索历史记录。"
+ },
+ "R3956": {
+  "en": "Long-term monitoring revealed a gradual shift in the timing of seasonal migration.",
+  "zh": "长期监测揭示出季节性迁徙时间上的逐渐变化。"
+ },
+ "R3958": {
+  "en": "Early intervention can sometimes reverse a decline before it becomes permanent.",
+  "zh": "早期干预有时能在衰退变得不可逆转之前将其扭转。"
+ },
+ "R3961": {
+  "en": "Researchers revised their estimates after higher-quality population data became available.",
+  "zh": "在获得质量更高的人口数据之后，研究人员修订了原有的估计。"
+ },
+ "R3965": {
+  "en": "Low-cost genetic sequencing has revolutionized the study of biodiversity and disease transmission.",
+  "zh": "低成本基因测序彻底改变了生物多样性和疾病传播研究。"
+ },
+ "R3978": {
+  "en": "The study examines the role of role in explaining differences observed across populations.",
+  "zh": "该研究考察了某一因素在解释不同人群之间观察到的差异时所起的作用。"
+ },
+ "R3980": {
+  "en": "Roughly one quarter of the sample reported changing their travel habits.",
+  "zh": "约四分之一的样本报告称自己的出行习惯发生了变化。"
+ },
+ "R3988": {
+  "en": "Strong privacy rules can safeguard participants’ personal information during long-term research.",
+  "zh": "严格的隐私规则可以在长期研究过程中保护参与者的个人信息。"
+ },
+ "R4004": {
+  "en": "The report says that transport emissions are likely to rise unless travel behaviour changes.",
+  "zh": "报告指出，除非出行行为发生变化，否则交通排放量可能上升。"
+ },
+ "R4012": {
+  "en": "Strong winds scatter seeds over long distances and help some plants colonize new areas.",
+  "zh": "强风可将种子散布到很远的地方，帮助一些植物在新的区域扎根繁衍。"
+ },
+ "R4044": {
+  "en": "Researchers began to see a clear decline after the second year of monitoring.",
+  "zh": "监测进入第二年之后，研究人员开始观察到明显的下降。"
+ },
+ "R4045": {
+  "en": "The intervention seems to improve short-term outcomes, although the long-term effect remains uncertain.",
+  "zh": "该干预似乎能改善短期结果，但其长期效果仍不确定。"
+ },
+ "R4051": {
+  "en": "Researchers selected households from both urban and rural areas to improve the representativeness of the sample.",
+  "zh": "研究人员从城市和农村地区选取家庭，以提高样本的代表性。"
+ },
+ "R4088": {
+  "en": "Several studies have reported a similar relationship between sleep and memory.",
+  "zh": "多项研究报告了睡眠与记忆之间的类似关联。"
+ },
+ "R4089": {
+  "en": "The drought severely reduced crop yields across the region.",
+  "zh": "这场干旱严重降低了整个地区的农作物产量。"
+ },
+ "R4097": {
+  "en": "These results should be interpreted cautiously because the sample was not representative.",
+  "zh": "由于样本不具代表性，应谨慎解读这些结果。"
+ },
+ "R4098": {
+  "en": "The results show a steady increase in average household energy use over time.",
+  "zh": "结果显示，家庭平均能耗随时间稳步上升。"
+ },
+ "R4099": {
+  "en": "Glaciers are expected to shrink further if average temperatures continue to rise.",
+  "zh": "如果平均气温继续上升，冰川预计将进一步退缩。"
+ },
+ "R4106": {
+  "en": "Average scores increased significantly after the intervention.",
+  "zh": "干预之后，平均得分显著提高。"
+ },
+ "R4111": {
+  "en": "The two age groups responded similarly to the intervention.",
+  "zh": "两个年龄组对干预的反应相似。"
+ },
+ "R4112": {
+  "en": "The model simulates future flood risk under several different climate scenarios.",
+  "zh": "该模型模拟了若干不同气候情景下的未来洪水风险。"
+ },
+ "R4117": {
+  "en": "Temperature and humidity were recorded simultaneously throughout the experiment.",
+  "zh": "整个实验过程中，温度和湿度被同时记录。"
+ },
+ "R4118": {
+  "en": "Since the policy was introduced, average waiting times have fallen substantially.",
+  "zh": "自该政策实施以来，平均等候时间已大幅缩短。"
+ },
+ "R4130": {
+  "en": "The sample was small, so the findings should be interpreted with caution.",
+  "zh": "由于样本较小，应谨慎解读这些发现。"
+ },
+ "R4132": {
+  "en": "The results suggest that social factors may influence long-term social and environmental outcomes.",
+  "zh": "结果表明，社会因素可能对长期的社会和环境结果产生影响。"
+ },
+ "R4161": {
+  "en": "Improved infrastructure alone is unlikely to solve the wider problem of unequal access to services.",
+  "zh": "单靠改善基础设施不太可能解决服务获取不平等这一更广泛的问题。"
+ },
+ "R4164": {
+  "en": "Some species are more sensitive to temperature change than others.",
+  "zh": "一些物种对温度变化的敏感程度高于其他物种。"
+ },
+ "R4166": {
+  "en": "Something as simple as sleep duration can influence performance on memory tasks.",
+  "zh": "像睡眠时长这样简单的因素也会影响记忆任务的表现。"
+ },
+ "R4167": {
+  "en": "Participants sometimes changed their answers after receiving additional information.",
+  "zh": "参与者在获得额外信息后有时会更改自己的答案。"
+ },
+ "R4174": {
+  "en": "Some research centres specialize in monitoring infectious diseases and emerging pathogens.",
+  "zh": "一些研究中心专门从事传染病和新发病原体的监测。"
+ },
+ "R4178": {
+  "en": "The survey specifically examined attitudes toward public transport.",
+  "zh": "该调查专门考察了人们对公共交通的态度。"
+ },
+ "R4181": {
+  "en": "The protocol specifies the temperature at which all samples must be stored.",
+  "zh": "该方案明确规定了所有样品的储存温度。"
+ },
+ "R4188": {
+  "en": "Conservation measures helped stabilize the population after several years of decline.",
+  "zh": "在种群数量连续下降数年之后，保护措施使其趋于稳定。"
+ },
+ "R4196": {
+  "en": "Researchers standardized the measurement procedure so that results from different sites could be compared.",
+  "zh": "研究人员对测量程序作了标准化处理，以便对不同地点的结果进行比较。"
+ },
+ "R4204": {
+  "en": "The difference was statistically significant after adjustment for age.",
+  "zh": "经年龄校正后，该差异具有统计学意义。"
+ },
+ "R4209": {
+  "en": "Average life expectancy increased steadily over the study period.",
+  "zh": "研究期间，平均预期寿命稳步提高。"
+ },
+ "R4215": {
+  "en": "The association was still significant after income and age were taken into account.",
+  "zh": "在计入收入和年龄因素后，该关联仍然显著。"
+ },
+ "R4216": {
+  "en": "Moderate levels of exercise can stimulate physiological adaptations that improve cardiovascular fitness.",
+  "zh": "适度运动可以刺激生理适应，进而改善心血管健康。"
+ },
+ "R4229": {
+  "en": "Digital records can streamline administrative processes and reduce the time required to retrieve information.",
+  "zh": "数字记录能够简化行政流程，减少检索信息所需的时间。"
+ },
+ "R4242": {
+  "en": "The researchers subdivided the sample into four age groups for further analysis.",
+  "zh": "研究人员将样本细分为四个年龄组，以便作进一步分析。"
+ },
+ "R4249": {
+  "en": "Researchers must submit the study protocol for ethical review before collecting participant data.",
+  "zh": "研究人员必须在收集参与者数据之前将研究方案提交伦理审查。"
+ },
+ "R4252": {
+  "en": "The policy was introduced in 2018 and subsequently expanded nationwide.",
+  "zh": "该政策于2018年出台，随后在全国范围内推广。"
+ },
+ "R4254": {
+  "en": "Governments sometimes subsidize public transport to keep fares affordable for low-income households.",
+  "zh": "政府有时补贴公共交通，使低收入家庭也负担得起票价。"
+ },
+ "R4260": {
+  "en": "The new method substantially reduced processing time.",
+  "zh": "新方法大幅缩短了处理时间。"
+ },
+ "R4261": {
+  "en": "The available evidence is not sufficient to substantiate the claim that the policy caused the observed change.",
+  "zh": "现有证据不足以证实该政策导致了所观察到的变化这一说法。"
+ },
+ "R4272": {
+  "en": "Such changes are most common in regions experiencing rapid urban growth.",
+  "zh": "此类变化在经历快速城市增长的地区最为常见。"
+ },
+ "R4274": {
+  "en": "The sample was sufficiently large to detect a moderate effect.",
+  "zh": "样本量足够大，足以检测出中等程度的效应。"
+ },
+ "R4275": {
+  "en": "The final section summarizes the main findings and identifies areas requiring further research.",
+  "zh": "最后一节总结了主要发现，并指出了有待进一步研究的领域。"
+ },
+ "R4283": {
+  "en": "Digital imaging has largely superseded older photographic techniques in many areas of research.",
+  "zh": "数字成像已在许多研究领域很大程度上取代了较早的摄影技术。"
+ },
+ "R4292": {
+  "en": "Low oxygen levels can suppress microbial activity and slow the decomposition of organic matter.",
+  "zh": "低氧水平会抑制微生物活动，减缓有机物的分解。"
+ },
+ "R4298": {
+  "en": "Only a small proportion of seedlings survive prolonged periods of drought.",
+  "zh": "只有一小部分幼苗能在长期干旱中存活下来。"
+ },
+ "R4302": {
+  "en": "Authorities suspended fieldwork when severe flooding made the study area unsafe.",
+  "zh": "严重洪灾使研究区域不再安全，当局遂暂停了野外工作。"
+ },
+ "R4328": {
+  "en": "Systematic reviews synthesize evidence from multiple studies to identify consistent patterns.",
+  "zh": "系统综述综合多项研究的证据，以识别出一致的规律。"
+ },
+ "R4332": {
+  "en": "The researchers systematically reviewed all studies published during the previous two decades.",
+  "zh": "研究人员系统地回顾了此前二十年发表的所有研究。"
+ },
+ "R4338": {
+  "en": "Long-term policy is needed to tackle the structural causes of housing inequality.",
+  "zh": "解决住房不平等的结构性根源需要长期政策。"
+ },
+ "R4344": {
+  "en": "The analysis takes differences in age, income and education into account.",
+  "zh": "该分析将年龄、收入和教育方面的差异纳入了考虑。"
+ },
+ "R4380": {
+  "en": "Long-term records can tell researchers how rapidly environmental conditions have changed.",
+  "zh": "长期记录能让研究人员了解环境状况变化得有多快。"
+ },
+ "R4390": {
+  "en": "Larger cities tend to have higher housing costs and longer average commuting times.",
+  "zh": "较大的城市往往住房成本更高、平均通勤时间更长。"
+ },
+ "R4399": {
+  "en": "The trial was terminated early because the treatment produced unexpected adverse effects.",
+  "zh": "由于治疗产生了意料之外的不良反应，试验被提前终止。"
+ },
+ "R4419": {
+  "en": "The second group performed better than the first on all three measures.",
+  "zh": "第二组在所有三项指标上的表现都优于第一组。"
+ },
+ "R4421": {
+  "en": "The authors argue that early intervention can reduce long-term educational inequality.",
+  "zh": "作者们认为，早期干预可以减轻长期的教育不平等。"
+ },
+ "R4422": {
+  "en": "The results indicate a gradual decline rather than a sudden change.",
+  "zh": "结果表明这是一种渐进的下降，而非突然的变化。"
+ },
+ "R4425": {
+  "en": "Participants recorded their daily travel time for a period of two weeks.",
+  "zh": "参与者用两周时间记录了自己每天的出行时间。"
+ },
+ "R4426": {
+  "en": "Researchers asked them to complete the same task again six months later.",
+  "zh": "六个月后，研究人员请他们再次完成同一项任务。"
+ },
+ "R4428": {
+  "en": "Participants were asked to rate themselves before and after the training programme.",
+  "zh": "参与者被要求在培训项目前后对自己进行评分。"
+ },
+ "R4429": {
+  "en": "The samples were heated and then cooled to room temperature.",
+  "zh": "样品先被加热，随后冷却至室温。"
+ },
+ "R4438": {
+  "en": "There was no significant difference between the two groups at baseline.",
+  "zh": "基线时，两组之间没有显著差异。"
+ },
+ "R4440": {
+  "en": "The policy reduced travel time, thereby increasing access to employment.",
+  "zh": "该政策缩短了出行时间，从而增加了就业机会。"
+ },
+ "R4441": {
+  "en": "The sample was not representative; therefore, the findings should be interpreted cautiously.",
+  "zh": "样本不具代表性；因此，应谨慎解读这些发现。"
+ },
+ "R4449": {
+  "en": "These findings are consistent with evidence from earlier longitudinal studies.",
+  "zh": "这些发现与较早的纵向研究证据一致。"
+ },
+ "R4456": {
+  "en": "Many researchers think that social context plays an important role in shaping health behaviour.",
+  "zh": "许多研究人员认为，社会环境在塑造健康行为方面发挥着重要作用。"
+ },
+ "R4459": {
+  "en": "This pattern was observed in both urban and rural populations.",
+  "zh": "在城市和农村人群中均观察到了这一规律。"
+ },
+ "R4461": {
+  "en": "The samples were thoroughly cleaned before chemical analysis.",
+  "zh": "在进行化学分析之前，样品被彻底清洗干净。"
+ },
+ "R4462": {
+  "en": "The effect was small, though it remained statistically significant after adjustment.",
+  "zh": "该效应虽然较小，但在校正后仍具有统计学意义。"
+ },
+ "R4467": {
+  "en": "Rising sea levels threaten low-lying coastal habitats and the communities that depend on them.",
+  "zh": "海平面上升威胁着低洼的沿海栖息地以及依赖这些栖息地的社区。"
+ },
+ "R4469": {
+  "en": "Some species thrive in urban environments because food and shelter are readily available.",
+  "zh": "由于食物和栖身之所容易获得，一些物种在城市环境中繁衍兴旺。"
+ },
+ "R4470": {
+  "en": "Water moves through the soil more rapidly when large pores are present.",
+  "zh": "当存在大孔隙时，水在土壤中的流动会更快。"
+ },
+ "R4471": {
+  "en": "Temperature remained stable throughout the three-hour experiment.",
+  "zh": "在整个三小时的实验中，温度保持稳定。"
+ },
+ "R4473": {
+  "en": "The new method reduced measurement error and thus improved the reliability of the results.",
+  "zh": "新方法减少了测量误差，从而提高了结果的可靠性。"
+ },
+ "R4485": {
+  "en": "Taken together, the findings support a gradual rather than sudden change.",
+  "zh": "综合来看，这些发现支持渐变而非突变的观点。"
+ },
+ "R4488": {
+  "en": "Drought-resistant crops can tolerate lower levels of soil moisture than conventional varieties.",
+  "zh": "抗旱作物比传统品种更能耐受较低的土壤含水量。"
+ },
+ "R4492": {
+  "en": "Temperatures that are too high can reduce plant growth.",
+  "zh": "过高的温度会抑制植物生长。"
+ },
+ "R4505": {
+  "en": "Public policy gradually shifted toward greater investment in preventive health care.",
+  "zh": "公共政策逐渐转向加大对预防性保健的投入。"
+ },
+ "R4509": {
+  "en": "Chemical markers allow researchers to trace pollutants back to their original source.",
+  "zh": "化学标记物使研究人员能够将污染物追溯到其最初来源。"
+ },
+ "R4524": {
+  "en": "Participants were trained to use the monitoring equipment before field measurements began.",
+  "zh": "在野外测量开始之前，参与者接受了监测设备的使用培训。"
+ },
+ "R4538": {
+  "en": "Heat is transferred from warmer surfaces to cooler air through several physical processes.",
+  "zh": "热量通过若干物理过程从较暖的表面传递到较冷的空气中。"
+ },
+ "R4540": {
+  "en": "Digital technologies have transformed the way researchers collect, store and analyse data.",
+  "zh": "数字技术已经改变了研究人员收集、存储和分析数据的方式。"
+ },
+ "R4549": {
+  "en": "Scientific evidence does not always translate directly into changes in public policy.",
+  "zh": "科学证据并不总能直接转化为公共政策的变化。"
+ },
+ "R4556": {
+  "en": "Mosquitoes can transmit infectious diseases between human populations.",
+  "zh": "蚊子可以在不同人群之间传播传染病。"
+ },
+ "R4563": {
+  "en": "Rivers transport sediment from inland regions toward the coast.",
+  "zh": "河流将泥沙从内陆地区输送到海岸。"
+ },
+ "R4566": {
+  "en": "Airborne particles can travel hundreds of kilometres before settling on the ground.",
+  "zh": "空气中的颗粒物可飘行数百公里才落到地面。"
+ },
+ "R4567": {
+  "en": "The water was treated with ultraviolet light before being released from the facility.",
+  "zh": "水在从该设施排放之前接受了紫外线处理。"
+ },
+ "R4583": {
+  "en": "A sudden drop in temperature can trigger physiological changes in some plant species.",
+  "zh": "气温骤降会引发某些植物物种的生理变化。"
+ },
+ "R4616": {
+  "en": "These species typically reproduce during the wet season.",
+  "zh": "这些物种通常在雨季繁殖。"
+ },
+ "R4621": {
+  "en": "Ultimately, the success of the policy depends on whether it can be implemented consistently.",
+  "zh": "归根结底，该政策能否成功取决于其能否得到一以贯之的执行。"
+ },
+ "R4640": {
+  "en": "Under laboratory conditions, the material remained stable for several weeks.",
+  "zh": "在实验室条件下，该材料保持稳定达数周之久。"
+ },
+ "R4643": {
+  "en": "Short-term surveys may underestimate the full impact of chronic exposure to air pollution.",
+  "zh": "短期调查可能低估长期暴露于空气污染的整体影响。"
+ },
+ "R4644": {
+  "en": "The material undergoes a structural change when heated above a critical temperature.",
+  "zh": "加热到临界温度以上时，该材料会发生结构变化。"
+ },
+ "R4647": {
+  "en": "Differences in access to education may underlie part of the observed income gap.",
+  "zh": "受教育机会的差异可能是所观察到的收入差距的部分根源。"
+ },
+ "R4650": {
+  "en": "Poor enforcement can undermine otherwise well-designed environmental regulations.",
+  "zh": "执行不力会削弱本来设计良好的环境法规。"
+ },
+ "R4655": {
+  "en": "Researchers need long-term data to understand how ecosystems respond to gradual climate change.",
+  "zh": "研究人员需要长期数据来理解生态系统如何应对渐进的气候变化。"
+ },
+ "R4657": {
+  "en": "The research team undertook a large-scale survey of household energy use.",
+  "zh": "该研究团队开展了一项大规模的家庭能源使用调查。"
+ },
+ "R4662": {
+  "en": "The discovery undoubtedly influenced later research in the field.",
+  "zh": "这一发现无疑影响了该领域后来的研究。"
+ },
+ "R4673": {
+  "en": "A common classification system can unify data collected by different research teams.",
+  "zh": "统一的分类体系可以整合不同研究团队收集的数据。"
+ },
+ "R4680": {
+  "en": "Shared environmental goals can unite communities that otherwise have different economic interests.",
+  "zh": "共同的环境目标能够把经济利益本不相同的社区团结起来。"
+ },
+ "R4686": {
+  "en": "Unlike the control group, participants receiving the intervention improved over time.",
+  "zh": "与对照组不同，接受干预的参与者随时间推移有所改善。"
+ },
+ "R4698": {
+  "en": "The effect remained stable until the temperature exceeded 40 degrees Celsius.",
+  "zh": "在温度超过40摄氏度之前，该效应一直保持稳定。"
+ },
+ "R4701": {
+  "en": "As temperatures went up, the rate of evaporation also increased.",
+  "zh": "随着气温上升，蒸发速率也随之加快。"
+ },
+ "R4702": {
+  "en": "Researchers update the model whenever new population estimates become available.",
+  "zh": "每当有新的人口估计数据可用，研究人员就会更新模型。"
+ },
+ "R4706": {
+  "en": "Upon exposure to light, the compound begins to break down rapidly.",
+  "zh": "一旦暴露于光照，该化合物便开始迅速分解。"
+ },
+ "R4715": {
+  "en": "Public health experts urge governments to reduce exposure to preventable environmental risks.",
+  "zh": "公共卫生专家敦促各国政府降低民众接触可预防环境风险的机会。"
+ },
+ "R4720": {
+  "en": "The study uses satellite imagery to estimate changes in forest cover.",
+  "zh": "该研究利用卫星图像估算森林覆盖的变化。"
+ },
+ "R4726": {
+  "en": "The process usually takes several days under laboratory conditions.",
+  "zh": "在实验室条件下，该过程通常需要数天时间。"
+ },
+ "R4729": {
+  "en": "Some rural clinics utilize mobile technology to reach patients living far from major hospitals.",
+  "zh": "一些农村诊所利用移动技术服务那些居住地远离大医院的患者。"
+ },
+ "R4736": {
+  "en": "Public health programmes aim to vaccinate vulnerable groups before seasonal infection rates rise.",
+  "zh": "公共卫生项目旨在赶在季节性感染率上升之前为易感人群接种疫苗。"
+ },
+ "R4744": {
+  "en": "Researchers validated the model using an independent dataset collected in another region.",
+  "zh": "研究人员利用在另一地区收集的独立数据集验证了该模型。"
+ },
+ "R4759": {
+  "en": "Average household energy use varies considerably by income, climate and building type.",
+  "zh": "家庭平均能耗随收入、气候和建筑类型的不同而有很大差异。"
+ },
+ "R4777": {
+  "en": "Independent measurements were used to verify the accuracy of the original estimates.",
+  "zh": "独立测量数据被用来核实最初估计的准确性。"
+ },
+ "R4787": {
+  "en": "The two groups showed very similar patterns of response.",
+  "zh": "两组表现出非常相似的反应模式。"
+ },
+ "R4800": {
+  "en": "Companies that violate environmental standards may face substantial financial penalties.",
+  "zh": "违反环境标准的公司可能面临巨额经济处罚。"
+ },
+ "R4808": {
+  "en": "The two groups were virtually identical at baseline.",
+  "zh": "基线时，两组几乎完全相同。"
+ },
+ "R4820": {
+  "en": "Researchers use maps and graphs to visualize spatial patterns in disease incidence.",
+  "zh": "研究人员利用地图和图表直观呈现疾病发病率的空间分布规律。"
+ },
+ "R4850": {
+  "en": "Many households want to reduce energy costs but lack the capital required for major improvements.",
+  "zh": "许多家庭希望降低能源成本，但缺乏进行重大改造所需的资金。"
+ },
+ "R4854": {
+  "en": "Scientists warn that continued habitat loss could push several species toward extinction.",
+  "zh": "科学家警告说，栖息地的持续丧失可能把若干物种推向灭绝。"
+ },
+ "R4856": {
+  "en": "The unexpected difference was large enough to warrant further investigation.",
+  "zh": "这一出人意料的差异足够大，有必要作进一步调查。"
+ },
+ "R4878": {
+  "en": "Repeated drought can weaken trees and make them more vulnerable to disease.",
+  "zh": "反复干旱会削弱树木，使其更容易染病。"
+ },
+ "R4890": {
+  "en": "Policy makers must weigh the economic benefits of development against potential environmental damage.",
+  "zh": "决策者必须在发展的经济效益与潜在的环境损害之间进行权衡。"
+ },
+ "R4894": {
+  "en": "The model performed well when applied to an independent dataset.",
+  "zh": "该模型应用于独立数据集时表现良好。"
+ },
+ "R4904": {
+  "en": "The study examines what happens when access to public transport improves.",
+  "zh": "该研究考察了公共交通的可及性提高时会出现什么情况。"
+ },
+ "R4905": {
+  "en": "The researchers recorded when each participant first showed signs of improvement.",
+  "zh": "研究人员记录了每位参与者首次出现改善迹象的时间。"
+ },
+ "R4906": {
+  "en": "The effect was strongest in regions where access to clean water remained limited.",
+  "zh": "在清洁水供应仍然有限的地区，该效应最强。"
+ },
+ "R4907": {
+  "en": "Urban populations increased rapidly, whereas rural populations remained relatively stable.",
+  "zh": "城市人口迅速增长，而农村人口保持相对稳定。"
+ },
+ "R4908": {
+  "en": "The authors describe a process whereby repeated exposure leads to long-term adaptation.",
+  "zh": "作者们描述了一个过程，在这一过程中，反复接触会导致长期适应。"
+ },
+ "R4910": {
+  "en": "The study examined whether early exposure influenced later language development.",
+  "zh": "该研究考察了早期接触是否会影响日后的语言发展。"
+ },
+ "R4911": {
+  "en": "The device, which records temperature every minute, was calibrated before use.",
+  "zh": "该设备每分钟记录一次温度，并在使用前经过了校准。"
+ },
+ "R4912": {
+  "en": "While overall mortality declined, the gap between income groups remained substantial.",
+  "zh": "尽管总体死亡率有所下降，但不同收入群体之间的差距仍然很大。"
+ },
+ "R4914": {
+  "en": "Participants who completed the training made fewer errors in the final assessment.",
+  "zh": "完成培训的参与者在最终评估中出现的错误更少。"
+ },
+ "R4917": {
+  "en": "The researchers attempted to explain why the two populations responded differently to the same environmental pressure.",
+  "zh": "研究人员试图解释为何两个种群对同样的环境压力反应不同。"
+ },
+ "R4919": {
+  "en": "The method is widely used in environmental research.",
+  "zh": "该方法在环境研究中得到广泛应用。"
+ },
+ "R4920": {
+  "en": "Unequal access to digital technology can widen existing educational inequalities.",
+  "zh": "数字技术获取机会的不平等会加剧既有的教育不平等。"
+ },
+ "R4927": {
+  "en": "Future research will need to examine whether the same pattern occurs in other populations.",
+  "zh": "未来的研究将需要考察其他人群中是否也会出现同样的规律。"
+ },
+ "R4938": {
+  "en": "The treatment was associated with a modest improvement in average test scores.",
+  "zh": "该治疗与平均考试成绩的适度提高相关。"
+ },
+ "R4939": {
+  "en": "Participants were free to withdraw from the study at any time.",
+  "zh": "参与者可以随时自由退出研究。"
+ },
+ "R4941": {
+  "en": "Within five years, the number of households with internet access had doubled.",
+  "zh": "五年之内，接入互联网的家庭数量翻了一番。"
+ },
+ "R4944": {
+  "en": "Without reliable baseline data, it is difficult to measure the true size of the change.",
+  "zh": "没有可靠的基线数据，就难以衡量这一变化的真实幅度。"
+ },
+ "R4945": {
+  "en": "The material can withstand high temperatures without losing structural strength.",
+  "zh": "这种材料能够承受高温而不丧失结构强度。"
+ },
+ "R4965": {
+  "en": "A larger sample would provide a more precise estimate of the effect.",
+  "zh": "更大的样本将提供对效应更精确的估计。"
+ },
+ "R4966": {
+  "en": "Researchers wrote a detailed report describing the methods, results and limitations of the study.",
+  "zh": "研究人员撰写了一份详细的报告，描述了研究的方法、结果和局限。"
+ },
+ "R4969": {
+  "en": "Written records provide important evidence about how social institutions changed over time.",
+  "zh": "书面记录为研究社会制度如何随时间演变提供了重要证据。"
+ },
+ "R4984": {
+  "en": "The second experiment yielded results that were consistent with the original findings.",
+  "zh": "第二次实验得出的结果与最初的发现一致。"
+ },
+ "R0178": {
+  "en": "After the samples were collected, they were stored at a constant temperature.",
+  "zh": "样本采集完成后，被存放在恒定温度下。"
+ },
+ "R3275": {
+  "en": "Once the samples were collected, they were stored at a constant temperature.",
+  "zh": "样本一经采集，就被存放在恒定温度下。"
+ },
+ "R0180": {
+  "en": "Participants completed a questionnaire immediately after the task and were interviewed afterward.",
+  "zh": "参与者在任务结束后立即完成了问卷，随后接受了访谈。"
+ },
+ "R0181": {
+  "en": "Participants completed a questionnaire immediately after the task and were interviewed afterwards.",
+  "zh": "参与者在任务结束后立即完成了问卷，之后接受了访谈。"
+ }
+}

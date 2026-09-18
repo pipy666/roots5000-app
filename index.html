@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1,user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="theme-color" content="#fff4fa" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>IELTS Roots 5000</title>
+</head>
+<body data-theme="strawberry">
+  <div class="bg" id="bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  </div>
+
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-view="learn" aria-label="返回学习页">
+        <span class="logo">🌸</span><span>Roots <em>5000</em></span>
+      </button>
+      <div class="top-actions">
+        <span class="streak">🔥 <b id="streakNum">1</b> 天</span>
+        <button class="icon-btn" id="settingsBtn" aria-label="设置">⚙️</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="view active" id="view-learn">
+        <div class="daybar">
+          <div>
+            <div class="eyebrow">TODAY</div>
+            <h1>今天的词根卡</h1>
+            <div class="day-sub" id="daySub">新词 0 / 50 · 复习 0 / 0</div>
+          </div>
+          <button class="goal-chip" id="goalBtn">50 新词 ▾</button>
+        </div>
+        <div class="progress-wrap" aria-label="今日进度">
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          <span id="progressPct">0%</span>
+        </div>
+        <div class="rhythm-strip" id="rhythmStrip" aria-label="接下来学习节奏"></div>
+
+        <div class="study-layout">
+          <div class="study-main">
+            <div class="stage" id="stage"></div>
+            <div class="verdict" id="verdict"></div>
+          </div>
+          <aside class="study-side" id="familySide" aria-live="polite"></aside>
+        </div>
+      </section>
+
+      <section class="view" id="view-lexicon">
+        <div class="page-head"><div><div class="eyebrow">A–Z LEXICON · STRUCTURE MAP</div><h2>词库</h2></div><p>查词与构词地图合并在本页：搜索、按字母跳转，或从词根出发看整个词族。</p></div>
+        <div class="seg-row" style="margin-bottom:12px">
+          <button class="seg active" data-browse="words">🔤 查词</button>
+          <button class="seg" data-browse="structures">🌳 构词地图</button>
+        </div>
+        <div id="browseWords">
+          <div class="lexicon-toolbar">
+            <input id="lexiconSearch" class="search" placeholder="搜索单词或中文义…" />
+            <div class="seg-row compact">
+              <button class="seg active" data-tier-filter="All">全部</button>
+              <button class="seg" data-tier-filter="Core">Core</button>
+              <button class="seg" data-tier-filter="Reading">Reading</button>
+            </div>
+          </div>
+          <div class="alphabet-bar" id="alphabetBar" aria-label="按字母浏览"></div>
+          <div class="lexicon-meta"><b id="lexiconCount">0</b><span> 个词</span></div>
+          <div class="lexicon-list" id="lexiconList"></div>
+        </div>
+        <div id="browseStructures" hidden>
+          <div class="structure-tools">
+            <div class="seg-row">
+              <button class="seg" data-structure-mode="prefix">前缀</button>
+              <button class="seg active" data-structure-mode="root">词根</button>
+              <button class="seg" data-structure-mode="suffix">后缀</button>
+            </div>
+            <input id="structureSearch" class="search" placeholder="搜索结构或单词…" />
+          </div>
+          <div class="family-grid" id="structureMap"></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-quiz">
+        <div class="page-head"><div><div class="eyebrow">QUIZ</div><h2>20 题一轮</h2></div><p>认义、构词、拼写三种题型混合；一轮结束后停止，不会无限出题。</p></div>
+        <div class="quiz-mode-row">
+          <button class="seg active" data-quiz-mode="mix">混合</button>
+          <button class="seg" data-quiz-mode="meaning">认义</button>
+          <button class="seg" data-quiz-mode="structure">构词</button>
+          <button class="seg" data-quiz-mode="spell">拼写</button>
+          <button class="seg" data-quiz-mode="wrong">错词</button>
+        </div>
+        <div id="quizArea"></div>
+      </section>
+
+      <section class="view" id="view-me">
+        <div class="page-head"><div><div class="eyebrow">MY ROOTS</div><h2>学习状态</h2></div><p>核心 3000 深度掌握，Reading 2000 以阅读识别为主。</p></div>
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="panel">
+          <div class="panel-title-row"><h3>掌握进度</h3><span class="muted">按词库层级</span></div>
+          <div class="progress-line"><div><span>Core</span><b id="coreProgressText">0 / 3000</b></div><div class="mini-track"><i id="coreProgressFill"></i></div></div>
+          <div class="progress-line"><div><span>Reading</span><b id="readingProgressText">0 / 2000</b></div><div class="mini-track"><i id="readingProgressFill"></i></div></div>
+        </div>
+        <div class="panel">
+          <div class="panel-title-row"><h3>当前薄弱结构</h3><span class="muted">按错词累计</span></div>
+          <div id="weakStructures" class="weak-list"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-title-row"><h3>错词本</h3><button class="secondary tiny" id="wrongReviewBtn">复习错词</button></div>
+          <div id="wrongWords" class="wrong-list"></div>
+        </div>
+        <div class="panel">
+          <h3>词库状态</h3>
+          <div class="status-row"><span>Core</span><b id="coreCount">3000</b></div>
+          <div class="status-row"><span>Reading</span><b id="readingCount">2000</b></div>
+          <div class="status-row"><span>当前数据</span><b>QA 中</b></div>
+          <div class="status-row"><span>应用版本</span><b>v0.3.1</b></div>
+          <p class="muted">应用框架与词库内容分离。词条继续精修时，只替换 data/words.js 即可。</p>
+        </div>
+      </section>
+    </main>
+
+    <nav class="tabbar" aria-label="主导航">
+      <button class="tab active" data-view="learn"><span>🌸</span><b>学习</b></button>
+      <button class="tab" data-view="lexicon"><span>🔤</span><b>词库</b></button>
+      <button class="tab" data-view="quiz"><span>✍️</span><b>测验</b></button>
+      <button class="tab" data-view="me"><span>👤</span><b>我的</b></button>
+    </nav>
+  </div>
+
+  <div class="modal-mask" id="startMask">
+    <div class="start-card">
+      <div class="start-emoji">🌸</div>
+      <h2>开始今天的学习</h2>
+      <p>点一次后解锁 iPhone / iPad 发音。之后每张新卡进入时只自动读一次。</p>
+      <button class="primary big" id="startBtn">开始今天的学习</button>
+      <label class="toggle-line"><input type="checkbox" id="startAutoSpeak" checked /><span>自动朗读新词</span></label>
+    </div>
+  </div>
+
+  <div class="modal-mask hidden" id="settingsMask">
+    <div class="sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-head"><h3>学习设置</h3><button class="icon-btn" id="closeSettings">✕</button></div>
+      <label class="setting-row"><span><b>自动朗读新词</b><small>每张卡首次出现读一次</small></span><input type="checkbox" id="autoSpeakToggle" /></label>
+      <label class="setting-row"><span><b>可爱界面音效</b><small>翻卡、按钮、答对答错都有不同声音</small></span><input type="checkbox" id="sfxToggle" /></label>
+      <div class="setting-row"><span><b>⚡ 低性能模式</b><small>弱设备自动生效，也可手动强制</small></span><button class="secondary tiny" id="perfBtn" type="button">自动</button></div>
+      <label class="setting-row"><span><b>发音</b><small>设备可用语音会自动匹配</small></span><select id="accentSelect"><option value="en-GB">英音</option><option value="en-US">美音</option></select></label>
+      <div class="setting-block"><b>每日新词</b><div class="choice-row"><button data-goal="20">20</button><button data-goal="30">30</button><button data-goal="50">50</button><button data-goal="75">75</button><button data-goal="100">100</button></div></div>
+      <div class="setting-block"><b>学习层级</b><div class="choice-row"><button data-phase="Core">Core 3000</button><button data-phase="Reading">Reading 2000</button></div><small class="muted">默认先学 Core；Reading 用于后续阅读识别层。</small></div>
+      <div class="setting-block"><b>🎨 皮肤</b>
+        <div class="theme-grid" id="themeGrid">
+          <button class="theme-opt" type="button" data-theme-opt="strawberry"><i class="t1"></i>🍓 草莓牛奶</button>
+          <button class="theme-opt" type="button" data-theme-opt="cloud"><i class="t2"></i>☁️ 云朵软糖</button>
+          <button class="theme-opt" type="button" data-theme-opt="cream"><i class="t3"></i>🍮 奶油甜点</button>
+          <button class="theme-opt" type="button" data-theme-opt="matcha"><i class="t4"></i>🍵 抹茶红豆</button>
+          <button class="theme-opt" type="button" data-theme-opt="night"><i class="t5"></i>🌙 星空猫猫</button>
+          <button class="theme-opt" type="button" data-theme-opt="candy"><i class="t6"></i>🍬 彩虹糖果</button>
+        </div>
+      </div>
+      <div class="setting-block"><b>💾 数据备份</b><div class="choice-row"><button id="exportBtn">导出 JSON</button><button id="importBtn">导入 JSON</button><input type="file" id="importInput" accept=".json" hidden /></div><small class="muted">换手机或清理浏览器前先导出；学满一周会提醒一次。</small></div>
+      <button class="danger-link" id="resetBtn">清空本机学习记录</button>
+    </div>
+  </div>
+
+  <script src="data/words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
