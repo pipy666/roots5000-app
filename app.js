@@ -222,12 +222,15 @@
       speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
       u.lang = S.settings.accent || 'en-GB';
-      u.rate = 0.88;
+      u.rate = 0.95;
       u.pitch = 1.0;
+      // 优先选 Google TTS 音色（国产浏览器自带引擎音质差、易变声）；找不到再退回同口音任意音色
       const wanted = u.lang.toLowerCase();
-      const voice = voices.find(v => (v.lang || '').toLowerCase() === wanted)
-        || voices.find(v => (v.lang || '').toLowerCase().startsWith(wanted.slice(0,2)))
-        || voices.find(v => /^en/i.test(v.lang || ''));
+      const exact = voices.filter(v => (v.lang || '').toLowerCase() === wanted);
+      const prefix = voices.filter(v => (v.lang || '').toLowerCase().startsWith(wanted.slice(0,2)));
+      const anyEn = voices.filter(v => /^en/i.test(v.lang || ''));
+      const best = list => list.find(v => /google/i.test(v.name || '')) || list.find(v => !/xiaoxiao|xiaoyi|huihui|kangkang/i.test(v.name || '')) || list[0];
+      const voice = best(exact) || best(prefix) || best(anyEn);
       if (voice) u.voice = voice;
       if (btn) {
         btn.classList.add('speaking');
@@ -1139,6 +1142,17 @@
   $('#goalBtn').addEventListener('click',openSettings);
   $('#closeSettings').addEventListener('click',closeSettings);
   $('#settingsMask').addEventListener('click',e=>{if(e.target.id==='settingsMask')closeSettings()});
+  // 设置面板左滑关闭（手机逃生通道：面板太高时不用找 ✕）
+  (()=>{
+    const sheet=$('#settingsMask .sheet');
+    if(!sheet) return;
+    let sx=0, sy=0;
+    sheet.addEventListener('pointerdown',e=>{sx=e.clientX;sy=e.clientY;});
+    sheet.addEventListener('pointerup',e=>{
+      const dx=e.clientX-sx, dy=e.clientY-sy;
+      if(dx<-70 && Math.abs(dx)>Math.abs(dy)*1.4) closeSettings();
+    });
+  })();
   $('#autoSpeakToggle').addEventListener('change',e=>{S.settings.autoSpeak=e.target.checked;save();SFX.play('tap');syncSettingsUI()});
   $('#sfxToggle')?.addEventListener('change',e=>{
     if(e.target.checked){ S.settings.sfx=true; save(); SFX.ensure(); SFX.play('toggleOn'); }
