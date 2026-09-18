@@ -50,7 +50,7 @@
   }
   function defaultState() {
     return {
-      settings: { goal: 50, autoSpeak: true, sfx: true, accent: 'en-GB', phase: 'Core', theme: 'strawberry' },
+      settings: { goal: 50, autoSpeak: true, sfx: true, accent: 'en-GB', phase: 'Core', theme: 'strawberry', rate: 0.95 },
       progress: {},
       wrongBook: {},
       streak: 0,
@@ -202,6 +202,7 @@
 
   let audioUnlocked = false;
   let lastAutoSpokenToken = ''; // prevent replay when merely returning to the same card
+  let lastSpeakStart = 0; // guard against overlapping utterances garbling each other
   function loadVoices() { if ('speechSynthesis' in window) voices = speechSynthesis.getVoices() || []; }
   if ('speechSynthesis' in window) {
     loadVoices();
@@ -219,10 +220,11 @@
   function speak(text, btn) {
     if (!text || !('speechSynthesis' in window)) return;
     try {
+      lastSpeakStart = Date.now();
       speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
       u.lang = S.settings.accent || 'en-GB';
-      u.rate = 0.95;
+      u.rate = Number(S.settings.rate || 0.95);
       u.pitch = 1.0;
       // 优先选 Google TTS 音色（国产浏览器自带引擎音质差、易变声）；找不到再退回同口音任意音色
       const wanted = u.lang.toLowerCase();
@@ -659,10 +661,9 @@
         <div class="card-inner" id="cardInner">
         <section class="card-face card-front">
           <div class="word-row"><h2 class="word">${wordHtml(w)}</h2><button class="speak-btn" data-speak-word aria-label="朗读 ${esc(w.word)}">🔊</button></div>
-          <div class="ipa">${esc(w.ipa || 'IPA 待词库校订')}</div>
-          <div class="pos">${esc(w.pos)}</div>
+          <div class="ipa">${esc(w.ipa || 'IPA 待词库校订')} <span class="ipos">· ${esc(w.pos)}</span></div>
           <div class="decomp">${decompHtml(w)}</div>
-          <div class="mnemonic">${frontHint}</div>
+          <div class="mnemonic" data-mn-toggle><span class="mn-clamp">${frontHint}</span><span class="mn-hint">▾ 点按展开</span></div>
           <div class="flip-hint">点卡片翻面 · 先猜，再验证</div>
         </section>
         <section class="card-face card-back">
@@ -713,7 +714,7 @@
     // 正面点击翻面；背面点击空白翻回（按钮/展开区/点词区不误触）
     card.addEventListener('click',e=>{
       if(gradingLocked) return;
-      if(e.target.closest('button,summary,details,.w-tap,.cn-toggle')) return;
+      if(e.target.closest('button,summary,details,.w-tap,.cn-toggle,.mnemonic')) return;
       setFlip(!flipped,{fromReveal:false});
     });
     card.addEventListener('keydown',e=>{
@@ -741,6 +742,14 @@
       const show=cn.hidden;
       cn.hidden=!show;
       this.textContent=show?'🀄 点按隐藏中文':'🀄 点按显示中文 · 点句中的词可查义';
+    });
+    // 正面提示框：默认两行，点按展开/收起
+    $('[data-mn-toggle]')?.addEventListener('click',function(e){
+      e.stopPropagation();
+      SFX.play('tap');
+      const expanded = this.classList.toggle('expanded');
+      const hint = this.querySelector('.mn-hint');
+      if (hint) hint.textContent = expanded ? '▴ 收起' : '▾ 点按展开';
     });
     // 例句生词点查：点任意词 → 发音 + 词义气泡
     $('.example-en')?.addEventListener('click',e=>{
@@ -800,7 +809,8 @@
     card._gradeWithFeedback=gradeWithFeedback;
     syncComboBadge();
     const autoToken = `${S.today?.date || ''}:${S.today?.cursor || 0}:${item.id}:${item.kind}`;
-    if (audioUnlocked && S.settings.autoSpeak && autoToken !== lastAutoSpokenToken) {
+    const recentSpeech = Date.now() - lastSpeakStart < 600; // 刚播过音就别抢，避免重叠变声
+    if (audioUnlocked && S.settings.autoSpeak && autoToken !== lastAutoSpokenToken && !recentSpeech) {
       lastAutoSpokenToken = autoToken;
       setTimeout(()=>speak(w.word,$('[data-speak-word]')),240);
     }
@@ -1085,6 +1095,7 @@
     if($('#sfxToggle')) $('#sfxToggle').checked=S.settings.sfx!==false;
     $('#startAutoSpeak').checked=!!S.settings.autoSpeak;
     $('#accentSelect').value=S.settings.accent;
+    $$('[data-rate]').forEach(b=>b.classList.toggle('on',Number(b.dataset.rate)===Number(S.settings.rate||0.95)));
     $$('[data-goal]').forEach(b=>b.classList.toggle('on',Number(b.dataset.goal)===Number(S.settings.goal)));
     $$('[data-phase]').forEach(b=>b.classList.toggle('on',b.dataset.phase===S.settings.phase));
     $$('[data-theme-opt]').forEach(b=>b.classList.toggle('on',b.dataset.themeOpt===S.settings.theme));
@@ -1160,6 +1171,7 @@
     syncSettingsUI();
   });
   $('#accentSelect').addEventListener('change',e=>{S.settings.accent=e.target.value;save()});
+  $$('[data-rate]').forEach(b=>b.addEventListener('click',()=>{S.settings.rate=Number(b.dataset.rate);save();syncSettingsUI()}));
   $$('[data-goal]').forEach(b=>b.addEventListener('click',()=>{S.settings.goal=Number(b.dataset.goal);rebuildToday();syncSettingsUI()}));
   $$('[data-phase]').forEach(b=>b.addEventListener('click',()=>{S.settings.phase=b.dataset.phase;rebuildToday();syncSettingsUI()}));
   $$('[data-theme-opt]').forEach(b=>b.addEventListener('click',()=>{SFX.play('theme');applyTheme(b.dataset.themeOpt)}));
