@@ -17,13 +17,6 @@
   </div>
 
   <div class="app-shell">
-    <header class="topbar">
-      <div class="top-actions">
-        <span class="streak">🔥 <b id="streakNum">1</b> 天</span>
-        <button class="icon-btn" id="settingsBtn" aria-label="设置">⚙️</button>
-      </div>
-    </header>
-
     <main>
       <section class="view active" id="view-learn">
         <div class="daybar">
@@ -35,6 +28,7 @@
           <button class="goal-chip" id="goalBtn">50 新词 ▾</button>
         </div>
         <div class="progress-wrap" aria-label="今日进度">
+          <span class="streak-chip">🔥 <b id="streakNum">1</b> 天</span>
           <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
           <span id="progressPct">0%</span>
         </div>
@@ -94,7 +88,7 @@
       </section>
 
       <section class="view" id="view-me">
-        <div class="page-head"><div><div class="eyebrow">MY ROOTS</div><h2>学习状态</h2></div><p>核心 3000 深度掌握，Reading 2000 以阅读识别为主。</p></div>
+        <div class="page-head"><div><div class="eyebrow">MY ROOTS</div><h2>学习状态</h2></div><p>核心 3000 深度掌握，Reading 2000 以阅读识别为主。</p><button class="icon-btn" id="settingsBtn" aria-label="设置">⚙️</button></div>
         <div class="stats-grid" id="statsGrid"></div>
         <div class="panel">
           <div class="panel-title-row"><h3>掌握进度</h3><span class="muted">按词库层级</span></div>
