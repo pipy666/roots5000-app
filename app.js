@@ -714,6 +714,7 @@
     // 正面点击翻面；背面点击空白翻回（按钮/展开区/点词区不误触）
     card.addEventListener('click',e=>{
       if(gradingLocked) return;
+      if(dragMoved){ dragMoved=false; return; } // 滑动后的残余 click 不算点击，避免误翻面
       if(e.target.closest('button,summary,details,.w-tap,.cn-toggle,.mnemonic')) return;
       setFlip(!flipped,{fromReveal:false});
     });
@@ -765,25 +766,26 @@
     $('#backToFront')?.addEventListener('click',e=>{e.stopPropagation();setFlip(false);});
 
     // Horizontal swipe is available only after the answer has visibly settled.
-    let dragStartX=0, dragStartY=0, dragging=false;
+    let dragStartX=0, dragStartY=0, dragging=false, dragMoved=false;
     card.addEventListener('pointerdown',e=>{
       if(!flipped || gradingLocked || Date.now()<revealReadyAt || e.target.closest('button,summary,details')) return;
-      dragging=true; dragStartX=e.clientX; dragStartY=e.clientY; card.setPointerCapture?.(e.pointerId);
+      dragging=true; dragMoved=false; dragStartX=e.clientX; dragStartY=e.clientY; card.setPointerCapture?.(e.pointerId);
     });
     card.addEventListener('pointermove',e=>{
       if(!dragging || !flipped || gradingLocked) return;
       const dx=e.clientX-dragStartX, dy=e.clientY-dragStartY;
-      if(Math.abs(dx)<Math.abs(dy) || Math.abs(dx)<8) return;
+      if(Math.abs(dx)<Math.abs(dy) || Math.abs(dx)<6) return;
+      dragMoved = dragMoved || Math.abs(dx)>12;
       const limited=clamp(dx,-105,105);
       card.style.setProperty('--drag-x',`${limited}px`); card.style.setProperty('--drag-rot',`${limited/22}deg`); card.classList.add('is-dragging');
-      $('#swipeLeft')?.classList.toggle('show',dx<-38); $('#swipeRight')?.classList.toggle('show',dx>38);
+      $('#swipeLeft')?.classList.toggle('show',dx<-34); $('#swipeRight')?.classList.toggle('show',dx>34);
     });
     const finishSwipe=e=>{
       if(!dragging) return; dragging=false;
       const dx=e.clientX-dragStartX, dy=e.clientY-dragStartY;
       card.classList.remove('is-dragging'); card.style.removeProperty('--drag-x'); card.style.removeProperty('--drag-rot');
       $('#swipeLeft')?.classList.remove('show'); $('#swipeRight')?.classList.remove('show');
-      if(flipped && !gradingLocked && Date.now()>=revealReadyAt && Math.abs(dx)>92 && Math.abs(dx)>Math.abs(dy)*1.3){
+      if(flipped && !gradingLocked && Date.now()>=revealReadyAt && Math.abs(dx)>72 && Math.abs(dx)>Math.abs(dy)*1.3){
         gradeWithFeedback(dx>0?'known':'unknown', w.word);
       }
     };
