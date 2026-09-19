@@ -686,7 +686,7 @@
           <div class="ipa">${esc(w.ipa || 'IPA 待词库校订')} <span class="ipos">· ${esc(w.pos)}</span></div>
           <div class="decomp">${decompHtml(w)}</div>
           <div class="mnemonic" data-mn-toggle><span class="mn-clamp">${frontHint}</span><span class="mn-hint">▾ 点按展开</span></div>
-          <div class="flip-hint">点卡片翻面 · 先猜，再验证</div>
+          <div class="flip-hint">点卡片翻面看答案 · 评分栏就在下方</div>
         </section>
         <section class="card-face card-back">
           <div class="back-toolbar"><button class="back-to-front" id="backToFront" type="button">↩ 正面</button><span>慢慢看，确认后再评分</span></div>
@@ -706,15 +706,13 @@
             ${related.length?`<div class="detail-stack"><span>词族联动 · 点词发音</span><div class="word-chip-row">${related.map(x=>`<button class="word-chip" data-related-speak="${x.id}" title="${esc(x.meaning)}"><b>${esc(x.word)}</b><i>${esc(brief(x.meaning))}</i></button>`).join('')}</div></div>`:''}
             ${confusables.length?`<div class="detail-stack warn"><span>易混提醒</span><div>${confusables.map(x=>`<b>${esc(x.word)}</b> · ${esc(x.meaning)}`).join('<br>')}</div></div>`:''}
           </div></details>
-          <div class="flip-hint back-hint">轻点卡片返回正面 🔙 · 确认后再评分</div>
+          <div class="flip-hint back-hint">轻点卡片返回正面 🔙 · 评分在正面</div>
         </section>
         </div>
         <div class="combo" id="comboBadge">🔥</div>
-        <div class="swipe-cue left" id="swipeLeft">🥲 不会</div>
-        <div class="swipe-cue right" id="swipeRight">😊 会了</div>
       </article>`;
 
-    $('#verdict').innerHTML=`<button class="flip-btn" id="flipBtn" data-sfx="reveal">👀 看看答案</button>`;
+    renderVerdict(false);
     const card=$('#flashcard');
     const cardInner=$('#cardInner');
     let flipped=false, revealReadyAt=0, gradingLocked=false;
@@ -731,12 +729,11 @@
       } else {
         SFX.play('flip');
       }
-      renderVerdict(flipped, {delayed:flipped});
+      renderVerdict(flipped);
     };
     // 正面点击翻面；背面点击空白翻回（按钮/展开区/点词区不误触）
     card.addEventListener('click',e=>{
       if(gradingLocked) return;
-      if(dragMoved){ dragMoved=false; return; } // 滑动后的残余 click 不算点击，避免误翻面
       if(e.target.closest('button,summary,details,.w-tap,.cn-toggle,.mnemonic')) return;
       setFlip(!flipped,{fromReveal:false});
     });
@@ -784,35 +781,7 @@
       speak(t.dataset.w);
       showWordPop(t.dataset.w, t);
     });
-    $('#flipBtn').addEventListener('click',e=>{e.stopPropagation();setFlip(true,{fromReveal:true});});
     $('#backToFront')?.addEventListener('click',e=>{e.stopPropagation();setFlip(false);});
-
-    // Horizontal swipe is available only after the answer has visibly settled.
-    let dragStartX=0, dragStartY=0, dragging=false, dragMoved=false;
-    card.addEventListener('pointerdown',e=>{
-      if(!flipped || gradingLocked || Date.now()<revealReadyAt || e.target.closest('button,summary,details')) return;
-      dragging=true; dragMoved=false; dragStartX=e.clientX; dragStartY=e.clientY; card.setPointerCapture?.(e.pointerId);
-    });
-    card.addEventListener('pointermove',e=>{
-      if(!dragging || !flipped || gradingLocked) return;
-      const dx=e.clientX-dragStartX, dy=e.clientY-dragStartY;
-      if(Math.abs(dx)<Math.abs(dy) || Math.abs(dx)<6) return;
-      dragMoved = dragMoved || Math.abs(dx)>12;
-      const limited=clamp(dx,-105,105);
-      card.style.setProperty('--drag-x',`${limited}px`); card.style.setProperty('--drag-rot',`${limited/22}deg`); card.classList.add('is-dragging');
-      $('#swipeLeft')?.classList.toggle('show',dx<-34); $('#swipeRight')?.classList.toggle('show',dx>34);
-    });
-    const finishSwipe=e=>{
-      if(!dragging) return; dragging=false;
-      const dx=e.clientX-dragStartX, dy=e.clientY-dragStartY;
-      card.classList.remove('is-dragging'); card.style.removeProperty('--drag-x'); card.style.removeProperty('--drag-rot');
-      $('#swipeLeft')?.classList.remove('show'); $('#swipeRight')?.classList.remove('show');
-      if(flipped && !gradingLocked && Date.now()>=revealReadyAt && Math.abs(dx)>72 && Math.abs(dx)>Math.abs(dy)*1.3){
-        gradeWithFeedback(dx>0?'known':'unknown', w.word);
-      }
-    };
-    card.addEventListener('pointerup',finishSwipe);
-    card.addEventListener('pointercancel',()=>{dragging=false;card.classList.remove('is-dragging');card.style.removeProperty('--drag-x');card.style.removeProperty('--drag-rot')});
 
     function gradeWithFeedback(kind, wordText){
       if(gradingLocked) return;
@@ -850,26 +819,21 @@
     }
   }
 
-  function renderVerdict(flipped, opts={}) {
+  // 评分栏只在正面显示（固定在底部导航上方）；翻到背面即隐藏，背面为纯阅读
+  function renderVerdict(flipped) {
     const box=$('#verdict');
-    box.classList.toggle('grading',!!flipped);
-    if (!flipped) {
-      box.innerHTML=`<button class="flip-btn" id="flipBtn" data-sfx="reveal">👀 看看答案</button>`;
-      $('#flipBtn').addEventListener('click',e=>{ e.stopPropagation(); const card=$('#flashcard'); if(card) card.click(); });
+    if (flipped) {
+      box.classList.add('hidden');
+      box.innerHTML='';
       return;
     }
-    // Let the 3D turn finish first, then softly bring in the decisions. They remain until the learner chooses.
-    box.innerHTML=`<div class="answer-pause"><span>✨</span> 先看答案，不着急判断</div>`;
-    const show=()=>{
-      if(!$('#flashcard')?.classList.contains('is-flipped')) return;
-      box.innerHTML=`<div class="verdict-row verdict-enter">
-        <button class="grade unknown" data-grade="unknown" data-sfx="unknown">🥲 不会<small>本轮再出现</small></button>
-        <button class="grade fuzzy" data-grade="fuzzy" data-sfx="fuzzy">🤔 模糊<small>稍后再来</small></button>
-        <button class="grade known" data-grade="known" data-sfx="known">😊 我会了<small>拉长间隔</small></button>
-      </div>`;
-      $$('.grade').forEach(b=>b.addEventListener('click',()=>$('#flashcard')?._gradeWithFeedback?.(b.dataset.grade, BY_ID[S.today.queue[S.today.cursor]?.id]?.word || '')));
-    };
-    opts.delayed===false ? show() : setTimeout(show,650);
+    box.classList.remove('hidden');
+    box.innerHTML=`<div class="verdict-row verdict-enter">
+      <button class="grade unknown" data-grade="unknown" data-sfx="unknown">🥲 不会<small>本轮再出现</small></button>
+      <button class="grade fuzzy" data-grade="fuzzy" data-sfx="fuzzy">🤔 模糊<small>稍后再来</small></button>
+      <button class="grade known" data-grade="known" data-sfx="known">😊 我会了<small>拉长间隔</small></button>
+    </div>`;
+    $$('.grade').forEach(b=>b.addEventListener('click',()=>$('#flashcard')?._gradeWithFeedback?.(b.dataset.grade, BY_ID[S.today.queue[S.today.cursor]?.id]?.word || '')));
   }
 
   function animateOutThenRender(kind, delay=190) {
@@ -911,7 +875,7 @@
       : '';
     $('#stage').innerHTML=`<div class="done-card"><span class="em">🌸</span><h3>今日任务完成</h3><p>新词和到期复习都已经收口。不会自动继续喂第 ${t.targets.new+1} 个新词。</p><div class="done-stats"><div class="done-stat"><b>${t.done.new}/${t.targets.new}</b><span>新词</span></div><div class="done-stat"><b>${t.done.review}/${t.targets.review}</b><span>复习</span></div><div class="done-stat"><b>${accuracy}%</b><span>本轮稳定度</span></div><div class="done-stat"><b>${durationMin}m</b><span>学习时长</span></div></div><div class="grade-summary"><span>😊 ${t.grades.known}</span><span>🤔 ${t.grades.fuzzy}</span><span>🥲 ${t.grades.unknown}</span></div><p class="muted" style="margin:2px 0 8px">⏰ 未来 7 天到期复习：${forecast}</p>${weakHtml}${backupLine}<div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center"><button class="primary" id="extraBtn">＋额外学习 10 词</button><button class="secondary" data-view-go="quiz">做一轮 20 题</button></div></div>`;
     $('#doneExportBtn')?.addEventListener('click', () => { exportBackup(); renderDone(); });
-    $('#verdict').innerHTML='';
+    const vb=$('#verdict'); if(vb){ vb.classList.add('hidden'); vb.innerHTML=''; }
     $('#familySide').innerHTML='';
     $('#extraBtn').addEventListener('click',()=>appendExtraNew(10));
     $('[data-view-go="quiz"]').addEventListener('click',()=>switchView('quiz'));
