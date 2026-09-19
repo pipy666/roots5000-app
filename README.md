@@ -60,6 +60,25 @@
 - 安卓：Chrome 打开网址 → 菜单 → **安装应用**
 - 首次打开点一下屏幕解锁发音；SW 缓存保证首次加载后断网也能学
 
+## 👥 想用自己的词库？（fork 三步，无需装任何工具）
+
+1. **Fork**：点仓库右上角 Fork 按钮，复制到自己账号
+2. **改词库**：在网页上编辑 `IELTS_Roots_5000_Master_CURRENT.md`（词条格式见下）——保存后 GitHub Actions 自动重新生成数据并部署，全程不需要 python
+3. **开 Pages**：自己的仓库 Settings → Pages → 选 main 分支 → Save，得到专属网址
+
+> ⚠️ Fork 后首次要在自己仓库的 **Actions** 标签页点一次"启用"按钮，自动构建才会跑。
+
+词条**最简格式**（只写三行也能背）：
+
+```markdown
+## R0001 · apple  [Core]
+- **POS**: n.
+- **中文**: 苹果
+- **IELTS 阅读式例句**: The apple fell from the tree.
+```
+
+完整字段参考现有词条（前缀/词根/拆解/搭配/记忆提示均为可选，不写自动按"整体记忆"处理）。编号 `R0001` 保持唯一递增即可；`[Core]` 与 `[Reading]` 二选一。
+
 ## 📦 数据层
 
 - `data/words.js` / `words.json`：5000 词条（Core 3000 + Reading 2000），含 `exampleZh` 例句中文

@@ -1,0 +1,28 @@
+name: rebuild-data
+on:
+  push:
+    paths:
+      - 'IELTS_Roots_5000_Master_CURRENT.md'
+      - 'data/i18n/**'
+      - 'scripts/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild data files from lexicon
+        run: python3 scripts/build_data.py IELTS_Roots_5000_Master_CURRENT.md data
+      - name: Commit regenerated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/words.js data/words.json data/meta.json
+          if git diff --cached --quiet; then
+            echo "data unchanged"
+          else
+            git commit -m "auto: rebuild data files"
+            git push
+          fi
