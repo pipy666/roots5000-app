@@ -151,7 +151,7 @@
         if (!ctx) {
           const AC=window.AudioContext || window.webkitAudioContext;
           if (!AC) return false;
-          ctx=new AC(); master=ctx.createGain(); master.gain.value=.34; master.connect(ctx.destination);
+          ctx=new AC(); master=ctx.createGain(); master.gain.value=.49; master.connect(ctx.destination); // 整体音量：用户要求 +45%
         }
         if (ctx.state==='suspended') ctx.resume();
         return true;
@@ -184,7 +184,7 @@
       pop(){ tone(1180,0,.06,{vol:.085,slide:1720}); },
       flip(){ noise(0,.07,.028); noise(.07,.09,.02); tone(620,0,.09,{type:'triangle',vol:.07,slide:980}); },
       reveal(){ tone(659,0,.1,{vol:.10}); tone(988,.06,.18,{vol:.09}); tone(1319,.11,.22,{vol:.05}); },
-      known(){ tone(523,0,.12,{vol:.11}); tone(659,.07,.12,{vol:.11}); tone(784,.14,.22,{vol:.12}); tone(1047,.2,.28,{vol:.055}); tone(1568,.18,.2,{vol:.05}); },
+      known(){ [523,587,659,784,880,1047].forEach((n,i)=>tone(n,i*.07,.22,{vol:.12})); tone(1568,.45,.34,{vol:.06}); tone(2093,.5,.3,{vol:.03}); },
       fuzzy(){ tone(587,0,.11,{vol:.09}); tone(784,.065,.16,{vol:.075}); },
       unknown(){ tone(415,0,.15,{vol:.085,slide:330}); tone(294,.1,.25,{vol:.07,slide:225}); },
       combo(n){ const notes=[523,659,784,988,1175,1319,1568]; const base=clamp((n||2)-2,0,5); for(let i=0;i<3;i++){ tone(notes[Math.min(base+i*2,notes.length-1)],i*.07,.18,{vol:.11}); } },
@@ -512,6 +512,28 @@
       s.addEventListener('animationend', () => s.remove());
     }
   }
+  /* 答对强化：屏幕中央大 emoji + 彩带雨 */
+  function spawnBigEmoji(emoji) {
+    const el = document.createElement('div');
+    el.className = 'big-emoji';
+    el.textContent = emoji;
+    document.body.appendChild(el);
+    el.addEventListener('animationend', () => el.remove());
+  }
+  function spawnConfetti() {
+    const n = lowPerfNow() ? 6 : 14;
+    const colors = ['#ff8fba', '#b9a3ff', '#69d7bf', '#ffd66e', '#8bbcff'];
+    for (let i = 0; i < n; i++) {
+      const c = document.createElement('span');
+      c.className = 'confetti';
+      c.style.left = (Math.random() * 100) + '%';
+      c.style.background = colors[i % colors.length];
+      c.style.animationDelay = (Math.random() * 0.35) + 's';
+      c.style.animationDuration = (1.1 + Math.random() * 0.7) + 's';
+      document.body.appendChild(c);
+      c.addEventListener('animationend', () => c.remove());
+    }
+  }
   function spawnBurst(x, y, emoji) {
     const n = lowPerfNow() ? 4 : 9;
     for (let i = 0; i < n; i++) {
@@ -798,6 +820,16 @@
       closeWordPop();
       if(kind==='known') setCombo(combo+1);
       else if(kind==='unknown') setCombo(0);
+      if(kind==='known'){
+        // 答对强化：中央大 emoji + 彩带雨 + 卡面主题色光晕
+        spawnBigEmoji('😎');
+        spawnConfetti();
+        const frontFace = card.querySelector('.card-front');
+        if(frontFace){
+          frontFace.classList.add('grade-glow');
+          setTimeout(() => frontFace.classList.remove('grade-glow'), 1500);
+        }
+      }
       SFX.play(kind==='known'?'known':kind==='fuzzy'?'fuzzy':'unknown');
       const labels={known:'😊 已记下：会了',fuzzy:'🤔 已记下：模糊',unknown:'🥲 已记下：不会'};
       const box=$('#verdict');
