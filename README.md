@@ -1,83 +1,70 @@
-# IELTS Roots 5000 · App v0.5
+<p align="center">
+  <img src="docs/img/hero.png" width="680" alt="Roots 5000 手机背单词">
+</p>
 
-这是在 v0.4.1 基础上推进的 PWA 背单词应用。UI 与 5000 词数据完全分离；词库 QA 持续推进中，替换 `data/words.js` 即可更新词库。
+<h1 align="center">🌸 Roots 5000</h1>
+<p align="center">
+  手机优先的 IELTS 背单词 PWA · 5000 词根拆解 · 每日复习计划 · 六套可爱皮肤
+</p>
 
-## 核心学习模型
+<p align="center">
+  <a href="https://pipy666.github.io/roots5000-app/"><img src="https://img.shields.io/badge/📱_在线体验-GitHub_Pages-ff6b9d" alt="在线体验"></a>
+  <img src="https://img.shields.io/badge/词库-5000_词-ff8fba" alt="词库">
+  <img src="https://img.shields.io/badge/例句中文-4745_条-b9a3ff" alt="例句中文">
+  <img src="https://img.shields.io/badge/PWA-离线可用-69d7bf" alt="PWA">
+</p>
 
-- 5000 词：Core 3000 + Reading 2000；主学习顺序 A → Z
-- 正面先推理：word / IPA / POS / prefix-root-suffix / mnemonic cue（**提示不会剧透答案**）
-- 点击 3D 翻面后验证：中文义 / 构词推导 / IELTS 阅读式例句（**中文翻译点按显示**）/ 搭配
-- 翻面后**点击空白可翻回正面**，答案一直停留直到主动评分
-- 右滑 😊 会了 / 左滑 🥲 不会 / 🤔 模糊按钮；正面不触发评分
-- 新卡首次进入自动朗读一次；英音 / 美音切换
+---
 
-## 每日任务与复习调度
+## ✨ 功能亮点
 
-- 每日新词目标：20 / 30 / 50 / 75 / 100（默认 50）
-- 到期复习不占新词额度；3 新词 + 1 复习交错
-- 间隔阶梯：不会 1 分钟 → 模糊 10 分钟 → 会了 1/3/7/14/30/60 天
-- 不会/模糊当日有限回流，不会无限刷任务；每天复习上限 60
-- 学习节奏条预告接下来 8 张卡（粉=新词/紫=复习/黄=重现）
-- 完成页：稳定度、时长、三档数量、**未来 7 天到期复习预报**、今日薄弱结构
-- 默认完成后停止，可主动"额外学习 10 词"
+- 🃏 **3D 翻转卡**：正面推理（提示不剧透）→ 翻面验证 → 固定评分栏一键评分进下一张
+- 🧩 **词根拆解**：前缀/词根/后缀分色显示，拆解可信度分级（✓可靠 / ◇词源关联 / ○整体记忆）
+- 📅 **每日计划**：新词目标 20~100 自选，到期复习自动混入（1分钟→10分钟→1天→3天→…→60天 间隔阶梯），🔥 连续打卡
+- 🀄 **例句中英对照**：中文翻译点按显示（先自己理解再对答案），4745 条例句已翻译
+- 🔍 **生词点查**：点例句里任意单词即时发音 + 词义气泡（本地 5000 词库 → 英英词典 → 离线兜底）
+- 📖 **阅读辅助**：单词首字母加粗、大行距、按构词边界分色
+- 🎨 **六套主题皮肤** + 动态背景装饰 + 🌙 夜间模式
+- 🔊 音效与激励：连击系统 🔥、翻面星光、答对彩带 + 大 emoji 庆祝
+- 💾 **数据备份**：导出/导入 JSON，换手机不丢进度；未来 7 天复习预报
+- ⚡ 低性能模式自动降级，弱机也流畅
 
-## v0.5 新增
+## 🎨 六套主题皮肤
 
-### 1. 6 套主题皮肤（⚙️ 设置 → 皮肤）
+<p align="center">
+  <img src="docs/img/themes.png" width="680" alt="六套主题皮肤">
+</p>
 
-草莓牛奶 / 云朵软糖 / 奶油甜点 / 抹茶红豆 / 🌙 星空猫猫（夜间）/ 彩虹糖果。
-每套主题有专属背景漂浮装饰（夜间为闪烁星空）；选择保存在本机。
+## 📱 顺手的学习体验
 
-### 2. 阅读辅助（阅读障碍友好）
+<p align="center">
+  <img src="docs/img/features.png" width="680" alt="功能截图">
+</p>
 
-- 例句使用 OpenDyslexic 字体（本地打包，离线可用）
-- 例句每句首字母加粗加大
-- 单词按 前缀(蓝)/词根(粉)/后缀(绿) 边界分色，与拆解块同色系
-- 例句行距 1.9
+## 🚀 部署到手机
 
-### 3. 例句中文翻译（点按显示）
+### 方案 A：Cloudflare Pages（推荐，国内访问稳定）
 
-例句翻译行默认隐藏，点虚线按钮显示/隐藏，贯彻"先自己理解"。
-数据来自 `data/i18n/`：模板句自动替换 + 逐句翻译 sidecar（build 时按英文原文校验，语料 QA 改句后旧翻译自动失效）。
+1. 把本目录推到 GitHub 仓库
+2. Cloudflare 面板 → Workers & Pages → Create → Pages → Connect to Git → 选仓库
+3. 构建命令留空、输出目录 `/` → 部署完成得到 `https://xxx.pages.dev`
 
-### 4. 例句生词点查
+### 方案 B：GitHub Pages
 
-点例句里任意单词 → 朗读 + 词义气泡。查找顺序：本地 5000 词库（中文义）→ 联网英英词典 → 离线仅发音。
+1. 仓库 → Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save
+2. 访问 `https://pipy666.github.io/roots5000-app/`
 
-### 5. 假搭配过滤
+### 手机安装（PWA）
 
-`X in academic research`、`X pattern or effect` 等模板废料搭配在卡片上不显示（数据保留，仅显示层过滤）。
+- iPhone：Safari 打开网址 → 分享 → **添加到主屏幕** → 全屏运行
+- 安卓：Chrome 打开网址 → 菜单 → **安装应用**
+- 首次打开点一下屏幕解锁发音；SW 缓存保证首次加载后断网也能学
 
-### 6. 背面层级徽章
+## 📦 数据层
 
-中文义下方显示 🎓 Core·深度掌握 / 📖 Reading·阅读识别 + 拆解等级徽章；展开更多含"学习目标"与带释义的词族胶囊（点词发音）。
-
-### 7. 美化与音效
-
-- 卡片随鼠标轻微 3D 倾斜（触屏自动关闭，不抢滚动）
-- 翻面星光粒子、评分 emoji 爆发
-- 🔥 连击系统：连续会了累计连击，音阶上升，3 连卡面闪光；不会清零
-- Web Audio 合成音：翻纸声、和弦答对、连击音阶、切页 whoosh、主题切换琶音
-
-### 8. 低性能模式
-
-自动检测（内存 ≤2GB 或 ≤4 核）进入低性能：模糊减半、毛玻璃关闭、装饰削减、粒子关闭。设置中可手动 自动/开/关；尊重系统"减弱动态效果"。
-
-### 9. 数据备份
-
-- ⚙️ 设置 → 导出/导入 JSON：学习进度、复习计划、设置全量备份
-- 学满一周在完成页轻提醒一次"记得导出"
-- 换手机 / 清浏览器前先导出，导入即恢复
-
-### 10. 4 个底部标签
-
-学习 / 词库（A–Z 查词 + 构词地图合并）/ 测验 / 我的。
-
-## 数据层
-
-- `data/words.js` / `words.json`：5000 词条，含 `exampleZh` 例句中文
-- `data/i18n/templates.json`：模板句式中英对照（槽位替换）
-- `data/i18n/example_zh.json`：逐句翻译 sidecar（`{id: {en, zh}}`，build 时校验）
+- `data/words.js` / `words.json`：5000 词条（Core 3000 + Reading 2000），含 `exampleZh` 例句中文
+- `data/i18n/templates.json`：模板句式中英对照（槽位替换，语料改句后自动失效）
+- `data/i18n/example_zh.json`：逐句翻译 sidecar（按英文原句校验）
 - 重新生成：`python scripts/build_data.py <母词库.md> <data目录>`
 
 ## 本地预览
@@ -88,24 +75,7 @@ python -m http.server 8000
 
 浏览器打开 `http://localhost:8000/`。直接双击 `index.html` 可用主要功能；Service Worker / PWA 需要 HTTP(S)。
 
-## 部署（手机访问）
+## 📌 已知状态
 
-### 方案 A：Cloudflare Pages（推荐，国内基本可访问）
-
-1. 把整个目录推到 GitHub 仓库
-2. Cloudflare 面板 → Workers & Pages → Create → Pages → Connect to Git → 选仓库
-3. 构建命令留空、输出目录 `/`，部署后得到 `https://xxx.pages.dev` 网址
-4. 手机浏览器打开网址，添加到主屏幕即获得全屏 PWA
-
-### 方案 B：GitHub Pages
-
-1. 推到 GitHub 仓库 → Settings → Pages → Deploy from a branch → main → /
-2. 访问 `https://用户名.github.io/仓库名/`
-3. 注意：github.io 在国内偶尔访问不稳定，Cloudflare Pages 更稳
-
-两个平台都是 git 推送后自动更新；SW 缓存保证手机首次加载成功后断网也能学。
-
-## 已知数据层状态
-
-- 例句中文：Core 3000 全覆盖（模板 + 逐句翻译）；Reading 模板句已翻译，唯一句待 QA 后补
-- IPA 仍为 draft 待校订；Reading 例句未做深度 QA（以见词识义为目标）
+- 例句中文：Core 3000 全覆盖；Reading 模板句已翻、唯一句待语料 QA 后补
+- IPA 仍为 draft 待校订；Reading 例句以"见词识义"为目标
