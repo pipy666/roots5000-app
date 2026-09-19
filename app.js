@@ -1148,7 +1148,6 @@
 
   // ---------- event wiring ----------
   $$('.tab').forEach(b=>b.addEventListener('click',()=>{SFX.play('whoosh');switchView(b.dataset.view)}));
-  $$('[data-view="learn"]').forEach(b=>b.addEventListener('click',()=>switchView('learn')));
   $('#settingsBtn').addEventListener('click',openSettings);
   $('#goalBtn').addEventListener('click',openSettings);
   $('#closeSettings').addEventListener('click',closeSettings);
